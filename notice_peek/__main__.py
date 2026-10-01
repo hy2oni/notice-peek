@@ -1,4 +1,4 @@
-"""Temporary diagnostic entry point for stage 4, not the final user interface."""
+"""Launch the app by default, with optional diagnostic sync/list commands."""
 
 import argparse
 from pathlib import Path
@@ -12,12 +12,16 @@ from .storage import Store
 
 def main():
     # Windows redirected output must also support Korean titles and emoji.
-    sys.stdout.reconfigure(encoding="utf-8")
-    sys.stderr.reconfigure(encoding="utf-8")
-    parser = argparse.ArgumentParser(description="notice-peek 핵심 기능 확인 (UI는 다음 단계)")
-    parser.add_argument("command", choices=("sync", "list"))
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8")
+    parser = argparse.ArgumentParser(description="notice-peek · 공지 모아보기")
+    parser.add_argument("command", nargs="?", default="gui", choices=("gui", "sync", "list"))
     parser.add_argument("--database", type=Path, help="검증용 DB 경로. 생략하면 사용자 앱 데이터 경로")
     args = parser.parse_args()
+    if args.command == "gui":
+        from .ui import launch
+        return launch(args.database)
     try:
         store = Store(args.database)
         print(f"저장 위치: {store.path}")
