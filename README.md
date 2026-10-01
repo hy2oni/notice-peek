@@ -3,9 +3,9 @@
 영남대학교 컴퓨터공학과와 SW중심대학사업단의 새 공지를 모아 보는 개인용 Windows 앱입니다.
 계정·서버·클라우드 동기화 없이 공지와 읽음·즐겨찾기를 로컬에 저장합니다.
 
-현재 **5단계 라이트 모드 UI 구현 완료** 상태입니다. 공지 목록, 출처/안 읽음/즐겨찾기 필터,
+Windows용 EXE 폴더 배포까지 완료했습니다. 공지 목록, 출처/안 읽음/즐겨찾기 필터,
 원문 열기, 읽음·즐겨찾기 변경, 자동 수집과 수동 새로고침을 사용할 수 있습니다.
-EXE 폴더 배포와 바탕화면 바로가기는 다음 패키징 단계에서 제공합니다.
+바탕화면의 **notice-peek** 바로가기를 더블클릭하면 실행됩니다.
 
 ## 현재 확정된 동작
 
@@ -29,8 +29,12 @@ EXE 폴더 배포와 바탕화면 바로가기는 다음 패키징 단계에서 
 
 ## 앱 실행과 사용법
 
-프로젝트 폴더에서 Windows PowerShell을 열고 실행합니다. Python 3.11 이상만 필요하며
-`pip install`은 필요 없습니다. Windows용 Python의 Tkinter 구성 요소가 설치되어 있어야 합니다.
+일반 사용은 바탕화면 바로가기를 더블클릭하면 됩니다. 설치 과정이나 별도 Python 설치는 필요 없습니다.
+프로그램 본체는 `dist\notice-peek\notice-peek.exe`입니다.
+EXE 옆의 `_internal` 폴더도 필요하므로 **프로그램 폴더 전체를 함께 보관**하세요.
+
+소스에서 실행할 때는 프로젝트 폴더에서 다음 명령을 사용합니다. Python 3.11 이상과 Tkinter가
+필요하며, 앱 실행을 위한 `pip install`은 필요 없습니다.
 
 ```powershell
 python -m notice_peek
@@ -43,7 +47,7 @@ pythonw run_notice_peek.pyw
 ```
 
 `.pyw` 파일이 Python과 연결되어 있다면 `run_notice_peek.pyw`를 더블클릭해도 됩니다.
-Python 설치 없이 실행되는 EXE와 바탕화면 바로가기는 아직 제공하지 않습니다.
+배포된 EXE는 위 개발 명령 없이 바로 실행할 수 있습니다.
 
 - 시작하면 저장된 목록을 먼저 표시한 뒤 한 번 수집합니다.
 - **새로고침** 또는 **F5**로 다시 확인합니다. 수집 중에는 중복 실행을 막습니다.
@@ -108,7 +112,7 @@ python -m notice_peek list --database .local\trial.sqlite3
 - 기존 일반 공지가 모두 삭제되어 겹치는 기록이 없으면 마지막 페이지까지 확인하며,
   전에 보지 못한 과거 공지도 새 기록으로 들어올 수 있습니다.
 - 페이지 이동 중 사이트 목록이 바뀌면 다음 새로고침에서 추가 확인이 필요할 수 있습니다.
-- EXE 패키징 및 바로가기 생성은 아직 완료하지 않았습니다.
+- EXE는 현재 Windows x64에서 빌드·검증했습니다. 다른 운영체제용 빌드는 제공하지 않습니다.
 
 ## 검증
 
@@ -123,11 +127,53 @@ python -m unittest discover -s tests -v
 
 실제 사이트 검증 결과는 [검증 기록](docs/verification.md)에 기록합니다.
 
-## 패키징 계획
+## EXE 빌드와 바로가기
 
-다음 단계에서 PyInstaller의 폴더 배포(`--onedir`)와 콘솔 숨김(`--windowed`)을 사용합니다.
-Python을 묶어 별도 Python 설치 없이 실행되게 하고 바탕화면 바로가기를 제공합니다.
-아직 실행 파일이나 빌드 스크립트는 없으며, 검증된 빌드 명령은 해당 단계에서 추가합니다.
+빌드 검증 환경은 Windows x64, Python 3.11.9, PyInstaller 6.22.3입니다.
+`requirements-build.txt`에 빌드 도구 버전을 고정했습니다. 빌드할 때만 Python과 다운로드를 위한
+네트워크가 필요합니다. 시스템 패키지를 변경하지 않고 프로젝트 `.venv`에 설치합니다.
+
+프로젝트 폴더의 PowerShell에서 실행합니다.
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -CreateShortcut
+```
+
+이 명령은 전용 빌드 환경 준비 → 자동 테스트 → EXE 생성 → 바탕화면 바로가기 생성 순으로 실행합니다.
+`ExecutionPolicy Bypass`는 해당 PowerShell 프로세스에만 적용됩니다.
+바로가기 생성이 필요하지 않으면 `-CreateShortcut`을 생략하세요.
+자동 테스트 중에는 잠깐 테스트 창이 보일 수 있습니다.
+
+생성물:
+
+```text
+dist\notice-peek\
+  notice-peek.exe
+  _internal\       # Python, Tkinter, SQLite 등 실행에 필요한 파일
+```
+
+현재 폴더 전체 크기는 약 28.1 MiB입니다. `--onedir --windowed --noupx`로 구성해
+콘솔 창 없이 실행하며 시작할 때 단일 EXE를 임시로 푸는 과정은 없습니다.
+EXE·창·바로가기에는 같은 파란색 N 아이콘을 적용했습니다.
+아이콘 소스는 `tools/make_icon.py`이며 `python tools/make_icon.py`로 재생성할 수 있습니다.
+
+바로가기만 다시 만들려면:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\create-shortcut.ps1
+```
+
+프로그램을 다른 폴더로 옮겼다면 `-ProgramDirectory '옮긴 프로그램 폴더'`를 지정합니다.
+다른 경로를 가리키는 동명 바로가기는 자동 덮어쓰지 않으므로 기존 바로가기를 먼저 정리하세요.
+
+## 업데이트와 제거
+
+업데이트할 때는 앱을 닫고 위 빌드 명령을 다시 실행합니다. 같은 `dist\notice-peek` 경로를
+갱신하므로 바탕화면 바로가기도 계속 사용할 수 있습니다. 앱이 실행 중이면 빌드를 중단합니다.
+실사용 DB는 `%LOCALAPPDATA%\notice-peek`에 별도로 남아 있으며 빌드가 변경하지 않습니다.
+
+사용을 중단하려면 앱을 종료하고 프로그램 폴더와 바로가기를 삭제하면 됩니다.
+공지 기록까지 지우고 싶은 경우에만 별도의 앱 데이터 폴더를 삭제하세요.
 
 ## Git 관리
 

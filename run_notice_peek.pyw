@@ -1,4 +1,4 @@
-"""Development launcher without a console; EXE packaging follows in stage 6."""
+"""Window-only entry point for both Python and the packaged EXE."""
 
 from notice_peek.ui import launch
 

@@ -1,6 +1,7 @@
 """Light-mode Tk interface. Only the main thread touches Tk widgets."""
 
 from datetime import datetime
+from pathlib import Path
 from queue import Empty, Queue
 from threading import Event, Thread
 import time
@@ -68,6 +69,7 @@ class NoticeApp:
 
     def _configure_style(self):
         self.root.title("notice-peek · 공지 모아보기")
+        self.root.iconbitmap(str(Path(__file__).parent / "assets" / "notice-peek.ico"))
         self.root.geometry("1120x760")
         self.root.minsize(920, 640)
         self.root.configure(background=BG)
