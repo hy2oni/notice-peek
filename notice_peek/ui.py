@@ -10,7 +10,8 @@ from tkinter import font, messagebox, ttk
 from urllib.parse import parse_qs, urlsplit
 import webbrowser
 
-from .models import SOURCES, StorageError
+from .models import StorageError
+from .settings_ui import SourceSettings
 from .service import SyncService
 from .storage import Store
 
@@ -20,7 +21,6 @@ TEXT = "#202B3C"
 MUTED = "#526176"
 BLUE = "#245DB5"
 ERROR = "#A33126"
-NAMES = {s.id: s.name for s in SOURCES}
 
 
 def _last_checked(value):
@@ -33,7 +33,12 @@ def _last_checked(value):
 
 
 class NoticeApp:
-    def __init__(self, root, store, service=None, *, auto_sync=True, opener=None):
+    def __init__(self, root, store, service=None, *, auto_sync=True, opener=None, registration_client=None):
+        self.sources = store.subscriptions()
+        self.names = {s.id: s.name for s in self.sources}
+        self.settings = None
+        self.registration_client = registration_client
+        self._close_after_settings = False
         self.root = root
         self.store = store
         self.service = service if service is not None else SyncService(store)
@@ -58,17 +63,10 @@ class NoticeApp:
         self.counts = tk.StringVar(root)
         self.detail_title = tk.StringVar(root, value="공지를 선택해 주세요.")
         self.detail_meta = tk.StringVar(root, value="제목을 더블클릭하면 원문을 열고 읽음으로 표시합니다.")
-        self.source_status = {s.id: tk.StringVar(root) for s in SOURCES}
+        self.source_status = {s.id: tk.StringVar(root) for s in self.sources}
         self._configure_style()
         self.source_logos = {}
-        for source in SOURCES:
-            try:
-                logo = tk.PhotoImage(master=root, file=str(
-                    Path(__file__).parent / "assets" / "logos" / f"{source.id}-row.png"))
-                self.source_logos[source.id] = logo
-            except tk.TclError:
-                # A missing image must not prevent reading notices.
-                pass
+        self._load_source_logos()
         self._build()
         self.reload()
         self._restore_status()
@@ -76,12 +74,14 @@ class NoticeApp:
         self.root.bind("<F5>", lambda event: self.refresh())
         if auto_sync:
             # Give the cached list a chance to paint before starting network work.
-            self._startup_id = self.root.after(150, self._auto_refresh)
+            self._startup_id = self.root.after(150, self._startup)
 
     def _configure_style(self):
         self.root.title("notice-peek · 공지 모아보기")
         self.root.iconbitmap(str(Path(__file__).parent / "assets" / "notice-peek.ico"))
-        self.root.geometry("1120x760")
+        width = max(920, min(1120, self.root.winfo_screenwidth() - 60))
+        height = max(640, min(760, self.root.winfo_screenheight() - 100))
+        self.root.geometry(f"{width}x{height}+20+20")
         self.root.minsize(920, 640)
         self.root.configure(background=BG)
         for name in ("TkDefaultFont", "TkTextFont", "TkMenuFont", "TkHeadingFont"):
@@ -133,17 +133,28 @@ class NoticeApp:
         ttk.Label(header, text="notice-peek", style="Title.TLabel").grid(row=0, column=0, sticky="w")
         ttk.Label(header, text="영남대학교 공지 모아보기", style="Muted.TLabel").grid(row=1, column=0, sticky="w", pady=(2, 0))
         self.refresh_button = ttk.Button(header, text="새로고침  ·  F5", style="Primary.TButton", command=self.refresh)
-        self.refresh_button.grid(row=0, column=1, rowspan=2, sticky="e")
+        self.settings_button = ttk.Button(header, text="출처 설정", command=self.open_settings)
+        self.settings_button.grid(row=0, column=1, rowspan=2, sticky="e", padx=(0, 10))
+        self.refresh_button.grid(row=0, column=2, rowspan=2, sticky="e")
 
         status = ttk.Frame(outer)
         status.grid(row=1, column=0, sticky="ew", pady=(20, 12))
-        status.columnconfigure((0, 1), weight=1, uniform="source")
-        self.source_labels = {}
-        for col, source in enumerate(SOURCES):
-            label = ttk.Label(status, textvariable=self.source_status[source.id], justify="left",
-                              style="Muted.TLabel", wraplength=460)
-            label.grid(row=0, column=col, sticky="nw", padx=(0, 16) if col == 0 else (16, 0))
-            self.source_labels[source.id] = label
+        self.status_canvas = tk.Canvas(status, background=BG, highlightthickness=0, height=64)
+        self.status_canvas.grid(row=0, column=0, sticky="ew")
+        self.status_scroll = ttk.Scrollbar(status, orient="vertical", command=self.status_canvas.yview)
+        self.status_scroll.grid(row=0, column=1, sticky="ns")
+        self.status_frame = ttk.Frame(self.status_canvas)
+        self._status_window = self.status_canvas.create_window(0, 0, window=self.status_frame, anchor="nw")
+        self.status_frame.bind("<Configure>", self._update_status_scroll)
+        def status_width(event):
+            self.status_canvas.itemconfigure(self._status_window, width=event.width)
+            for label in self.source_labels.values():
+                label.configure(wraplength=max(200,event.width//2-20))
+        self.status_canvas.bind("<Configure>",status_width)
+        self.status_canvas.bind("<MouseWheel>",lambda event: self.status_canvas.yview_scroll(-int(event.delta/120),"units"))
+        status.columnconfigure(0,weight=1)
+        status.columnconfigure(1,weight=0)
+        self._build_source_status()
         self.summary_label = ttk.Label(status, textvariable=self.summary, foreground=BLUE)
         self.summary_label.grid(row=1, column=0, columnspan=2, sticky="w", pady=(12, 6))
         def resize_status(event):
@@ -158,7 +169,7 @@ class NoticeApp:
         filters.grid(row=2, column=0, sticky="ew", pady=(0, 10))
         ttk.Label(filters, text="출처").pack(side="left", padx=(0, 8))
         self.source_combo = ttk.Combobox(filters, textvariable=self.source_filter, state="readonly", width=20,
-                                        values=("전체 출처", *NAMES.values()))
+                                        values=("전체 출처", *self.names.values()))
         self.source_combo.pack(side="left", padx=(0, 14))
         self.source_combo.bind("<<ComboboxSelected>>", lambda event: self.render())
         self.unread_check = ttk.Checkbutton(filters, text="안 읽음만", variable=self.unread_filter, command=self.render)
@@ -171,11 +182,11 @@ class NoticeApp:
         table.grid(row=4, column=0, sticky="nsew")
         table.rowconfigure(0, weight=1)
         table.columnconfigure(0, weight=1)
-        columns = ("favorite", "read", "new", "title", "source", "date")
+        columns = ("favorite", "read", "title", "source", "date")
         self.tree = ttk.Treeview(table, columns=columns, show="headings", selectmode="browse")
         for name, text, width, anchor, stretch in (
             ("favorite", "별", 44, "center", False), ("read", "읽음 상태", 80, "center", False),
-            ("new", "소식", 58, "center", False), ("title", "제목 · 더블클릭하여 원문 열기", 500, "w", True),
+            ("title", "제목", 558, "w", True),
             ("source", "출처", 250, "center", False), ("date", "게시일", 105, "center", False),
         ):
             self.tree.heading(name, text=text, anchor=anchor)
@@ -230,6 +241,105 @@ class NoticeApp:
     def _key(row):
         return f"{row['source_id']}:{row['article_id']}"
 
+    def _load_source_logos(self):
+        for source in self.sources:
+            if source.id in self.source_logos:
+                continue
+            try:
+                self.source_logos[source.id] = tk.PhotoImage(master=self.root, file=str(
+                    Path(__file__).parent / 'assets' / 'logos' / f'{source.id}-row.png'))
+            except tk.TclError:
+                pass
+
+    def _update_status_scroll(self, event=None):
+        self.status_canvas.configure(scrollregion=self.status_canvas.bbox('all'))
+        requested = self.status_frame.winfo_reqheight()
+        self.status_canvas.configure(height=min(120,max(42,requested)))
+        if requested > 120:
+            self.status_scroll.grid()
+        else:
+            self.status_scroll.grid_remove()
+
+    def _source_text(self, source_id, width):
+        text = self.names.get(source_id, source_id)
+        if self.row_font.measure(text) <= width:
+            return text
+        while text and self.row_font.measure(text + '…') > width:
+            text = text[:-1]
+        return text + '…'
+
+    def _build_source_status(self):
+        for widget in self.status_frame.winfo_children():
+            widget.destroy()
+        self.source_labels = {}
+        self.status_frame.columnconfigure((0, 1), weight=1, uniform='source')
+        self.status_canvas.yview_moveto(0)
+        self.status_canvas.configure(height=64 if len(self.sources) <= 2 else 120)
+        if len(self.sources) > 4:
+            self.status_scroll.grid()
+        else:
+            self.status_scroll.grid_remove()
+        if not self.sources:
+            ttk.Label(self.status_frame, text='선택한 출처가 없습니다. 출처 설정에서 추가할 수 있습니다.',
+                      style='Muted.TLabel').grid(row=0,column=0,columnspan=2,sticky='w',pady=10)
+        for index,source in enumerate(self.sources):
+            label = ttk.Label(self.status_frame, textvariable=self.source_status[source.id],
+                              justify='left',style='Muted.TLabel',wraplength=450)
+            label.grid(row=index//2,column=index%2,sticky='nw',padx=(0,16),pady=(0,8))
+            label.bind('<MouseWheel>',lambda event: self.status_canvas.yview_scroll(-int(event.delta/120),'units'))
+            self.source_labels[source.id] = label
+
+    def _startup(self):
+        self._startup_id = None
+        try:
+            if not self.store.selection_complete():
+                self.open_settings(initial=True)
+            else:
+                self.refresh()
+        except StorageError as exc:
+            self._error(str(exc))
+
+    def open_settings(self, initial=False):
+        if self.busy or self.closing:
+            return
+        if self.settings is not None:
+            self.settings.window.lift()
+            return
+        if self._startup_id is not None:
+            self.root.after_cancel(self._startup_id)
+            self._startup_id = None
+        try:
+            self.settings = SourceSettings(self.root,self.store,self._settings_saved,self._settings_closed,
+                                           initial=initial,client=self.registration_client)
+        except StorageError as exc:
+            self._error(str(exc))
+            return
+        self.refresh_button.configure(state='disabled')
+
+    def _settings_saved(self, added, removed):
+        self.sources = self.store.subscriptions()
+        self.names = {s.id:s.name for s in self.sources}
+        self._load_source_logos()
+        self.source_status = {s.id:tk.StringVar(self.root) for s in self.sources}
+        self._build_source_status()
+        self.source_combo.configure(values=('전체 출처',*self.names.values()))
+        if self.source_filter.get() not in ('전체 출처',*self.names.values()):
+            self.source_filter.set('전체 출처')
+        self.new_keys = {key for key in self.new_keys if key.split(':',1)[0] in self.names}
+        self._restore_status()
+        self.reload()
+        text = f'출처 {len(self.sources)}개를 구독합니다.' if self.sources else '출처를 선택하지 않았습니다. 출처 설정에서 언제든 추가할 수 있습니다.'
+        if added: text += f' 추가한 {len(added)}개 출처의 첫 공지는 모두 읽음으로 등록했습니다.'
+        if removed: text += f' 제거한 {len(removed)}개 출처의 기록을 삭제했습니다.'
+        self.summary.set(text)
+        self.summary_label.configure(foreground=BLUE)
+
+    def _settings_closed(self):
+        self.settings = None
+        self.refresh_button.configure(state='normal')
+        if self._close_after_settings:
+            self.close()
+
     def _schedule_source_logos(self):
         if not self.closing and self._logo_draw_id is None:
             self._logo_draw_id = self.root.after_idle(self._draw_source_logos)
@@ -279,7 +389,7 @@ class NoticeApp:
             if logo:
                 canvas.create_image(width // 2, top + row_height // 2, image=logo, tags=(key, "logo"))
             else:
-                canvas.create_text(width // 2, top + row_height // 2, text=NAMES[row["source_id"]],
+                canvas.create_text(width // 2, top + row_height // 2, text=self._source_text(row["source_id"], width - 20),
                                    fill="#153E77" if key in selected else TEXT,
                                    font=self.unread_font if not row["is_read"] else self.row_font,
                                    tags=(key, "source-text"))
@@ -316,7 +426,7 @@ class NoticeApp:
             self.tree.delete(*children)
         visible = []
         for key, row in self.records.items():
-            if self.source_filter.get() != "전체 출처" and NAMES[row["source_id"]] != self.source_filter.get():
+            if self.source_filter.get() != "전체 출처" and self.names[row["source_id"]] != self.source_filter.get():
                 continue
             if self.unread_filter.get() and row["is_read"]:
                 continue
@@ -329,7 +439,7 @@ class NoticeApp:
                 tags.append("unread")
             self.tree.insert("", "end", iid=key, values=(
                 "★" if row["favorite"] else "☆", "읽음" if row["is_read"] else "안 읽음",
-                "신규" if key in self.new_keys else "", row["title"], NAMES[row["source_id"]],
+                ("NEW  " if key in self.new_keys else "") + row["title"], self.names[row["source_id"]],
                 row["published"] or "날짜 없음"), tags=tags)
         if old_key and self.tree.exists(old_key):
             self.tree.selection_set(old_key)
@@ -341,7 +451,8 @@ class NoticeApp:
             self.empty_label.place_forget()
         else:
             text = ("조건에 맞는 공지가 없습니다.\n출처 또는 필터를 변경해 보세요." if self.records else
-                    "아직 저장된 공지가 없습니다.\n새로고침으로 공지를 가져올 수 있습니다.")
+                    "아직 저장된 공지가 없습니다.\n새로고침으로 공지를 가져올 수 있습니다." if self.sources else
+                    "구독 중인 출처가 없습니다.\n출처 설정에서 받을 공지를 선택해 주세요.")
             self.empty_label.configure(text=text)
             self.empty_label.place(relx=0.5, rely=0.5, anchor="center")
         self._selection_changed()
@@ -360,13 +471,13 @@ class NoticeApp:
             self.detail_meta.set("제목을 더블클릭하면 원문을 열고 읽음으로 표시합니다.")
             return
         self.detail_title.set(row["title"])
-        self.detail_meta.set(f"{NAMES[row['source_id']]}  ·  {row['published'] or '날짜 없음'}" +
+        self.detail_meta.set(f"{self.names[row['source_id']]}  ·  {row['published'] or '날짜 없음'}" +
                              ("  ·  이번 실행에서 발견한 신규 공지" if self._key(row) in self.new_keys else ""))
         self.read_button.configure(text="안 읽음으로 표시" if row["is_read"] else "읽음으로 표시")
         self.favorite_button.configure(text="즐겨찾기 해제" if row["favorite"] else "즐겨찾기 추가")
 
     def _table_cursor(self, event):
-        clickable = self.tree.identify_region(event.x, event.y) == "cell" and self.tree.identify_column(event.x) in ("#1", "#2", "#4")
+        clickable = self.tree.identify_region(event.x, event.y) == "cell" and self.tree.identify_column(event.x) in ("#1", "#2", "#3")
         self.tree.configure(cursor="hand2" if clickable else "")
 
     def _table_click(self, event):
@@ -388,7 +499,7 @@ class NoticeApp:
 
     def _title_double_click(self, event):
         if (self.closing or self.tree.identify_region(event.x, event.y) != "cell"
-                or self.tree.identify_column(event.x) != "#4"):
+                or self.tree.identify_column(event.x) != "#3"):
             return
         key = self.tree.identify_row(event.y)
         if not key:
@@ -410,7 +521,10 @@ class NoticeApp:
         if row is None or self.closing:
             return
         target = urlsplit(row["url"])
-        source = next(s for s in SOURCES if s.id == row["source_id"])
+        source = next((s for s in self.sources if s.id == row["source_id"]), None)
+        if source is None:
+            self._error("제거된 출처의 공지입니다. 목록을 다시 불러와 주세요.")
+            return
         base = urlsplit(source.url)
         query = parse_qs(target.query)
         if ((target.scheme, target.netloc, target.path) != (base.scheme, base.netloc, base.path)
@@ -457,7 +571,7 @@ class NoticeApp:
         self.render()
 
     def _restore_status(self):
-        for source in SOURCES:
+        for source in self.sources:
             try:
                 state = self.store.state(source.id)
                 label = "이전 확인 실패" if state.get("status", "success") != "success" else "저장된 기록"
@@ -473,12 +587,16 @@ class NoticeApp:
         self.refresh()
 
     def refresh(self):
-        if self.busy or self.closing:
+        if self.busy or self.closing or self.settings is not None:
+            return
+        if not self.sources:
+            self.summary.set("구독 중인 출처가 없습니다. 출처 설정에서 선택해 주세요.")
             return
         if self._startup_id is not None:
             self.root.after_cancel(self._startup_id)
             self._startup_id = None
         self.busy = True
+        self.settings_button.configure(state="disabled")
         self.cancel.clear()
         self._outcome = None
         self.refresh_button.configure(state="disabled", text="확인 중…")
@@ -507,7 +625,7 @@ class NoticeApp:
                 break
             if kind == "progress" and not self.closing:
                 source, page = value
-                self.summary.set(f"{NAMES[source]} · {page}페이지 확인 중")
+                self.summary.set(f"{self.names[source]} · {page}페이지 확인 중")
             elif kind in ("done", "error"):
                 self._outcome = (kind, value)
         if self.worker is not None and self.worker.is_alive():
@@ -521,6 +639,7 @@ class NoticeApp:
             self.root.destroy()
             return
         self.refresh_button.configure(state="normal", text="새로고침  ·  F5")
+        self.settings_button.configure(state="normal")
         if self._outcome is not None:
             kind, value = self._outcome
             if kind == "done":
@@ -549,7 +668,7 @@ class NoticeApp:
                             "storage_error": "저장 실패", "cancelled": "취소됨"}.get(result.status, "확인 실패")
                 label = f"{category} · {result.message}"
                 self.source_labels[result.source_id].configure(foreground=ERROR)
-            self.source_status[result.source_id].set(f"{NAMES[result.source_id]} · {label}\n{_last_checked(state.get('last_success'))}")
+            self.source_status[result.source_id].set(f"{self.names[result.source_id]} · {label}\n{_last_checked(state.get('last_success'))}")
         parts = []
         if initial_count:
             parts.append(f"초기 공지 {initial_count}건을 읽음으로 등록했습니다")
@@ -567,7 +686,12 @@ class NoticeApp:
     def close(self):
         if self.closing:
             return
+        if self.settings is not None:
+            self._close_after_settings = True
+            self.settings.close()
+            return
         self.closing = True
+        self.settings_button.configure(state="disabled")
         if self._logo_draw_id is not None:
             self.root.after_cancel(self._logo_draw_id)
             self._logo_draw_id = None

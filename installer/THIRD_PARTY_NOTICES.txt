@@ -1,0 +1,16 @@
+notice-peek includes the unmodified Python runtime and standard library,
+including Tkinter and SQLite. The Python distribution's license and notices
+are included in licenses/Python-LICENSE.txt. The Tk license is also included
+in _internal/_tk_data/license.terms.
+
+The executable is packaged using PyInstaller. Its bootloader is distributed
+under the GPL with an exception permitting distribution of generated bundles
+under the application's own terms:
+https://pyinstaller.org/en/stable/license.html
+
+The installer is built with Inno Setup:
+https://jrsoftware.org/files/is/license.txt
+
+Yeungnam University department and program logos remain the property of their
+respective owners. Source URLs are documented in the bundled logo README.
+notice-peek is an independently developed application.

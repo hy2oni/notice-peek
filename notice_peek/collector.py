@@ -206,7 +206,7 @@ def collect(source, client, known_regular, initial, cancel, progress=None):
         if progress:
             progress(source.id, pages)
         reached_known = any(n.article_id in known_regular for n in regular)
-        if (initial and len(regular_seen) >= 30) or (not initial and reached_known) or page.next_offset is None:
+        if (initial and len(regular_seen) >= 20) or (not initial and reached_known) or page.next_offset is None:
             break
         offset = page.next_offset
         if pages >= 1000:

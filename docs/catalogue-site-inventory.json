@@ -1,0 +1,4140 @@
+{
+  "checked_at": "2026-10-11",
+  "sites": [
+    {
+      "name": "입학",
+      "url": "https://enter.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://enter.yu.ac.kr/",
+      "title": "",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "사이버홍보실",
+      "url": "https://pr.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://pr.yu.ac.kr/pr/index.do",
+      "title": "영남대학교 사이버홍보실",
+      "status": "discovered",
+      "board_urls": [
+        "https://pr.yu.ac.kr/pr/love/notice001.do"
+      ]
+    },
+    {
+      "name": "발전기금",
+      "url": "https://loveyu.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://loveyu.yu.ac.kr/loveyu/index.do",
+      "title": "영남대학교 발전기금",
+      "status": "discovered",
+      "board_urls": [
+        "https://loveyu.yu.ac.kr/loveyu/intro/fund-announcement.do",
+        "https://loveyu.yu.ac.kr/loveyu/news/news-about-the-event.do"
+      ]
+    },
+    {
+      "name": "외국인 입학",
+      "url": "https://isa.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://isa.yu.ac.kr/isa/index.do",
+      "title": "영남대학교 유학생입학팀",
+      "status": "discovered",
+      "board_urls": [
+        "https://isa.yu.ac.kr/isa/board/notice.do"
+      ]
+    },
+    {
+      "name": "일반대학원 외국인 입학",
+      "url": "https://engraduate.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://engraduate.yu.ac.kr/engraduate/index.do",
+      "title": "영남대학교 Graduate School of Yeungnam University",
+      "status": "discovered",
+      "board_urls": [
+        "https://graduate.yu.ac.kr/graduate/community/notice.do"
+      ]
+    },
+    {
+      "name": "일반대학원 입학",
+      "url": "https://graduate.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://graduate.yu.ac.kr/graduate/index.do",
+      "title": "영남대학교 일반대학원",
+      "status": "discovered",
+      "board_urls": [
+        "https://graduate.yu.ac.kr/graduate/academics/roadmap.do",
+        "https://graduate.yu.ac.kr/graduate/academics/scholarship.do",
+        "https://graduate.yu.ac.kr/graduate/community/external-notice.do",
+        "https://graduate.yu.ac.kr/graduate/community/notice.do"
+      ]
+    },
+    {
+      "name": "취업",
+      "url": "https://join.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://join.yu.ac.kr/",
+      "title": "",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "박정희새마을대학원 입학",
+      "url": "https://psps.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://psps.yu.ac.kr/psps/index.do",
+      "title": "영남대학교 Park Chung Hee School of Policy and Saemaul (PSPS)",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "",
+      "url": "https://www.yu.ac.kr/main/index.do",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://www.yu.ac.kr/main/index.do",
+      "title": "영남대학교",
+      "status": "discovered",
+      "board_urls": [
+        "https://www.yu.ac.kr/main/bachelor/bachelor-guide.do",
+        "https://www.yu.ac.kr/main/bachelor/tuition-notice.do",
+        "https://www.yu.ac.kr/main/intro/notice-related-to-coronavirus-20.do",
+        "https://www.yu.ac.kr/main/intro/notice-safety-manage.do",
+        "https://www.yu.ac.kr/scholar/notice/notice.do"
+      ]
+    },
+    {
+      "name": "경영행정대학원",
+      "url": "https://gsbapa.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://gsbapa.yu.ac.kr/gsbapa/index.do",
+      "title": "영남대학교 경영행정대학원",
+      "status": "discovered",
+      "board_urls": [
+        "https://gsbapa.yu.ac.kr/gsbapa/ceo/notice.do",
+        "https://gsbapa.yu.ac.kr/gsbapa/notice/gsbapa.do",
+        "https://gsbapa.yu.ac.kr/gsbapa/scholarship/scholarship-guide.do"
+      ]
+    },
+    {
+      "name": "환경보건대학원",
+      "url": "https://ental.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://ental.yu.ac.kr/ental/index.do",
+      "title": "영남대학교 환경보건대학원",
+      "status": "discovered",
+      "board_urls": [
+        "https://ental.yu.ac.kr/ental/board/notice.do"
+      ]
+    },
+    {
+      "name": "법학전문대학원",
+      "url": "https://lawschool.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://lawschool.yu.ac.kr/lawschool/index.do",
+      "title": "영남대학교 법학전문대학원",
+      "status": "discovered",
+      "board_urls": [
+        "https://lawschool.yu.ac.kr/lawschool/admission/notice.do",
+        "https://lawschool.yu.ac.kr/lawschool/board/administrative.do",
+        "https://lawschool.yu.ac.kr/lawschool/studentcenter/notice.do",
+        "https://lawschool.yu.ac.kr/yllc/notice/training.do",
+        "https://yllc.yu.ac.kr/yllc/notice/training.do"
+      ]
+    },
+    {
+      "name": "문화예술디자인대학원",
+      "url": "https://gsart.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://gsart.yu.ac.kr/gsart/index.do",
+      "title": "영남대학교 문화예술디자인대학원",
+      "status": "discovered",
+      "board_urls": [
+        "https://gsart.yu.ac.kr/gsart/notice/library.do",
+        "https://gsart.yu.ac.kr/gsart/notice/news.do",
+        "https://gsart.yu.ac.kr/gsart/notice/promotion-video.do"
+      ]
+    },
+    {
+      "name": "교육대학원",
+      "url": "https://edu.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://edu.yu.ac.kr/edu/index.do",
+      "title": "영남대학교 교육대학원",
+      "status": "discovered",
+      "board_urls": [
+        "https://edu.yu.ac.kr/edu/bachelor/registration.do",
+        "https://edu.yu.ac.kr/edu/board/notice.do",
+        "https://edu.yu.ac.kr/edu/major/curriculum-ai.do"
+      ]
+    },
+    {
+      "name": "공학대학원",
+      "url": "https://gsist.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://gsist.yu.ac.kr/gsist/index.do",
+      "title": "영남대학교 공학대학원",
+      "status": "discovered",
+      "board_urls": [
+        "https://gsist.yu.ac.kr/gsist/board/notice.do"
+      ]
+    },
+    {
+      "name": "직장예비군 연대",
+      "url": "https://yebigun.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://yebigun.yu.ac.kr/yebigun/index.do",
+      "title": "영남대학교 직장예비군연대",
+      "status": "discovered",
+      "board_urls": [
+        "https://yebigun.yu.ac.kr/yebigun/counsel/notice.do",
+        "https://yebigun.yu.ac.kr/yebigun/training/receiving-the-training-notice.do",
+        "https://yebigun.yu.ac.kr/yebigun/yebigun/announcement-of-moving.do"
+      ]
+    },
+    {
+      "name": "교직이수·평생교육사",
+      "url": "https://teaching.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://teaching.yu.ac.kr/teaching/index.do",
+      "title": "영남대학교 교직안내",
+      "status": "discovered",
+      "board_urls": [
+        "https://teaching.yu.ac.kr/teaching/board/notice.do"
+      ]
+    },
+    {
+      "name": "수련원",
+      "url": "https://yutc.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://yutc.yu.ac.kr/yutc/index.do",
+      "title": "영남대학교 수련원",
+      "status": "discovered",
+      "board_urls": [
+        "https://yutc.yu.ac.kr/yutc/notice/notice.do"
+      ]
+    },
+    {
+      "name": "연구·산학",
+      "url": "https://rnd.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://rnd.yu.ac.kr/rnd/index.do",
+      "title": "영남대학교 산학협력단",
+      "status": "discovered",
+      "board_urls": [
+        "https://rnd.yu.ac.kr/rnd/community/notice.do",
+        "https://rnd.yu.ac.kr/rnd/support/homework-announcement.do"
+      ]
+    },
+    {
+      "name": "편의시설 안내",
+      "url": "https://yucf.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://yucf.yu.ac.kr/yucf/index.do",
+      "title": "영남대학교 편의시설",
+      "status": "discovered",
+      "board_urls": [
+        "https://yucf.yu.ac.kr/yucf/notice/diet.do",
+        "https://yucf.yu.ac.kr/yucf/notice/notice.do"
+      ]
+    },
+    {
+      "name": "장학안내",
+      "url": "https://scholar.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://scholar.yu.ac.kr/scholar/index.do",
+      "title": "영남대학교 장학안내",
+      "status": "discovered",
+      "board_urls": [
+        "https://scholar.yu.ac.kr/scholar/notice/form-board.do",
+        "https://scholar.yu.ac.kr/scholar/notice/notice.do",
+        "https://www.yu.ac.kr/scholar/notice/form-board.do"
+      ]
+    },
+    {
+      "name": "YuTopia",
+      "url": "https://yutopia.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://yutopia.yu.ac.kr/",
+      "title": "유토피아 시스템, 비교과통합 시스템",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "전산지원",
+      "url": "https://iics.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://iics.yu.ac.kr/iics/index.do",
+      "title": "영남대학교 AI정보혁신처",
+      "status": "discovered",
+      "board_urls": [
+        "https://iics.yu.ac.kr/iics/safety/info-security-news.do"
+      ]
+    },
+    {
+      "name": "생활관",
+      "url": "https://dormi.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://dormi.yu.ac.kr/dormi/index.do",
+      "title": "영남대학교 생활관",
+      "status": "discovered",
+      "board_urls": [
+        "https://dormi.yu.ac.kr/dormi/community/notice.do"
+      ]
+    },
+    {
+      "name": "천마아트센터",
+      "url": "https://cmac.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://cmac.yu.ac.kr/cmac/index.do",
+      "title": "천마아트센터",
+      "status": "discovered",
+      "board_urls": [
+        "https://cmac.yu.ac.kr/cmac/support/notice.do"
+      ]
+    },
+    {
+      "name": "건강관리센터",
+      "url": "https://health.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://health.yu.ac.kr/health/index.do",
+      "title": "영남대학교 건강관리센터",
+      "status": "discovered",
+      "board_urls": [
+        "https://health.yu.ac.kr/health/board/notice.do"
+      ]
+    },
+    {
+      "name": "고시원",
+      "url": "https://gosiwon.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://gosiwon.yu.ac.kr/gosiwon/index.do",
+      "title": "고시원",
+      "status": "discovered",
+      "board_urls": [
+        "https://gosiwon.yu.ac.kr/gosiwon/board/notice.do"
+      ]
+    },
+    {
+      "name": "공학교육혁신센터",
+      "url": "https://abeekcenter.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://abeekcenter.yu.ac.kr/abeekcenter/index.do",
+      "title": "영남대학교 공학교육혁신센터",
+      "status": "discovered",
+      "board_urls": [
+        "https://abeekcenter.yu.ac.kr/abeekcenter/news/notice.do"
+      ]
+    },
+    {
+      "name": "교육개발센터",
+      "url": "https://ctl.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "unverified",
+      "reason": "The read operation timed out"
+    },
+    {
+      "name": "교수회",
+      "url": "https://profs.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://profs.yu.ac.kr/",
+      "title": "영남대학교 교수회",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "교육연수원",
+      "url": "https://middle.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://middle.yu.ac.kr/middle/index.do",
+      "title": "영남대학교 교육연수원",
+      "status": "discovered",
+      "board_urls": [
+        "https://middle.yu.ac.kr/middle/board/notice.do"
+      ]
+    },
+    {
+      "name": "국제개발협력원",
+      "url": "https://iidc.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://iidc.yu.ac.kr/iidc/index.do",
+      "title": "영남대학교 국제개발협력원",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "국제처",
+      "url": "https://oia.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://oia.yu.ac.kr/oia/index.do",
+      "title": "영남대학교 국제처",
+      "status": "discovered",
+      "board_urls": [
+        "https://is.yu.ac.kr/is/notice/external-announcement.do",
+        "https://is.yu.ac.kr/is/notice/notice.do",
+        "https://oia.yu.ac.kr/intl/bulltein/notice.do",
+        "https://oia.yu.ac.kr/is/notice/notice.do",
+        "https://oia.yu.ac.kr/isa/board/notice.do"
+      ]
+    },
+    {
+      "name": "국제협력팀",
+      "url": "https://intl.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://intl.yu.ac.kr/intl/index.do",
+      "title": "영남대학교 국제협력팀",
+      "status": "discovered",
+      "board_urls": [
+        "https://intl.yu.ac.kr/intl/bulltein/notice.do"
+      ]
+    },
+    {
+      "name": "유학생지원본부",
+      "url": "https://issh.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://issh.yu.ac.kr/issh/index.do",
+      "title": "영남대학교 유학생지원본부",
+      "status": "discovered",
+      "board_urls": [
+        "https://issh.yu.ac.kr/issh/board/announcements.do",
+        "https://issh.yu.ac.kr/issh/board/external-announcements.do",
+        "https://issh.yu.ac.kr/issh/board/gks-notice.do"
+      ]
+    },
+    {
+      "name": "글로벌평생교육원",
+      "url": "https://yulife.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://yulife.yu.ac.kr/yulife/index.do",
+      "title": "영남대학교 글로벌평생교육원",
+      "status": "discovered",
+      "board_urls": [
+        "https://yulife.yu.ac.kr/yulife/credit-bank-prac/academic-schedule.do",
+        "https://yulife.yu.ac.kr/yulife/credit-bank-weekend/academic-schedule.do",
+        "https://yulife.yu.ac.kr/yulife/credit-bank-weekend/recruit-notice-management.do",
+        "https://yulife.yu.ac.kr/yulife/news/notice.do"
+      ]
+    },
+    {
+      "name": "다문화교육연구원",
+      "url": "https://meri.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://meri.yu.ac.kr/meri/index.do",
+      "title": "다문화교육연구원",
+      "status": "discovered",
+      "board_urls": [
+        "https://meri.yu.ac.kr/meri/community/notice.do"
+      ]
+    },
+    {
+      "name": "대학혁신지원사업",
+      "url": "https://innovation.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "unverified",
+      "reason": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "name": "도서관",
+      "url": "https://libs.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://libs.yu.ac.kr/",
+      "title": "영남대학교 도서관",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "YU-MOOC",
+      "url": "https://mooc.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://nice.yu.ac.kr/mooc",
+      "title": "YU-MOOC",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "리걸클리닉센터 법률상담소",
+      "url": "https://yllc.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://yllc.yu.ac.kr/yllc/index.do",
+      "title": "영남대학교 리걸클리닉",
+      "status": "discovered",
+      "board_urls": [
+        "https://yllc.yu.ac.kr/yllc/notice/news.do",
+        "https://yllc.yu.ac.kr/yllc/notice/notice.do",
+        "https://yllc.yu.ac.kr/yllc/notice/request.do",
+        "https://yllc.yu.ac.kr/yllc/notice/training.do"
+      ]
+    },
+    {
+      "name": "박물관",
+      "url": "https://museum.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://museum.yu.ac.kr/museum/index.do",
+      "title": "영남대학교 박물관",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "실험동물센터",
+      "url": "https://lac.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://lac.yu.ac.kr/lac/index.do",
+      "title": "영남대학교 실험동물센터",
+      "status": "discovered",
+      "board_urls": [
+        "https://lac.yu.ac.kr/lac/education/legal-training-notice.do",
+        "https://lac.yu.ac.kr/lac/info/notice.do"
+      ]
+    },
+    {
+      "name": "사회공헌단",
+      "url": "https://volunteer.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://volunteer.yu.ac.kr/volunteer/index.do",
+      "title": "영남대학교 사회공헌단",
+      "status": "discovered",
+      "board_urls": [
+        "https://volunteer.yu.ac.kr/volunteer/esg/notice.do",
+        "https://volunteer.yu.ac.kr/volunteer/news/notice.do"
+      ]
+    },
+    {
+      "name": "출판부",
+      "url": "https://book.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://book.yu.ac.kr/",
+      "title": "",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "운동부",
+      "url": "https://sports.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://sports.yu.ac.kr/sports/index.do",
+      "title": "영남대학교 운동부",
+      "status": "discovered",
+      "board_urls": [
+        "https://sports.yu.ac.kr/sports/board/notice.do"
+      ]
+    },
+    {
+      "name": "생명윤리위원회(IRB)",
+      "url": "https://irb.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://irb.yu.ac.kr/",
+      "title": "영남대학교 생명윤리위원회",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "앵커사업단",
+      "url": "https://anchor.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://anchor.yu.ac.kr/anchor/index.do",
+      "title": "영남대학교 앵커사업단",
+      "status": "discovered",
+      "board_urls": [
+        "https://anchor.yu.ac.kr/anchor/board/notice.do",
+        "https://anchor.yu.ac.kr/anchor/board/performance.do",
+        "https://anchor.yu.ac.kr/anchor/board/press-reports.do"
+      ]
+    },
+    {
+      "name": "언론출판문화원",
+      "url": "https://yumedia.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://yumedia.yu.ac.kr/",
+      "title": "영남대학교 언론출판문화원",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "인권센터",
+      "url": "https://humanrights.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://humanrights.yu.ac.kr/humanrights/index.do",
+      "title": "영남대학교 인권센터",
+      "status": "discovered",
+      "board_urls": [
+        "https://humanrights.yu.ac.kr/humanrights/board/notice.do"
+      ]
+    },
+    {
+      "name": "중앙기기센터",
+      "url": "https://crf.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "unverified",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>"
+    },
+    {
+      "name": "장애학생지원센터",
+      "url": "https://jangae.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://jangae.yu.ac.kr/jangae/index.do",
+      "title": "영남대학교 장애학생지원센터",
+      "status": "discovered",
+      "board_urls": [
+        "https://jangae.yu.ac.kr/jangae/board/notice.do"
+      ]
+    },
+    {
+      "name": "지방대학활성화사업단",
+      "url": "https://localuni.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "unverified",
+      "reason": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "name": "지역선도대학육성사업",
+      "url": "https://leaders.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "unverified",
+      "reason": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "name": "현장실습지원센터",
+      "url": "https://pra.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://pra.yu.ac.kr/",
+      "title": "",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "한국어·국제언어교육원",
+      "url": "https://kili.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://kili.yu.ac.kr/kili/index.do",
+      "title": "한국어·국제언어교육원",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "학군단(ROTC)",
+      "url": "https://rotc121.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://rotc121.yu.ac.kr/rotc121/index.do",
+      "title": "영남대학교 학생군사교육단",
+      "status": "discovered",
+      "board_urls": [
+        "https://rotc121.yu.ac.kr/rotc121/community/cadet-notice.do",
+        "https://rotc121.yu.ac.kr/rotc121/community/notice.do"
+      ]
+    },
+    {
+      "name": "학생상담센터",
+      "url": "https://yucoun.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://yucoun.yu.ac.kr/yucoun/index.do",
+      "title": "영남대학교 학생상담센터",
+      "status": "discovered",
+      "board_urls": [
+        "https://yucoun.yu.ac.kr/yucoun/board/notice.do"
+      ]
+    },
+    {
+      "name": "LINC 3.0 사업단",
+      "url": "https://linc.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "unverified",
+      "reason": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "name": "프랑스어문전공",
+      "url": "https://french.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://french.yu.ac.kr/french/index.do",
+      "title": "영남대학교 프랑스어문전공",
+      "status": "discovered",
+      "board_urls": [
+        "https://french.yu.ac.kr/french/community/notice.do"
+      ]
+    },
+    {
+      "name": "인문대학",
+      "url": "https://liberalart.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://liberalart.yu.ac.kr/liberalart/index.do",
+      "title": "영남대학교 인문대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://liberalart.yu.ac.kr/liberalart/board/notice.do",
+        "https://liberalart.yu.ac.kr/liberalart/business/notice.do"
+      ]
+    },
+    {
+      "name": "독일언어문화전공",
+      "url": "https://gori.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://gori.yu.ac.kr/gori/index.do",
+      "title": "독일언어문화전공",
+      "status": "discovered",
+      "board_urls": [
+        "https://gori.yu.ac.kr/gori/community/employment.do",
+        "https://gori.yu.ac.kr/gori/community/notice.do",
+        "https://www.yu.ac.kr/gori/community/notice.do"
+      ]
+    },
+    {
+      "name": "자연과학대학",
+      "url": "https://sci.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://sci.yu.ac.kr/sci/index.do",
+      "title": "영남대학교 자연과학대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://sci.yu.ac.kr/sci/community/notice.do"
+      ]
+    },
+    {
+      "name": "디지털융합대학",
+      "url": "https://digital.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://digital.yu.ac.kr/digital/index.do",
+      "title": "영남대학교 디지털융합대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://digital.yu.ac.kr/apply/board/notice.do",
+        "https://digital.yu.ac.kr/digital/board/notice.do",
+        "https://digital.yu.ac.kr/main/bachelor/bachelor-guide.do"
+      ]
+    },
+    {
+      "name": "공과대학",
+      "url": "https://eng.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://eng.yu.ac.kr/eng/index.do",
+      "title": "영남대학교 공과대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://eng.yu.ac.kr/eng/community/notice.do"
+      ]
+    },
+    {
+      "name": "컴퓨터학부",
+      "url": "https://computer.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://computer.yu.ac.kr/computer/index.do",
+      "title": "영남대학교 컴퓨터학부",
+      "status": "discovered",
+      "board_urls": [
+        "https://computer.yu.ac.kr/ai/board/notice.do",
+        "https://computer.yu.ac.kr/computer/notice/notice.do",
+        "https://computer.yu.ac.kr/cse/community/notice.do",
+        "https://computer.yu.ac.kr/ice/board/notice.do",
+        "https://computer.yu.ac.kr/ss/notice/notice.do",
+        "https://computer.yu.ac.kr/sw/notice/notice.do",
+        "https://www.yu.ac.kr/main/bachelor/bachelor-guide.do"
+      ]
+    },
+    {
+      "name": "AI앵커대학사업단",
+      "url": "https://aianchor.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://aianchor.yu.ac.kr/front/",
+      "title": "영남대학교 AI앵커대학사업단",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "사회과학대학",
+      "url": "https://politics.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://politics.yu.ac.kr/politics/index.do",
+      "title": "영남대학교 사회과학대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://politics.yu.ac.kr/politics/community/notice.do"
+      ]
+    },
+    {
+      "name": "경영대학",
+      "url": "https://sob.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://sob.yu.ac.kr/sob/index.do",
+      "title": "영남대학교 경영대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://sob.yu.ac.kr/sob/community/notice.do",
+        "https://sob.yu.ac.kr/sob/exchange/notice.do"
+      ]
+    },
+    {
+      "name": "의과대학",
+      "url": "https://yumc.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://yumc.yu.ac.kr/yumc/index.do",
+      "title": "영남대학교 의과대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://graduate.yu.ac.kr/graduate/academics/roadmap.do",
+        "https://yumc.yu.ac.kr/yumc/education/clinical-manual-center-notice.do",
+        "https://yumc.yu.ac.kr/yumc/education/notice.do",
+        "https://yumc.yu.ac.kr/yumc/intro/announcement-of-visual-acuity.do",
+        "https://yumc.yu.ac.kr/yumc/intro/donation-announcement.do",
+        "https://yumc.yu.ac.kr/yumc/life/life-notice.do",
+        "https://yumc.yu.ac.kr/yumc/life/notice-residence-hall.do",
+        "https://yumc.yu.ac.kr/yumc/life/student-council-notice.do",
+        "https://yumc.yu.ac.kr/yumc/notice/notice-board.do",
+        "https://yumc.yu.ac.kr/yumc/support/notice.do"
+      ]
+    },
+    {
+      "name": "생명응용과학대학",
+      "url": "https://life.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://life.yu.ac.kr/life/index.do",
+      "title": "영남대학교 생명응용과학대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://life.yu.ac.kr/life/community/notice.do"
+      ]
+    },
+    {
+      "name": "약학대학",
+      "url": "https://pharm.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://pharm.yu.ac.kr/pharm/index.do",
+      "title": "영남대학교 약학대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://pharm.yu.ac.kr/pharm/bk21/bk21-notice.do",
+        "https://pharm.yu.ac.kr/pharm/community/notice.do"
+      ]
+    },
+    {
+      "name": "생활과학대학",
+      "url": "https://chek.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://chek.yu.ac.kr/chek/index.do",
+      "title": "영남대학교 생활과학대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://chek.yu.ac.kr/apply/board/notice.do",
+        "https://chek.yu.ac.kr/chek/bachelor/bachelor.do",
+        "https://chek.yu.ac.kr/chek/community/notice.do",
+        "https://chek.yu.ac.kr/main/bachelor/calendar.do"
+      ]
+    },
+    {
+      "name": "사범대학",
+      "url": "https://education.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://education.yu.ac.kr/education/index.do",
+      "title": "영남대학교 사범대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://education.yu.ac.kr/education/notice/notice.do",
+        "https://www.yu.ac.kr/main/bachelor/curriculum-guidelines.do"
+      ]
+    },
+    {
+      "name": "글로벌인재대학",
+      "url": "https://gl.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://gl.yu.ac.kr/gl/index.do",
+      "title": "영남대학교 글로벌인재대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://gl.yu.ac.kr/gl/community/notice.do",
+        "https://www.yu.ac.kr/main/bachelor/curriculum-guidelines.do"
+      ]
+    },
+    {
+      "name": "예술대학",
+      "url": "https://arts.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://arts.yu.ac.kr/arts/index.do",
+      "title": "영남대학교 예술대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://arts.yu.ac.kr/arts/community/exhibition-guide.do",
+        "https://arts.yu.ac.kr/arts/community/notice.do",
+        "https://arts.yu.ac.kr/arts/contest/notice-art.do",
+        "https://arts.yu.ac.kr/arts/contest/notice-music.do",
+        "https://www.yu.ac.kr/main/bachelor/curriculum-guidelines.do"
+      ]
+    },
+    {
+      "name": "천마학부대학",
+      "url": "https://ccgs.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://ccgs.yu.ac.kr/ccgs/index.do",
+      "title": "영남대학교 천마학부대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://ccgs.yu.ac.kr/ccgs/support/notice.do"
+      ]
+    },
+    {
+      "name": "천마인재학부",
+      "url": "https://honors.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "final_url": "https://honors.yu.ac.kr/honors/index.do",
+      "title": "영남대학교 천마인재학부",
+      "status": "discovered",
+      "board_urls": [
+        "https://honors.yu.ac.kr/honors/bachelor/academic.do",
+        "https://honors.yu.ac.kr/honors/community/notice.do",
+        "https://honors.yu.ac.kr/honors/intro/fund-announcement.do",
+        "https://honors.yu.ac.kr/honors/scholarship/scholarship.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://korean.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://korean.yu.ac.kr/korean/index.do",
+      "title": "영남대학교 국어국문학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://korean.yu.ac.kr/apply/board/notice.do",
+        "https://korean.yu.ac.kr/korean/grad/grad-notice.do",
+        "https://korean.yu.ac.kr/korean/notice/events-notice.do",
+        "https://korean.yu.ac.kr/korean/notice/notice-of-career-and-employment.do",
+        "https://korean.yu.ac.kr/korean/notice/notice-of-scholarship.do",
+        "https://korean.yu.ac.kr/korean/notice/schedule.do",
+        "https://korean.yu.ac.kr/korean/organization/organization-notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://engl.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://engl.yu.ac.kr/engl/index.do",
+      "title": "영남대학교 영어영문학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://engl.yu.ac.kr/engl/board/employment-information.do",
+        "https://engl.yu.ac.kr/engl/board/notice.do",
+        "https://engl.yu.ac.kr/main/bachelor/bachelor-guide.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://europe.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://europe.yu.ac.kr/europe/index.do",
+      "title": "영남대학교 유럽언어문화학부",
+      "status": "discovered",
+      "board_urls": [
+        "https://europe.yu.ac.kr/europe/community/notice.do",
+        "https://europe.yu.ac.kr/main/bachelor/bachelor-guide.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://japan.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://japan.yu.ac.kr/japan/index.do",
+      "title": "영남대학교 일어일문학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://japan.yu.ac.kr/japan/community/notice.do",
+        "https://japan.yu.ac.kr/japan/grad/grad-scholarship.do",
+        "https://japan.yu.ac.kr/japan/intro/scholarship.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://phil.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://phil.yu.ac.kr/phil/index.do",
+      "title": "영남대학교 철학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://phil.yu.ac.kr/phil/notice/notice.do",
+        "https://phil.yu.ac.kr/phil/notice/promotion-video.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://saram.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://saram.yu.ac.kr/saram/index.do",
+      "title": "영남대학교 문화인류학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://saram.yu.ac.kr/saram/bk21/notice.do",
+        "https://saram.yu.ac.kr/saram/notice/free-board.do",
+        "https://saram.yu.ac.kr/saram/notice/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://math.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://math.yu.ac.kr/math/index.do",
+      "title": "영남대학교 수학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://math.yu.ac.kr/main/bachelor/bachelor-guide.do",
+        "https://math.yu.ac.kr/math/community/employment.do",
+        "https://math.yu.ac.kr/math/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://yuhistory.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://yuhistory.yu.ac.kr/yuhistory/index.do",
+      "title": "영남대학교 역사학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://yuhistory.yu.ac.kr/yuhistory/bachelor/curriculum.do",
+        "https://yuhistory.yu.ac.kr/yuhistory/bulletin-board/employment-notification-board.do",
+        "https://yuhistory.yu.ac.kr/yuhistory/bulletin-board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://sta.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://sta.yu.ac.kr/sta/index.do",
+      "title": "통계학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://sta.yu.ac.kr/sta/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://chem.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://chem.yu.ac.kr/chem/index.do",
+      "title": "영남대학교 화학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://chem.yu.ac.kr/chem/bk21/notice.do",
+        "https://chem.yu.ac.kr/chem/board/notice.do",
+        "https://chem.yu.ac.kr/chem/grad/grad-notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://physics.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://physics.yu.ac.kr/physics/index.do",
+      "title": "영남대학교 물리학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://physics.yu.ac.kr/physics/bachelor/grad-notice.do",
+        "https://physics.yu.ac.kr/physics/bachelor/notice.do",
+        "https://physics.yu.ac.kr/physics/bk21/announcement-and-library.do",
+        "https://physics.yu.ac.kr/physics/community/employment-information.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://lifesciences.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://lifesciences.yu.ac.kr/lifesciences/index.do",
+      "title": "영남대학교 생명과학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://lifesciences.yu.ac.kr/lifesciences/intro/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://civil.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://civil.yu.ac.kr/civil/index.do",
+      "title": "영남대학교 건설시스템공학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://civil.yu.ac.kr/civil/abeek/abeek-notice.do",
+        "https://civil.yu.ac.kr/civil/notice/department-notice.do",
+        "https://civil.yu.ac.kr/civil/notice/employment-information.do",
+        "https://civil.yu.ac.kr/civil/notice/grad-notice.do",
+        "https://civil.yu.ac.kr/civil/notice/library.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://enveng.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://enveng.yu.ac.kr/enveng/index.do",
+      "title": "영남대학교 환경공학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://enveng.yu.ac.kr/enveng/board/notice.do",
+        "https://enveng.yu.ac.kr/enveng/grad/grad-notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://urban.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://urban.yu.ac.kr/urban/index.do",
+      "title": "영남대학교 도시공학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://urban.yu.ac.kr/urban/board/employment.do",
+        "https://urban.yu.ac.kr/urban/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://arch.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://arch.yu.ac.kr/arch/index.do",
+      "title": "영남대학교 건축학부",
+      "status": "discovered",
+      "board_urls": [
+        "https://arch.yu.ac.kr/arch/notice/free-board.do",
+        "https://arch.yu.ac.kr/arch/notice/job.do",
+        "https://arch.yu.ac.kr/arch/notice/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://me.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://me.yu.ac.kr/me/index.do",
+      "title": "영남대학교 기계공학부",
+      "status": "discovered",
+      "board_urls": [
+        "https://me.yu.ac.kr/me/bk21/notice.do",
+        "https://me.yu.ac.kr/me/council/student-council-notice.do",
+        "https://me.yu.ac.kr/me/notice/employment-notice.do",
+        "https://me.yu.ac.kr/me/notice/notice.do",
+        "https://me.yu.ac.kr/me/notice/qna.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://mse.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://mse.yu.ac.kr/mse/index.do",
+      "title": "영남대학교 신소재공학부",
+      "status": "discovered",
+      "board_urls": [
+        "https://mse.yu.ac.kr/mse/bachelor/programs.do",
+        "https://mse.yu.ac.kr/mse/bachelor/scholarship.do",
+        "https://mse.yu.ac.kr/mse/master/notice.do",
+        "https://www.yu.ac.kr/main/bachelor/bachelor-guide.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://ee.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://ee.yu.ac.kr/ee/index.do",
+      "title": "영남대학교 전기공학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://ee.yu.ac.kr/ee/board/department.do",
+        "https://ee.yu.ac.kr/ee/board/major-curriculum.do",
+        "https://ee.yu.ac.kr/ee/grad/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://che.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://che.yu.ac.kr/che/index.do",
+      "title": "영남대학교 화학공학부",
+      "status": "discovered",
+      "board_urls": [
+        "https://che.yu.ac.kr/che/bk21/notice.do",
+        "https://che.yu.ac.kr/che/notice/bulletin-board.do",
+        "https://che.yu.ac.kr/che/notice/employment.do",
+        "https://che.yu.ac.kr/che/notice/field-training-announcement.do",
+        "https://che.yu.ac.kr/che/notice/graduate-school-announcement.do",
+        "https://che.yu.ac.kr/che/notice/notice.do",
+        "https://che.yu.ac.kr/che/notice/promotion-video.do",
+        "https://che.yu.ac.kr/che/notice/scholarship-guidance.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://textiles.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://textiles.yu.ac.kr/textiles/index.do",
+      "title": "영남대학교 파이버시스템공학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://textiles.yu.ac.kr/textiles/board/notice.do",
+        "https://textiles.yu.ac.kr/textiles/employment/job-board.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://electronics.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://electronics.yu.ac.kr/electronics/index.do",
+      "title": "영남대학교 전자공학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://electronics.yu.ac.kr/electronics/community/notice.do",
+        "https://electronics.yu.ac.kr/electronics/grad/grad-notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://cse.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://cse.yu.ac.kr/cse/index.do",
+      "title": "영남대학교 컴퓨터공학전공",
+      "status": "discovered",
+      "board_urls": [
+        "https://cse.yu.ac.kr/cse/bk21/notice.do",
+        "https://cse.yu.ac.kr/cse/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://sw.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://sw.yu.ac.kr/sw/index.do",
+      "title": "소프트웨어융합전공",
+      "status": "discovered",
+      "board_urls": [
+        "https://sw.yu.ac.kr/sw/major/intro.do",
+        "https://sw.yu.ac.kr/sw/notice/employment-notice.do",
+        "https://sw.yu.ac.kr/sw/notice/notice.do",
+        "https://sw.yu.ac.kr/sw/notice/qna.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://ice.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://ice.yu.ac.kr/ice/index.do",
+      "title": "영남대학교 컴퓨터학부 정보통신공학전공",
+      "status": "discovered",
+      "board_urls": [
+        "https://ice.yu.ac.kr/ice/bk21/notice.do",
+        "https://ice.yu.ac.kr/ice/board/notice.do",
+        "https://ice.yu.ac.kr/ice/board/sportlight.do",
+        "https://ice.yu.ac.kr/ice/guide/learning.do",
+        "https://ice.yu.ac.kr/ice/koica/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://ss.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://ss.yu.ac.kr/ss/index.do",
+      "title": "영남대학교 소프트웨어보안전공",
+      "status": "discovered",
+      "board_urls": [
+        "https://ss.yu.ac.kr/ss/major/intro.do",
+        "https://ss.yu.ac.kr/ss/notice/employment-notice.do",
+        "https://ss.yu.ac.kr/ss/notice/notice.do",
+        "https://ss.yu.ac.kr/ss/notice/qna.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://ai.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://ai.yu.ac.kr/ai/index.do",
+      "title": "영남대학교 컴퓨터학부 AI융합전공",
+      "status": "discovered",
+      "board_urls": [
+        "https://ai.yu.ac.kr/ai/board/notice.do",
+        "https://ai.yu.ac.kr/computer/notice/notice.do",
+        "https://ai.yu.ac.kr/digital/board/notice.do",
+        "https://ai.yu.ac.kr/scholar/notice/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://automotive.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://automotive.yu.ac.kr/automotive/index.do",
+      "title": "영남대학교 미래자동차공학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://automotive.yu.ac.kr/automotive/community/academic-notice.do",
+        "https://automotive.yu.ac.kr/automotive/community/education-program-notice.do",
+        "https://automotive.yu.ac.kr/automotive/community/employment-information.do",
+        "https://automotive.yu.ac.kr/automotive/community/notice.do",
+        "https://automotive.yu.ac.kr/automotive/community/scholarship-notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://robotics.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://robotics.yu.ac.kr/robotics/index.do",
+      "title": "영남대학교 로봇공학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://robotics.yu.ac.kr/robotics/community/abek-engineering-education-certification-notice.do",
+        "https://robotics.yu.ac.kr/robotics/community/bachelor-notice.do",
+        "https://robotics.yu.ac.kr/robotics/community/notice.do",
+        "https://robotics.yu.ac.kr/robotics/community/student-council-notice.do",
+        "https://robotics.yu.ac.kr/robotics/grad/grad-notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://nextsemi.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://nextsemi.yu.ac.kr/nextsemi/index.do",
+      "title": "영남대학교 차세대반도체학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://nextsemi.yu.ac.kr/nextsemi/academic/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://appliedsw.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://appliedsw.yu.ac.kr/appliedsw/index.do",
+      "title": "영남대학교 소프트웨어응용학부",
+      "status": "discovered",
+      "board_urls": [
+        "https://appliedsw.yu.ac.kr/appliedsw/notice/notice.do",
+        "https://appliedsw.yu.ac.kr/digital/board/notice.do",
+        "https://www.yu.ac.kr/main/bachelor/bachelor-guide.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://asw.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://asw.yu.ac.kr/asw/index.do",
+      "title": "영남대학교 자동차소프트웨어학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://asw.yu.ac.kr/asw/notice/notice.do",
+        "https://asw.yu.ac.kr/digital/board/notice.do",
+        "https://www.yu.ac.kr/main/bachelor/bachelor-guide.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://smartmobility.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://smartmobility.yu.ac.kr/smartmobility/index.do",
+      "title": "영남대학교 스마트모빌리티학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://smartmobility.yu.ac.kr/smartmobility/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://pol.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://pol.yu.ac.kr/pol/index.do",
+      "title": "정치외교학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://pol.yu.ac.kr/pol/board/hot-focus.do",
+        "https://pol.yu.ac.kr/pol/board/notice.do",
+        "https://pol.yu.ac.kr/pol/grad/grad-notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://pa.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://pa.yu.ac.kr/pa/index.do",
+      "title": "영남대학교 행정학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://pa.yu.ac.kr/pa/bachelor/curriculum.do",
+        "https://pa.yu.ac.kr/pa/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://socio.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://socio.yu.ac.kr/socio/index.do",
+      "title": "영남대학교 사회학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://socio.yu.ac.kr/socio/alumni/notice.do",
+        "https://socio.yu.ac.kr/socio/grad/notice.do",
+        "https://socio.yu.ac.kr/socio/info/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://psy.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://psy.yu.ac.kr/psy/index.do",
+      "title": "영남대학교 심리학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://psy.yu.ac.kr/psy/notice/calendar.do",
+        "https://psy.yu.ac.kr/psy/notice/faq.do",
+        "https://psy.yu.ac.kr/psy/notice/free-board.do",
+        "https://psy.yu.ac.kr/psy/notice/gallery.do",
+        "https://psy.yu.ac.kr/psy/notice/job.do",
+        "https://psy.yu.ac.kr/psy/notice/notice.do",
+        "https://psy.yu.ac.kr/psy/notice/promotion-video.do",
+        "https://psy.yu.ac.kr/psy/notice/qna.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://police.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://police.yu.ac.kr/police/index.do",
+      "title": "영남대학교 경찰행정학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://police.yu.ac.kr/police/bachelor/curriculum.do",
+        "https://police.yu.ac.kr/police/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://mnc.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://mnc.yu.ac.kr/mnc/index.do",
+      "title": "미디어커뮤니케이션학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://mnc.yu.ac.kr/mnc/community/notice.do",
+        "https://mnc.yu.ac.kr/mnc/grad/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://ms.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://ms.yu.ac.kr/ms/index.do",
+      "title": "영남대학교 군사학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://ms.yu.ac.kr/ms/community/notice.do",
+        "https://ms.yu.ac.kr/ms/grad/grad-notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://econ.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://econ.yu.ac.kr/econ/index.do",
+      "title": "영남대학교 경제금융학부",
+      "status": "discovered",
+      "board_urls": [
+        "https://econ.yu.ac.kr/econ/dept/undergrad-notice.do",
+        "https://econ.yu.ac.kr/econ/grad/grad-notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://trade.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://trade.yu.ac.kr/trade/index.do",
+      "title": "영남대학교 무역학부",
+      "status": "discovered",
+      "board_urls": [
+        "https://trade.yu.ac.kr/trade/grad/admission.do",
+        "https://trade.yu.ac.kr/trade/news/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://biz.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://biz.yu.ac.kr/biz/index.do",
+      "title": "영남대학교 경영학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://biz.yu.ac.kr/biz/bk21/notice.do",
+        "https://biz.yu.ac.kr/biz/board/employment.do",
+        "https://biz.yu.ac.kr/biz/board/field-training.do",
+        "https://biz.yu.ac.kr/biz/board/notice.do",
+        "https://biz.yu.ac.kr/biz/grad/grad-notice.do",
+        "https://biz.yu.ac.kr/biz/intro/curriculum.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://acc.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://acc.yu.ac.kr/acc/index.do",
+      "title": "영남대학교 회계세무학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://acc.yu.ac.kr/acc/bachelor/major-curriculum.do",
+        "https://acc.yu.ac.kr/acc/grad/notice.do",
+        "https://acc.yu.ac.kr/acc/notice/employment.do",
+        "https://acc.yu.ac.kr/acc/notice/gallery.do",
+        "https://acc.yu.ac.kr/acc/notice/notice.do",
+        "https://acc.yu.ac.kr/acc/notice/promotion-video.do",
+        "https://acc.yu.ac.kr/acc/notice/qna.do",
+        "https://acc.yu.ac.kr/acc/notice/related.do",
+        "https://acc.yu.ac.kr/acc/notice/training.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://daspo.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://daspo.yu.ac.kr/daspo/index.do",
+      "title": "영남대학교 항공운송학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://daspo.yu.ac.kr/daspo/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://fes.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://fes.yu.ac.kr/fes/index.do",
+      "title": "영남대학교 식품경제외식학과",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://im.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://im.yu.ac.kr/im/index.do",
+      "title": "영남대학교 산업경영학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://im.yu.ac.kr/im/bachelor/entrance-faq.do",
+        "https://im.yu.ac.kr/im/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://hort.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://hort.yu.ac.kr/hort/index.do",
+      "title": "영남대학교 원예생명과학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://hort.yu.ac.kr/hort/bachelor/college-life.do",
+        "https://hort.yu.ac.kr/hort/career/employment-information-bulletin-board.do",
+        "https://hort.yu.ac.kr/hort/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://land.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://land.yu.ac.kr/land/index.do",
+      "title": "영남대학교 조경학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://land.yu.ac.kr/land/community/notice.do",
+        "https://land.yu.ac.kr/land/job/announcement.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://foodscience.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://foodscience.yu.ac.kr/foodscience/index.do",
+      "title": "영남대학교 식품공학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://foodscience.yu.ac.kr/foodscience/community/news.do",
+        "https://foodscience.yu.ac.kr/foodscience/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://forestry.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://forestry.yu.ac.kr/forestry/index.do",
+      "title": "영남대학교 산림자원학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://forestry.yu.ac.kr/forestry/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://bt1.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://bt1.yu.ac.kr/bt1/index.do",
+      "title": "영남대학교 생명공학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://bt1.yu.ac.kr/bt1/community/biotechnology-board.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://mbt.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://mbt.yu.ac.kr/mbt/index.do",
+      "title": "영남대학교 의생명공학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://mbt.yu.ac.kr/mbt/bachelor/calendar.do",
+        "https://mbt.yu.ac.kr/mbt/community/notice.do",
+        "https://scholar.yu.ac.kr/scholar/index.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://food.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://food.yu.ac.kr/food/index.do",
+      "title": "영남대학교 식품영양학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://food.yu.ac.kr/food/bachelor/notice.do",
+        "https://food.yu.ac.kr/food/career/job-board.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://yuhousing.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://yuhousing.yu.ac.kr/yuhousing/index.do",
+      "title": "영남대학교 생활과학대학 주거환경학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://yuhousing.yu.ac.kr/main/bachelor/calendar.do",
+        "https://yuhousing.yu.ac.kr/yuhousing/certificate/notice-board.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://fashion.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://fashion.yu.ac.kr/fashion/index.do",
+      "title": "영남대학교 의류패션학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://fashion.yu.ac.kr/fashion/bachelor/curriculum.do",
+        "https://fashion.yu.ac.kr/fashion/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://pe.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://pe.yu.ac.kr/pe/index.do",
+      "title": "영남대학교 체육학부",
+      "status": "discovered",
+      "board_urls": [
+        "https://pe.yu.ac.kr/pe/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://dance.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://dance.yu.ac.kr/dance/index.do",
+      "title": "영남대학교 무용학전공",
+      "status": "discovered",
+      "board_urls": [
+        "https://dance.yu.ac.kr/dance/bachelor/curriculum.do",
+        "https://dance.yu.ac.kr/dance/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://humanservice.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://humanservice.yu.ac.kr/humanservice/index.do",
+      "title": "영남대학교 휴먼서비스학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://humanservice.yu.ac.kr/humanservice/community/notice.do",
+        "https://humanservice.yu.ac.kr/humanservice/grad/grad-notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://eduwm.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://eduwm.yu.ac.kr/eduwm/index.do",
+      "title": "영남대학교 교육학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://eduwm.yu.ac.kr/eduwm/bachelor/curriculum.do",
+        "https://eduwm.yu.ac.kr/eduwm/bk21/notice.do",
+        "https://eduwm.yu.ac.kr/eduwm/community/notice.do",
+        "https://eduwm.yu.ac.kr/eduwm/grad/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://koredu21.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://koredu21.yu.ac.kr/koredu21/index.do",
+      "title": "영남대학교 국어교육과",
+      "status": "discovered",
+      "board_urls": [
+        "https://koredu21.yu.ac.kr/koredu21/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://dele.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://dele.yu.ac.kr/dele/index.do",
+      "title": "영남대학교 영어교육과",
+      "status": "discovered",
+      "board_urls": [
+        "https://dele.yu.ac.kr/dele/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://mathedu.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://mathedu.yu.ac.kr/mathedu/index.do",
+      "title": "영남대학교 수학교육과",
+      "status": "discovered",
+      "board_urls": [
+        "http://edu.yu.ac.kr/indexSub.jsp?linkUrl=5_1.html",
+        "https://mathedu.yu.ac.kr/mathedu/info/academic.do",
+        "https://mathedu.yu.ac.kr/mathedu/info/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://eduhankyo.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://eduhankyo.yu.ac.kr/eduhankyo/index.do",
+      "title": "한문교육과",
+      "status": "discovered",
+      "board_urls": [
+        "https://eduhankyo.yu.ac.kr/eduhankyo/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://child.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://child.yu.ac.kr/child/index.do",
+      "title": "영남대학교 유아교육과",
+      "status": "discovered",
+      "board_urls": [
+        "https://child.yu.ac.kr/child/board/notice.do",
+        "https://child.yu.ac.kr/child/grad/grad-notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://spe.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://spe.yu.ac.kr/spe/index.do",
+      "title": "영남대학교 특수체육교육과",
+      "status": "discovered",
+      "board_urls": [
+        "https://spe.yu.ac.kr/spe/board/bulletin-board.do",
+        "https://spe.yu.ac.kr/spe/board/employment-information.do",
+        "https://spe.yu.ac.kr/spe/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://painting.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://painting.yu.ac.kr/painting/index.do",
+      "title": "영남대학교 회화과",
+      "status": "discovered",
+      "board_urls": [
+        "https://painting.yu.ac.kr/painting/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://transart.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://transart.yu.ac.kr/transart/index.do",
+      "title": "영남대학교 트랜스아트과",
+      "status": "discovered",
+      "board_urls": [
+        "https://transart.yu.ac.kr/transart/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://id.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://id.yu.ac.kr/id/index.do",
+      "title": "영남대학교 산업디자인학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://id.yu.ac.kr/id/news/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://vd.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://vd.yu.ac.kr/vd/index.do",
+      "title": "영남대학교 시각디자인학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://vd.yu.ac.kr/vd/community/board.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://kmc.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://kmc.yu.ac.kr/kmc/index.do",
+      "title": "영남대학교 국악및작곡전공",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://ld.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://ld.yu.ac.kr/ld/index.do",
+      "title": "생활제품디자인학과",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://china.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://china.yu.ac.kr/china/index.do",
+      "title": "영남대학교 중국언어문화학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://china.yu.ac.kr/china/intro/announcement-and-application-board.do",
+        "https://china.yu.ac.kr/china/intro/employment-information.do",
+        "https://china.yu.ac.kr/china/intro/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://intdev.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://intdev.yu.ac.kr/intdev/index.do",
+      "title": "영남대학교 국제새마을개발학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://intdev.yu.ac.kr/intdev/grad/graduate-notice.do",
+        "https://intdev.yu.ac.kr/intdev/news/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://koreanedu.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://koreanedu.yu.ac.kr/koreanedu/index.do",
+      "title": "영남대학교 국제한국어교육전공",
+      "status": "discovered",
+      "board_urls": [
+        "https://koreanedu.yu.ac.kr/graduate/community/notice.do",
+        "https://koreanedu.yu.ac.kr/koreanedu/board/department-free-board.do",
+        "https://koreanedu.yu.ac.kr/koreanedu/notice/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://gbusiness.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://gbusiness.yu.ac.kr/gbusiness/index.do",
+      "title": "영남대학교 글로벌비즈니스학과",
+      "status": "discovered",
+      "board_urls": [
+        "https://gbusiness.yu.ac.kr/gbusiness/news/career.do",
+        "https://gbusiness.yu.ac.kr/gbusiness/news/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://itenglish.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://itenglish.yu.ac.kr/itenglish/index.do",
+      "title": "영남대학교 영어통번역전공",
+      "status": "discovered",
+      "board_urls": [
+        "https://itenglish.yu.ac.kr/itenglish/board/notice.do",
+        "https://itenglish.yu.ac.kr/main/bachelor/bachelor-guide.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://globalkr.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://globalkr.yu.ac.kr/globalkr/index.do",
+      "title": "영남대학교 글로벌학부",
+      "status": "discovered",
+      "board_urls": [
+        "https://globalkr.yu.ac.kr/globalkr/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://gge.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://gge.yu.ac.kr/gge/index.do",
+      "title": "School of Global General Education | YU",
+      "status": "discovered",
+      "board_urls": [
+        "https://gge.yu.ac.kr/gge/notice/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://trans.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/university.do",
+      "final_url": "https://trans.yu.ac.kr/trans/index.do",
+      "title": "영남대학교 응용중국어통번역전공",
+      "status": "discovered",
+      "board_urls": [
+        "https://trans.yu.ac.kr/trans/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://human.yu.ac.kr/human/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://human.yu.ac.kr/human/index.do",
+      "title": "인문과학연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://human.yu.ac.kr/human/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://ins.yu.ac.kr/ins/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://ins.yu.ac.kr/ins/index.do",
+      "title": "영남대학교 기초과학연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://ins.yu.ac.kr/ins/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈",
+      "url": "https://www.yu.ac.kr/rnd/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://www.yu.ac.kr/rnd/index.do",
+      "title": "영남대학교 산학협력단",
+      "status": "discovered",
+      "board_urls": [
+        "https://rnd.yu.ac.kr/rnd/community/notice.do",
+        "https://www.yu.ac.kr/rnd/community/notice.do",
+        "https://www.yu.ac.kr/rnd/support/homework-announcement.do"
+      ]
+    },
+    {
+      "name": "영남대학교",
+      "url": "https://www.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "status": "unverified",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://iss.yu.ac.kr/iss/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://iss.yu.ac.kr/iss/index.do",
+      "title": "디지털사회연구센터 | 영남대학교 사회과학연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://iss.yu.ac.kr/iss/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://iite.yu.ac.kr/iite/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://iite.yu.ac.kr/iite/index.do",
+      "title": "영남대학교 공업기술연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://iite.yu.ac.kr/iite/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://ird.yu.ac.kr/ird/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://ird.yu.ac.kr/ird/index.do",
+      "title": "영남대학교 자원문제연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://ird.yu.ac.kr/ird/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://uni.yu.ac.kr/uni/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://uni.yu.ac.kr/uni/index.do",
+      "title": "영남대학교 통일문제연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://uni.yu.ac.kr/uni/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://iore.yu.ac.kr/iore/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://iore.yu.ac.kr/iore/index.do",
+      "title": "영남대학교 지역경제연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://iore.yu.ac.kr/iore/notice/links.do",
+        "https://iore.yu.ac.kr/iore/notice/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://ims.yu.ac.kr/ims/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://ims.yu.ac.kr/ims/index.do",
+      "title": "영남대학교 의과학연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://ims.yu.ac.kr/ims/notice/data.do",
+        "https://ims.yu.ac.kr/ims/notice/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://ssi.yu.ac.kr/ssi/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://ssi.yu.ac.kr/ssi/index.do",
+      "title": "영남대학교 스포츠과학연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://ssi.yu.ac.kr/ssi/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://ylaw.yu.ac.kr/ylaw/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://ylaw.yu.ac.kr/ylaw/index.do",
+      "title": "영남대학교 법학연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://ylaw.yu.ac.kr/ylaw/notice/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://biotech.yu.ac.kr/biotech/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://biotech.yu.ac.kr/biotech/index.do",
+      "title": "영남대학교 생명공학연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://biotech.yu.ac.kr/biotech/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://sedu.yu.ac.kr/sedu/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://sedu.yu.ac.kr/sedu/index.do",
+      "title": "영남대학교 미래교육연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://sedu.yu.ac.kr/sedu/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://rimet.yu.ac.kr/rimet/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://rimet.yu.ac.kr/rimet/index.do",
+      "title": "영남대학교 기계기술연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://rimet.yu.ac.kr/rimet/notice/academic-seminar.do",
+        "https://rimet.yu.ac.kr/rimet/notice/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://ihe.yu.ac.kr/ihe/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://ihe.yu.ac.kr/ihe/index.do",
+      "title": "영남대학교 생활과학연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://ihe.yu.ac.kr/ihe/news/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://mti.yu.ac.kr/mti/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://mti.yu.ac.kr/mti/index.do",
+      "title": "영남대학교 재료기술연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://mti.yu.ac.kr/mti/notice/lab-schedule.do",
+        "https://mti.yu.ac.kr/mti/notice/news.do",
+        "https://mti.yu.ac.kr/mti/notice/notice.do",
+        "https://mti.yu.ac.kr/mti/notice/photo-gallery.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://clean.yu.ac.kr/clean/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://clean.yu.ac.kr/clean/index.do",
+      "title": "영남대학교 청정기술연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://clean.yu.ac.kr/clean/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://ipnt.yu.ac.kr/ipnt/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://ipnt.yu.ac.kr/ipnt/index.do",
+      "title": "영남대학교 광·나노기술연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://ipnt.yu.ac.kr/ipnt/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://dokdo.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "status": "unverified",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1006)>"
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://crc.yu.ac.kr/crc/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://crc.yu.ac.kr/crc/index.do",
+      "title": "영남대학교 중국연구센터",
+      "status": "discovered",
+      "board_urls": [
+        "https://crc.yu.ac.kr/crc/board/notice.do",
+        "https://crc.yu.ac.kr/crc/china/announcement-of-thesis.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://klci.yu.ac.kr/klci/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://klci.yu.ac.kr/klci/index.do",
+      "title": "영남대학교 국어문화연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://klci.yu.ac.kr/klci/communicate/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://rdi.yu.ac.kr/rdi/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://rdi.yu.ac.kr/rdi/index.do",
+      "title": "영남대학교 농촌개발연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://rdi.yu.ac.kr/rdi/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://ari.yu.ac.kr/ari/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://ari.yu.ac.kr/ari/index.do",
+      "title": "영남대학교 건축연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://ari.yu.ac.kr/ari/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://cando.yu.ac.kr/cando/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://cando.yu.ac.kr/cando/index.do",
+      "title": "영남대학교 박정희새마을연구원",
+      "status": "discovered",
+      "board_urls": [
+        "https://cando.yu.ac.kr/cando/board/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://cerc.yu.ac.kr/cerc/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://cerc.yu.ac.kr/cerc/index.do",
+      "title": "영남대학교 사이버감성연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://cerc.yu.ac.kr/cerc/notice/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://hmy.yu.ac.kr/hmy/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://hmy.yu.ac.kr/hmy/index.do",
+      "title": "한자문화연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://hmy.yu.ac.kr/hmy/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://rima.yu.ac.kr/rima/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://rima.yu.ac.kr/rima/index.do",
+      "title": "한국군사문제연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://rima.yu.ac.kr/rima/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://hepri.yu.ac.kr/hepri/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://hepri.yu.ac.kr/hepri/index.do",
+      "title": "영남대학교 고등교육정책연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://hepri.yu.ac.kr/hepri/community/notice.do"
+      ]
+    },
+    {
+      "name": "http://bkco2.yu.ac.kr",
+      "url": "https://bkco2.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/centerbusiness-team.do",
+      "status": "unverified",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'bkco2.yu.ac.kr'. (_ssl.c:1006)>"
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://aging.yu.ac.kr/aging/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://aging.yu.ac.kr/aging/index.do",
+      "title": "영남대학교 노화유전체디코딩연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://aging.yu.ac.kr/aging/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://yuricc.yu.ac.kr/yuricc/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://yuricc.yu.ac.kr/yuricc/index.do",
+      "title": "영남대학교 세포배양연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://yuricc.yu.ac.kr/yuricc/community/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "https://ecobio.yu.ac.kr/ecobio/index.do",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "final_url": "https://ecobio.yu.ac.kr/ecobio/index.do",
+      "title": "영남대학교 Eco바이오머티리얼스연구소",
+      "status": "discovered",
+      "board_urls": [
+        "https://ecobio.yu.ac.kr/ecobio/notice/news.do",
+        "https://ecobio.yu.ac.kr/ecobio/notice/notice.do",
+        "https://ecobio.yu.ac.kr/ecobio/notice/photo-gallery.do"
+      ]
+    },
+    {
+      "name": "http://hrd.yu.ac.kr",
+      "url": "https://hrd.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/centerbusiness-team.do",
+      "final_url": "https://hrd.yu.ac.kr/pages/main/",
+      "title": "영남대학교 중소기업HRD사업단",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "국문홈페이지",
+      "url": "https://pspsk.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/graduate.do",
+      "final_url": "https://pspsk.yu.ac.kr/pspsk/index.do",
+      "title": "영남대학교 박정희새마을대학원",
+      "status": "discovered",
+      "board_urls": [
+        "https://pspsk.yu.ac.kr/psps/information/notice.do"
+      ]
+    },
+    {
+      "name": "홈페이지",
+      "url": "https://fli.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/support-site.do",
+      "final_url": "https://fli.yu.ac.kr/fli/index.do",
+      "title": "영남대학교 한국어·국제언어교육원 외국어교육",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "중문홈페이지",
+      "url": "https://pspscn.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/academics/graduate.do",
+      "final_url": "https://pspscn.yu.ac.kr/pspscn/index.do",
+      "title": "朴正熙Saemaul大学院 | YU",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "name": "SW중심대학사업단",
+      "url": "https://www.yu.ac.kr/swedu/index.do",
+      "discovered_from": "stage-1-and-official-search",
+      "final_url": "https://www.yu.ac.kr/swedu/index.do",
+      "title": "영남대학교 SW중심대학사업단",
+      "status": "discovered",
+      "board_urls": [
+        "https://www.yu.ac.kr/swedu/notice/major-schedule.do",
+        "https://www.yu.ac.kr/swedu/notice/news.do",
+        "https://www.yu.ac.kr/swedu/notice/newsletter.do",
+        "https://www.yu.ac.kr/swedu/notice/notice.do",
+        "https://www.yu.ac.kr/swedu/notice/press-release.do"
+      ]
+    },
+    {
+      "name": "컴퓨터공학과",
+      "url": "https://www.yu.ac.kr/cse/index.do",
+      "discovered_from": "stage-1-and-official-search",
+      "final_url": "https://www.yu.ac.kr/cse/index.do",
+      "title": "영남대학교 컴퓨터공학전공",
+      "status": "discovered",
+      "board_urls": [
+        "https://www.yu.ac.kr/cse/bk21/notice.do",
+        "https://www.yu.ac.kr/cse/community/notice.do"
+      ]
+    },
+    {
+      "name": "수소산업 융복합 인력양성 사업단",
+      "url": "https://herc.yu.ac.kr/",
+      "discovered_from": "stage-1-and-official-search",
+      "final_url": "https://herc.yu.ac.kr/herc/index.do",
+      "title": "영남대학교 수소산업 융복합 인력양성 사업단",
+      "status": "discovered",
+      "board_urls": [
+        "https://herc.yu.ac.kr/herc/notice/notice.do"
+      ]
+    },
+    {
+      "name": "반도체특성화대학사업단",
+      "url": "https://semi.yu.ac.kr/",
+      "discovered_from": "stage-1-and-official-search",
+      "final_url": "https://semi.yu.ac.kr/front/",
+      "title": "영남대학교 반도체특성화대학",
+      "status": "discovered",
+      "board_urls": [
+        "https://semi.yu.ac.kr/front/index.php?g_page=community&m_page=community01"
+      ]
+    },
+    {
+      "name": "",
+      "url": "https://rise.yu.ac.kr/rise/index.do",
+      "discovered_from": "https://rise.yu.ac.kr/rise/index.do",
+      "final_url": "https://rise.yu.ac.kr/rise/index.do",
+      "title": "영남대학교 RISE사업단",
+      "status": "discovered",
+      "board_urls": [
+        "https://rise.yu.ac.kr/rise/board/notice.do",
+        "https://rise.yu.ac.kr/rise/board/performance.do",
+        "https://rise.yu.ac.kr/rise/board/press-reports.do"
+      ]
+    },
+    {
+      "name": "https://connect.yu.ac.kr",
+      "url": "https://connect.yu.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/centerbusiness-team.do",
+      "status": "unverified",
+      "reason": "<urlopen error timed out>"
+    }
+  ],
+  "supplemental_sites": [
+    {
+      "url": "https://join.yu.ac.kr/front_new/",
+      "discovered_from": "https://join.yu.ac.kr/",
+      "title": "영남대학교 취업정보 홈페이지",
+      "status": "discovered",
+      "board_urls": [
+        "https://join.yu.ac.kr/front_new/index.php?g_page=intro&m_page=intro01",
+        "https://join.yu.ac.kr/front_new/index.php?g_page=intro&m_page=intro04",
+        "https://join.yu.ac.kr/front_new/index.php?g_page=intro&m_page=intro04"
+      ]
+    },
+    {
+      "url": "https://yutopia.yu.ac.kr/ko/login",
+      "discovered_from": "https://yutopia.yu.ac.kr/",
+      "status": "unverified",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://profs.yu.ac.kr/content.html?md=0042",
+      "discovered_from": "https://profs.yu.ac.kr/",
+      "title": "사이트맵 - 영남대학교 교수회",
+      "status": "discovered",
+      "board_urls": [
+        "https://profs.yu.ac.kr/content.html?md=0024",
+        "https://profs.yu.ac.kr/content.html?md=0024"
+      ]
+    },
+    {
+      "url": "https://iidc.yu.ac.kr/iidc/etc/sitemap.do",
+      "discovered_from": "https://iidc.yu.ac.kr/",
+      "title": "사이트맵 | 영남대학교 국제개발협력원",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "url": "https://museum.yu.ac.kr/museum/etc/sitemap.do",
+      "discovered_from": "https://museum.yu.ac.kr/",
+      "title": "사이트맵 | 영남대학교 박물관",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "url": "https://book.yu.ac.kr/main/index.html",
+      "discovered_from": "https://book.yu.ac.kr/",
+      "title": "영남대학교 출판부",
+      "status": "discovered",
+      "board_urls": [
+        "https://book.yu.ac.kr/community/notice_list.html",
+        "https://book.yu.ac.kr/community/notice_list.html",
+        "https://book.yu.ac.kr/community/notice_list.html",
+        "https://book.yu.ac.kr/community/notice_list.html",
+        "https://book.yu.ac.kr/community/notice_view.html?no=42",
+        "https://book.yu.ac.kr/community/notice_view.html?no=41",
+        "https://book.yu.ac.kr/community/notice_view.html?no=40",
+        "https://book.yu.ac.kr/community/notice_view.html?no=39",
+        "https://book.yu.ac.kr/community/notice_view.html?no=38",
+        "https://book.yu.ac.kr/community/notice_view.html?no=37"
+      ]
+    },
+    {
+      "url": "https://irb.yu.ac.kr/?&year=",
+      "discovered_from": "https://irb.yu.ac.kr/",
+      "title": "영남대학교 생명윤리위원회",
+      "status": "discovered",
+      "board_urls": [
+        "https://irb.yu.ac.kr/05_edu/edu01.html",
+        "https://irb.yu.ac.kr/04_brd/notice.html",
+        "https://irb.yu.ac.kr/04_brd/notice.html",
+        "https://irb.yu.ac.kr/04_brd/notice.html",
+        "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=74",
+        "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=72",
+        "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=71",
+        "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=70",
+        "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=69",
+        "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=68",
+        "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=67"
+      ]
+    },
+    {
+      "url": "https://irb.yu.ac.kr/itplus/management/doc_manage_prc.php?prc_mode=filedown&info=",
+      "discovered_from": "https://irb.yu.ac.kr/",
+      "title": "",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "url": "https://pra.yu.ac.kr/front/",
+      "discovered_from": "https://pra.yu.ac.kr/",
+      "title": "영남대학교 취업및현장실습지원팀",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "url": "https://aianchor.yu.ac.kr/front/index.php?g_page=member&m_page=member01",
+      "discovered_from": "https://aianchor.yu.ac.kr/",
+      "title": "로그인 - 회원 - 영남대학교 AI앵커대학사업단",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "url": "https://ld.yu.ac.kr/ld/etc/sitemap.do",
+      "discovered_from": "https://ld.yu.ac.kr/",
+      "title": "사이트맵 | 생활제품디자인학과",
+      "status": "no-board-link-found",
+      "board_urls": []
+    },
+    {
+      "url": "https://hrd.yu.ac.kr/pages/sitemap/",
+      "discovered_from": "https://hrd.yu.ac.kr/",
+      "title": "영남대학교 중소기업HRD사업단",
+      "status": "discovered",
+      "board_urls": [
+        "https://hrd.yu.ac.kr/pages/community/1/",
+        "https://hrd.yu.ac.kr/pages/community/1/"
+      ]
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "url": "https://acc.yu.ac.kr/acc/bachelor/major-curriculum.do",
+      "label": "학사안내",
+      "discovered_from": "https://acc.yu.ac.kr/acc/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "전공교육과정 | 영남대학교 회계세무학과",
+      "final_url": "https://acc.yu.ac.kr/acc/bachelor/major-curriculum.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://acc.yu.ac.kr/acc/notice/gallery.do",
+      "label": "포토갤러리",
+      "discovered_from": "https://acc.yu.ac.kr/acc/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "공지사항 > 포토갤러리 게시판목록 | 영남대학교 회계세무학과",
+      "final_url": "https://acc.yu.ac.kr/acc/notice/gallery.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://acc.yu.ac.kr/acc/notice/promotion-video.do",
+      "label": "홍보영상",
+      "discovered_from": "https://acc.yu.ac.kr/acc/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "공지사항 > 홍보영상 게시판목록 | 영남대학교 회계세무학과",
+      "final_url": "https://acc.yu.ac.kr/acc/notice/promotion-video.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://acc.yu.ac.kr/acc/notice/qna.do",
+      "label": "Q&A",
+      "discovered_from": "https://acc.yu.ac.kr/acc/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unverified",
+      "title": "공지사항 > qna 게시판목록 | 영남대학교 회계세무학과",
+      "final_url": "https://acc.yu.ac.kr/acc/notice/qna.do",
+      "reason": "empty-board",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://acc.yu.ac.kr/acc/notice/related.do",
+      "label": "관련사이트",
+      "discovered_from": "https://acc.yu.ac.kr/acc/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "관련사이트 | 영남대학교 회계세무학과",
+      "final_url": "https://acc.yu.ac.kr/acc/notice/related.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://anchor.yu.ac.kr/anchor/board/performance.do",
+      "label": "경북도·5개 앵커 대학 공동 비전 선포…특화산업 인재 양성·산학협력 추진 지역 맞춤형 AI 융합교육 확대…글로벌·지역 기업과 산업현장 전환 지원 영남대학교(총장 최외출)가 경상북도 및 지역 대학들과 손잡고 미래 전략산업을 이끌어갈 공동 비전을 선포하며 지역과 대학의 동반성장 체계를 가동했다. 영남대는 15일 천마아트센터에서 ‘경북 전략산업 앵커 대학 비전선포식’을 개최했다. 이번 행사는 경북 전략산업 앵커 대학들이 각 대학의 특화 역량을 바탕으로 지역 전략산업 혁신을 선도하고, 대학·산업·지역 간 협력체계를 구축하기 위해 마련됐다. 이날 선포식에는 황명석 경상북도 행정부지사, 최외출 영남대 총장, 성한기 대구가톨릭대 총장, 윤재웅 대구대 총장, 최호성 경운대 부총장, 홍재표 경일대 부총장을 비롯해 권순태 경상북도인재평생교육재단 대표이사, 박대현 경상북도앵커센터 센터장, 하인성 경북테크노파크 원장, 윤칠석 경북IT융합산업기술원 원장, 유철균 경북연구원 원장 등 지자체·대학·유관기관 관계자들이 대거 참석했다. 참여 대학들은 AI, 미래항공모빌리티, 바이오 등 대학별 특화 분야를 중심으로 인재 양성과 산업 혁신을 연계하고, 대학 간 협력을 통해 성과를 경북 전역으로 확산한다는 공동 비전을 공유했다. 행사는 최외출 총장의 환영사와 황명석 행정부지사의 축사를 시작으로 공동 비전선포, 기조강연, 대학별 사업설명 순으로 이어졌다. 이 가운데 영남대는 ‘AI 분야 앵커 대학’으로서 지역 전략산업의 AI 대전환을 이끄는 거점 역할을 맡는다. 영남대는 연 50억 원씩 4년간 최대 200억 원의 사업비를 지원받아 AI 교육·산학협력·지역 확산을 아우르는 ‘AX 허브 대학’ 구축을 추진한다. 이를 위해 △지역 맞춤형 AI+X 인재 양성 △글로벌 기업 연계 AI 대전환 생태계 구축 △AI 가치확산 공유모델 구축을 핵심 축으로 설정했다. 영남대는 교육 전반에 AI를 접목해 현장 맞춤형 AI 융합 인재를 양성하는 한편, 글로벌 기업 및 지역 기업과의 협력을 확대해 산업 현장의 AI 전환을 적극 지원할 계획이다. 앞서 영남대는 생성형 AI 통합 플랫폼 ‘AI@YU’를 구축해 교육·연구·행정 전반의 AI 전환을 추진해 온 바 있으며, 이번 앵커 사업을 통해 이를 지역 전체로 확장한다는 방침이다. 황명석 경상북도 행정부지사는 축사를 통해 “인공지능 시대를 맞아 대학이 기업과 산업 현장에 필요한 실무 인재를 키우는 것이 중요하다”며 “청년들이 지역에서 배우고 일하며 성장할 수 있는 환경을 만들기 위해 5개 앵커 대학과 적극 협력하겠다”고 말했다. 최외출 영남대 총장은 “지역과 대학은 함께 성장하는 공동체이며 대학의 경쟁력이 곧 지역의 경쟁력”이라며 “이번 비전선포식을 계기로 각 대학의 특화 역량이 지역 산업과 연결되고 경북 전체의 성장동력으로 이어질 수 있도록 앵커 대학으로서 최선을 다하겠다”고 밝혔다. [경북일보] 기사 원문 https://www.kyongbuk.co.kr/news/articleView.html?idxno=4084466 김윤섭 기자",
+      "discovered_from": "https://anchor.yu.ac.kr/anchor/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "사업성과 > 주요성과 게시판목록 | 영남대학교 앵커사업단",
+      "final_url": "https://anchor.yu.ac.kr/anchor/board/performance.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://anchor.yu.ac.kr/anchor/board/press-reports.do",
+      "label": "7만평 의성 바이오밸리 중심 세포배양산업 생태계 구축 입주 예정 포함 9개 기업 유치… 전문인력 15명 지역 취업 대학·기업 공동 R&D로 핵심 소재·부품·장비 국산화 지원 교육→취업→정주 선순환… 경북 바이오산업 성장 기반 마련 지난해 경북 의성에서 '2025 세포배양 배지 심포지엄'이 열렸다. 영남대 제공 백신과 세포치료제부터 배양육까지 미래 바이오산업의 기반이 되는 세포배양 기술이 경북 의성의 새로운 성장동력으로 떠오르고 있다. 영남대학교가 대학의 연구·교육 역량을 지역 산업과 연결해 기업을 유치하고 전문인력을 키우면서 청년들이 지역에서 배우고 일하며 정착하는 선순환 구조 구축에 나서고 있다. 영남대는 경상북도의 '지역성장 인재양성체계(앵커)' 사업을 통해 의성군에 세포배양산업 기반을 구축하고 기업 유치와 전문인력 양성, 공동 연구개발(R＆D), 지역 정주를 연계한 지역성장 모델을 추진하고 있다. 세포배양 기술은 백신과 항체, 단백질, 세포치료제 등 바이오의약품뿐 아니라 배양육 생산에도 활용되는 바이오산업의 핵심 기반 기술이다. 국내에서는 세포와 배지, 용품·장비 등 핵심 요소 상당 부분을 해외 수입에 의존하고 있어 관련 소재·부품·장비의 국산화와 산업 생태계 구축이 과제로 꼽힌다. 영남대는 의성군이 약 7만평 규모로 조성하고 있는 '의성 바이오밸리 일반산업단지'를 중심으로 세포배양산업 생태계를 구축하고 있다. 2023년 단지 내 문을 연 경북세포배양산업지원센터에는 영남대 세포배양연구소 분원이 입주했으며, 현재 박사급 연구인력 2명이 상주하면서 입주 기업과 공동연구와 기술 지원을 진행하고 있다. 지역과의 협력은 10여년 전부터 시작됐다. 영남대 세포배양연구소는 2015년부터 지역 대학과 연구기관, 경북도, 의성군 등과 의성을 세포배양산업 거점으로 육성하기 위한 협력을 이어왔다. 2020년 교육부 중점연구소지원사업 선정을 계기로 연구 기반을 확대한 데 이어 앵커사업을 통해 기업 유치와 인재양성, 기업 연계 R＆D로 영역을 넓혔다. 기업 유치와 지역 인재 취업에서도 성과를 내고 있다. 지금까지 입주 예정 기업을 포함해 모두 9개 기업을 유치했으며, 기업 수요를 반영한 전문가 특강과 특수연구, 현장실습 등 실무교육을 통해 전문인력 15명이 지역 기업에 취업했다. 현재 학부생 7명도 세포배양 기술과 기업 맞춤형 직무교육을 받고 있다. 기업과 연계한 기술 개발도 추진한다. 세포뱅킹 시스템 구축을 비롯해 세포배양 신기술과 배지 개발, 배지 원료·첨가제 개발, 세포배양장치 성능 검증 등을 기업과 공동으로 진행하고 있다. 기업 제품 성능 테스트와 인공지능(AI) 기반 인비트로 분석 등 기업 수요에 맞춘 R＆D도 지원한다. 세포배양식품 규제자유특구와 푸드테크연구지원센터 등 국가 사업과의 연계도 추진하고 있다. 향후에는 '워라밸 복합문화센터(기숙사)'를 건립해 지역 기업에서 근무하는 인력의 정착을 지원하고, 의성 바이오밸리 입주 기업과 연계한 전문인력 공급 체계도 강화할 계획이다. 김승철 영남대 지역혁신사업본부장은 \"세포배양산업화단지 구축 사업은 청년이 지역에서 배우고 지역 기업에 취업해 정착하는 앵커사업의 목적을 대학과 산업 현장에서 구현하는 사업\"이라며 \"기업 수요 맞춤형 인재 양성과 공동 R＆D, 기업 유치를 지속해 경북을 세포배양산업의 거점으로 육성하겠다\"고 말했다. [기사 원문] 매일신문 https://www.imaeil.com/page/view/2026092309344113422 윤정훈 기자",
+      "discovered_from": "https://anchor.yu.ac.kr/anchor/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "사업성과 > 언론보도 게시판목록 | 영남대학교 앵커사업단",
+      "final_url": "https://anchor.yu.ac.kr/anchor/board/press-reports.do",
+      "total": 44,
+      "pinned": 0,
+      "regular_first": 10,
+      "pages_checked": 2,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://arch.yu.ac.kr/arch/notice/free-board.do",
+      "label": "자유게시판",
+      "discovered_from": "https://arch.yu.ac.kr/arch/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "Notice > 자유게시판 게시판목록 | 영남대학교 건축학부",
+      "final_url": "https://arch.yu.ac.kr/arch/notice/free-board.do",
+      "total": 7,
+      "pinned": 0,
+      "regular_first": 7,
+      "pages_checked": 1,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://biz.yu.ac.kr/biz/intro/curriculum.do",
+      "label": "학사안내",
+      "discovered_from": "https://biz.yu.ac.kr/biz/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "전공교육과정 | 영남대학교 경영학과",
+      "final_url": "https://biz.yu.ac.kr/biz/intro/curriculum.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://che.yu.ac.kr/che/notice/promotion-video.do",
+      "label": "홍보영상",
+      "discovered_from": "https://che.yu.ac.kr/che/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "공지사항 > 홍보영상 게시판목록 | 영남대학교 화학공학부",
+      "final_url": "https://che.yu.ac.kr/che/notice/promotion-video.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://che.yu.ac.kr/che/notice/scholarship-guidance.do",
+      "label": "장학안내",
+      "discovered_from": "https://che.yu.ac.kr/che/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "장학안내 게시판목록 | 영남대학교 화학공학부",
+      "final_url": "https://che.yu.ac.kr/che/notice/scholarship-guidance.do",
+      "total": 11,
+      "pinned": 0,
+      "regular_first": 10,
+      "pages_checked": 2,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://chek.yu.ac.kr/apply/board/notice.do",
+      "label": "09/16 2026",
+      "discovered_from": "https://chek.yu.ac.kr/chek/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "공지사항 게시판목록 | CMS 관리자 지원 홈페이지",
+      "final_url": "https://chek.yu.ac.kr/apply/board/notice.do",
+      "reason": "공지 제목 또는 원문 링크가 없습니다.",
+      "exclusion_reason": "administration-site"
+    },
+    {
+      "url": "https://chek.yu.ac.kr/chek/bachelor/bachelor.do",
+      "label": "학사안내",
+      "discovered_from": "https://chek.yu.ac.kr/chek/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "학사안내 | 영남대학교 생활과학대학",
+      "final_url": "https://chek.yu.ac.kr/chek/bachelor/bachelor.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://chek.yu.ac.kr/main/bachelor/calendar.do",
+      "label": "학사안내",
+      "discovered_from": "https://chek.yu.ac.kr/chek/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "대학 학사일정 게시판목록 | 영남대학교",
+      "final_url": "https://chek.yu.ac.kr/main/bachelor/calendar.do",
+      "reason": "게시일 영역을 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://civil.yu.ac.kr/civil/notice/library.do",
+      "label": "공지사항",
+      "discovered_from": "https://civil.yu.ac.kr/civil/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "자료실 게시판목록 | 영남대학교 건설시스템공학과",
+      "final_url": "https://civil.yu.ac.kr/civil/notice/library.do",
+      "total": 6,
+      "pinned": 0,
+      "regular_first": 6,
+      "pages_checked": 1,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://crc.yu.ac.kr/crc/china/announcement-of-thesis.do",
+      "label": "논문 투고 안내",
+      "discovered_from": "https://crc.yu.ac.kr/crc/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "논문 투고 안내 | 영남대학교 중국연구센터",
+      "final_url": "https://crc.yu.ac.kr/crc/china/announcement-of-thesis.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://dance.yu.ac.kr/dance/bachelor/curriculum.do",
+      "label": "학사안내",
+      "discovered_from": "https://dance.yu.ac.kr/dance/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "교육과정 | 영남대학교 무용학전공",
+      "final_url": "https://dance.yu.ac.kr/dance/bachelor/curriculum.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://digital.yu.ac.kr/apply/board/notice.do",
+      "label": "PC IP 확인 방법 안내",
+      "discovered_from": "https://digital.yu.ac.kr/digital/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "공지사항 게시판목록 | CMS 관리자 지원 홈페이지",
+      "final_url": "https://digital.yu.ac.kr/apply/board/notice.do",
+      "reason": "공지 제목 또는 원문 링크가 없습니다.",
+      "exclusion_reason": "administration-site"
+    },
+    {
+      "url": "https://digital.yu.ac.kr/main/bachelor/bachelor-guide.do",
+      "label": "학사안내",
+      "discovered_from": "https://digital.yu.ac.kr/digital/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "학사안내 게시판목록 | 영남대학교",
+      "final_url": "https://digital.yu.ac.kr/main/bachelor/bachelor-guide.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://ecobio.yu.ac.kr/ecobio/notice/news.do",
+      "label": "연구소 소식",
+      "discovered_from": "https://ecobio.yu.ac.kr/ecobio/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "연구소 소식 게시판목록 | 영남대학교 Eco바이오머티리얼스연구소",
+      "final_url": "https://ecobio.yu.ac.kr/ecobio/notice/news.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://ecobio.yu.ac.kr/ecobio/notice/photo-gallery.do",
+      "label": "포토갤러리",
+      "discovered_from": "https://ecobio.yu.ac.kr/ecobio/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "포토갤러리 게시판목록 | 영남대학교 Eco바이오머티리얼스연구소",
+      "final_url": "https://ecobio.yu.ac.kr/ecobio/notice/photo-gallery.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://edu.yu.ac.kr/edu/bachelor/registration.do",
+      "label": "학사안내",
+      "discovered_from": "https://edu.yu.ac.kr/edu/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "등록 | 영남대학교 교육대학원",
+      "final_url": "https://edu.yu.ac.kr/edu/bachelor/registration.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://edu.yu.ac.kr/edu/major/curriculum-ai.do",
+      "label": "인공지능빅데이터융합교육",
+      "discovered_from": "https://edu.yu.ac.kr/edu/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "교육과정 | 영남대학교 교육대학원",
+      "final_url": "https://edu.yu.ac.kr/edu/major/curriculum-ai.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://eduwm.yu.ac.kr/eduwm/bachelor/curriculum.do",
+      "label": "학사안내",
+      "discovered_from": "https://eduwm.yu.ac.kr/eduwm/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "교육과정 | 영남대학교 교육학과",
+      "final_url": "https://eduwm.yu.ac.kr/eduwm/bachelor/curriculum.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://ee.yu.ac.kr/ee/board/major-curriculum.do",
+      "label": "학사안내",
+      "discovered_from": "https://ee.yu.ac.kr/ee/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "전공교육과정 | 영남대학교 전기공학과",
+      "final_url": "https://ee.yu.ac.kr/ee/board/major-curriculum.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://engl.yu.ac.kr/main/bachelor/bachelor-guide.do",
+      "label": "학사안내 게시판",
+      "discovered_from": "https://engl.yu.ac.kr/engl/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "학사안내 게시판목록 | 영남대학교",
+      "final_url": "https://engl.yu.ac.kr/main/bachelor/bachelor-guide.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://europe.yu.ac.kr/main/bachelor/bachelor-guide.do",
+      "label": "학사안내 2026학년도 2학기 학부생 등록금 2/2회, 3/4회 분할납부 안내 2026학년도 2학기 분할납부 미납부 대상자는 학칙 제25조에 의거하여 납부기간 종료일 다음날 제적 처리 되오니, 다음의 등록기간 중에 반드시 등록하시기 바랍니다. 1. 최종 등록 일정 구 분 내 용 납부기간  2026.10.13.(화) ~ 10.15.(목) - 은행창구 업무마감 16:00 - 인터넷뱅킹 업무마감 17:00 수납은행  아이엠뱅크 전국 지점 납부대상  분할납부 2회 신청자 중 2회차 납부대상자  분할납부 4회 신청자 중 3회차 납부대상자 고지서 출력  2026.10.12.(월) 13:00 이후 2. 등록금 고지서 출력 안내 - 2026.10.12.(월) 13:00 이후 출력 가. 고지서 출력 - 홈페이지(http://www.yu.ac.kr) → 종합정보시스템(URP) 접속 → 아이디(학번), 비밀번호(본인 지정 번호) 입력 → 로그인 클릭 → 등록금관리 → 등록금고지서출력 ☞ 학부생 등록금고지서 출력 바로가기 나. 등록금 고지서는 우편발송하지 않으니, 인터넷으로 직접 출력해서 사용해야 함. 3. 납부방법 : 등록금 고지서에 기재된 학생에게 아이엠뱅크(구 대구은행) 가상계좌로 납부 가. 인터넷 뱅킹, 폰뱅킹, 현금자동입출금기(ATM기) 이용 납부 - 등록금 고지서 출력 필요 없이, 고지서에 기재된 가상계좌(학생별로 다르게 부여된 입금전용 계좌)로 1차분 대구은행 납부계좌와 동일함. ※ 등록금 납부 후 수혜비의 추가 납부는 당일에 한하여 가능함. ※ 계좌 송금 시, 가상계좌 예금주가 학생이름 임을 반드시 확인하시기 바람. ※ 보내시는 분의 예금주는 학생 본인이 아니어도 상관없음. 나. 은행 방문 창구 납부 - 등록금 고지서 출력하여 등록금 수납 지정 은행에 방문하여 납부 - 등록기간 중에 등록금 납부 영수증이 필요한 경우, 반드시 수납인을 받으시기 바람. 다. 등록금 수납마감시간 : 은행창구업무마감 16:00 / 인터넷뱅킹업무마감 17:00 4. 등록시 유의사항 가. 지정된 기간 이외에는 등록금 수납이 절대 불가함. 나. 분할납부 신청자가 각 차수 등록금 미납 시, 학칙에 따라 제적 처리되며 해당학기 이수가 불가함. (다음 차수로 등록금 이월 불가) 5. 한국장학재단 학자금 등록금대출 가. 학자금 대출 일정 및 세부사항 바로가기 나. 신청 및 납부방법 - 한국장학재단 홈페이지에서 학자금대출 신청 후 심사에서 승인까지 4주~6주정도 소요되므로 사전에 신청해야 하며, 재단 ‘대출승인’ 상태에서 본교 등록금납부 기간 내에 재단 시스템에 접속하여 ‘대출실행’을 처리해야 등록이 됨. - 재단 대출 일정을 참고하여 본교 등록 기간내에 등록해야 함. - 분할납부 대출은 각 차수별 납부기간에 재단에 접속하여 '대출실행'을 처리해야 등록이 됨.(1회차 납부는 자비 납부, 2회차 납부부터 대출가능) 다. 장학금 및 학자금 대출관련 문의 - 장학팀 053-810-1141~1144(대학원 재학생은 소속대학원 행정실로 문의) - 한국장학재단 콜센터: 1599-2000 6. 등록기간 중 납부결과 확인 방법 가. PUSH 또는 문자발송: 납부 즉시 학생의 스마트출결앱 PUSH(설정하지 않을 경우 종합정보시스 템에 등록된 학생 본인 휴대폰), 종합정보시스템에 등록된 학부모 휴대폰으로 문자메시지 발송함. ※ 납부 후 PUSH 또는 문자 미수신 시 종합정보시스템 정보 확인 나. 종합정보시스템 확인: 종합정보시스템 접속 → 등록관리 → 등록금고지서출력 → “이미 납부되어 고지서 출력 불가!” 라는 메시지 확인 다. 교육비납입증명서 확인 - 등록금 납부 즉시 학생 종합정보시스템 출력 및 자동발급기에서 발급 가능 1) 학생 종합정보시스템 출력: 종합정보시스템(URP) 접속 → 아이디(학번), 비밀번호(본인 지정 번호) 입력 → 로그인 클릭 → 등록관리 → 교육비납입증명서 출력 ☞ 교육비 납입증명서 출력 바로가기 2) 자동발급기 발급: 학생지원센터, 중앙도서관, 전산정보원, 본부 학사민원동 7. 문의사항 연락처 - 학적(휴학, 복학 등) 관련 문의 : 수업학적팀 053-810-1062~4 - 장학금 및 학자금 대출관련 문의: 한국장학재단 콜센터 1599-2000/장학팀 053-810-1141~1144 - 등록금 납부 관련 문의 : 재무팀 053-810-1277~1279 2026. 10. 총 무 처 장 2026.10.07",
+      "discovered_from": "https://europe.yu.ac.kr/europe/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "학사안내 게시판목록 | 영남대학교",
+      "final_url": "https://europe.yu.ac.kr/main/bachelor/bachelor-guide.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://fashion.yu.ac.kr/fashion/bachelor/curriculum.do",
+      "label": "학사안내",
+      "discovered_from": "https://fashion.yu.ac.kr/fashion/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "교육과정 | 영남대학교 의류패션학과",
+      "final_url": "https://fashion.yu.ac.kr/fashion/bachelor/curriculum.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://foodscience.yu.ac.kr/foodscience/community/news.do",
+      "label": "2020-1학기 농어촌희망재단 장학금 신청 안내를 붙임과 같이 안내하오니 희망하는 학생이 신청할 수 있도록 홍보하여 주시기 바랍니다. 1. 신청기간 : 2019.12.19(목) ~ 2020.1.7(화) 17:00 까지 2. 신청대상 가. 농식품인재장학금 - 농식품계열학과 2학년 재학생, 직전학기 12학점이상 이수, 성적 백분위 80점 이상 나. 청년창업농육성장학금 - 3,4학년 재학생, 직전학기 12학점이상 이수, 성적 백분위 70점 이상(만 40세미만) - 의무교육 30시간이상 이수, 졸업후 영농 및 농식품분야에서 장학금 수혜기간만큼 취,창업 의무종사 다. 농업인자녀장학금 - 농업인자녀 재학생, 직전학기 12학점이상 이수, 성적 백분위 80점 이상 3. 신청방법 : 재단홈페이지(www.rhof.or.kr) → [학생장학시스템]로그인 → [농식품인재/청년창업육성/농업인자녀]중 선택 및 신청 4. 지원금액 등 : 붙임 공고문 참조 5. 문의전화 : 농어촌희망재단 02-509-2114 * 학교 홈페이지 장학안내에 게시되어 있는 내용입니다. 붙임 : 신청 안내문 1부. 끝.",
+      "discovered_from": "https://foodscience.yu.ac.kr/foodscience/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "뉴스 게시판목록 | 영남대학교 식품공학과",
+      "final_url": "https://foodscience.yu.ac.kr/foodscience/community/news.do",
+      "total": 15,
+      "pinned": 0,
+      "regular_first": 10,
+      "pages_checked": 2,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://graduate.yu.ac.kr/graduate/academics/roadmap.do",
+      "label": "학사안내",
+      "discovered_from": "https://graduate.yu.ac.kr/graduate/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "학위취득로드맵 | 영남대학교 일반대학원",
+      "final_url": "https://graduate.yu.ac.kr/graduate/academics/roadmap.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://graduate.yu.ac.kr/graduate/academics/scholarship.do",
+      "label": "장학안내Read more",
+      "discovered_from": "https://graduate.yu.ac.kr/graduate/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "장학 | 영남대학교 일반대학원",
+      "final_url": "https://graduate.yu.ac.kr/graduate/academics/scholarship.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://gsart.yu.ac.kr/gsart/notice/library.do",
+      "label": "자료실",
+      "discovered_from": "https://gsart.yu.ac.kr/gsart/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "자료실 게시판목록 | 영남대학교 문화예술디자인대학원",
+      "final_url": "https://gsart.yu.ac.kr/gsart/notice/library.do",
+      "total": 17,
+      "pinned": 0,
+      "regular_first": 10,
+      "pages_checked": 2,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://gsart.yu.ac.kr/gsart/notice/news.do",
+      "label": "공지사항",
+      "discovered_from": "https://gsart.yu.ac.kr/gsart/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "News 게시판목록 | 영남대학교 문화예술디자인대학원",
+      "final_url": "https://gsart.yu.ac.kr/gsart/notice/news.do",
+      "total": 202,
+      "pinned": 0,
+      "regular_first": 10,
+      "pages_checked": 2,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://gsart.yu.ac.kr/gsart/notice/promotion-video.do",
+      "label": "홍보영상",
+      "discovered_from": "https://gsart.yu.ac.kr/gsart/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "홍보영상 게시판목록 | 영남대학교 문화예술디자인대학원",
+      "final_url": "https://gsart.yu.ac.kr/gsart/notice/promotion-video.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://gsbapa.yu.ac.kr/gsbapa/ceo/notice.do",
+      "label": "활동사진",
+      "discovered_from": "https://gsbapa.yu.ac.kr/gsbapa/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "최고경영자과정 > 활동사진 게시판목록 | 영남대학교 경영행정대학원",
+      "final_url": "https://gsbapa.yu.ac.kr/gsbapa/ceo/notice.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://gsbapa.yu.ac.kr/gsbapa/scholarship/scholarship-guide.do",
+      "label": "장학안내",
+      "discovered_from": "https://gsbapa.yu.ac.kr/gsbapa/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "장학안내 | 영남대학교 경영행정대학원",
+      "final_url": "https://gsbapa.yu.ac.kr/gsbapa/scholarship/scholarship-guide.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://honors.yu.ac.kr/honors/bachelor/academic.do",
+      "label": "학사안내",
+      "discovered_from": "https://honors.yu.ac.kr/honors/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "학사안내 전체목록 | 영남대학교 천마인재학부",
+      "final_url": "https://honors.yu.ac.kr/honors/bachelor/academic.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://honors.yu.ac.kr/honors/intro/fund-announcement.do",
+      "label": "발전기금",
+      "discovered_from": "https://honors.yu.ac.kr/honors/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "발전기금 안내 | 영남대학교 천마인재학부",
+      "final_url": "https://honors.yu.ac.kr/honors/intro/fund-announcement.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://honors.yu.ac.kr/honors/scholarship/scholarship.do",
+      "label": "장학안내",
+      "discovered_from": "https://honors.yu.ac.kr/honors/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "장학안내 | 영남대학교 천마인재학부",
+      "final_url": "https://honors.yu.ac.kr/honors/scholarship/scholarship.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://hort.yu.ac.kr/hort/bachelor/college-life.do",
+      "label": "학사안내",
+      "discovered_from": "https://hort.yu.ac.kr/hort/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "대학생활 | 영남대학교 원예생명과학과",
+      "final_url": "https://hort.yu.ac.kr/hort/bachelor/college-life.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://ice.yu.ac.kr/ice/board/sportlight.do",
+      "label": "교육부 BK21 혁신인재양성사업 인공지능 분야 추가 선정 AIMS(AI·IoT·Mobility·Security) 기반 지역 산업 맞춤형 AI 혁신 교육·연구 추진 디지털 전환·미래산업 경쟁력 견인할 핵심 연구 인재 양성 허브로 도약 [2025-11-18] 영남대학교(총장 최외출) ‘ICT 인공지능 융합 혁신인재양성 교육연구단’이 교육부와 한국연구재단이 추진하는 4단계 BK21 혁신인재양성사업 인공지능 분야 교육연구단에 새롭게 추가 선정 되었다. 산업 전반에서 AI 기술을 활용한 지능형 소프트웨어와 대규모 언어기술 수요가 급증함에 따라, 교육부는 올해 인공지능 분야 교육연구단을 기존 13개에서 17개로 확대했다. 이번 선정으로 영남대는 2027년까지 BK21 사업비를 기반으로 대학원생 연구장학금, 신진 연구인력 인건비, 국제 공동연구, 산학협력 기반 프로그램 등을 집중 지원받게 된다. 영남대 ICT 인공지능 융합 혁신인재양성 교육연구단은 AIMS(AI·IoT·Mobility·Security) 기반의 융합 기술을 중심으로 지역 산업의 미래를 이끌 고급 AI 인재를 양성한다. 연구단은 최근까지 다수의 논문, 특허, 기술이전 성과를 축적해 온 8명의 교수진으로 구성되어 있으며, 최규상 단장(컴퓨터학부 교수)은 SCI 논문 100편 이상을 발표하는 등 세계적으로 인정받는 연구 역량을 갖춘 전문가다. 또한 영남대는 대학원 교과과정을 기초–AI기초–AI심화–전공심화–산학특화의 5단계 체계로 전면 개편했다. 여기에 산업체 제안 기반 PBL(Project-Based Learning) 및 캡스톤 연구를 중심으로 실무형 교육을 강화하고, Valeo, LIG넥스원 등과 연계한 맞춤형 산학 트랙을 운영해 현장 수요 기반의 AI 교육을 강화한다. 이번 영남대의 BK21 추가 선정을 계기로, 대구·경북의 자동차부품, 제조업 중심 산업을 전기차, 자율주행, 스마트 제조 중심의 미래형 산업으로 전환하는 데 핵심이 될 고급 AI 인재 양성의 기반을 마련했다는 점에서 큰 의미가 있다. 영남대는 지역 산업의 디지털 전환(DX)을 선도하며 국가적 AI 경쟁력 강화에도 기여할 것으로 기대된다. 최규상 ICT 인공지능 융합 혁신인재양성 교육연구단장은 “이번 BK21 추가 선정은 영남대학교가 지역의 미래 산업을 책임질 AI 전문 인재 양성의 중심 기관임을 다시 한 번 인정받은 결과다. 대구·경북의 산업 구조 전환과 국가적 AI 경쟁력 강화를 이끌 수 있도록 실질적인 교육 프로그램 개발과 연구 성과 확산에 최선을 다하겠다”고 말했다. 한편, 영남대학교는 2020년 4단계 BK21 사업 선정 이후 화공, 미래자동차, 에너지, 바이오·신약, 신소재, 문화유산 등 다양한 분야에서 교육연구단을 운영하며 연구중심 대학으로서의 경쟁력을 강화해왔다. 현재도 다수의 BK21 교육연구단이 교육혁신과 지역 산업 발전에 기여하는 연구 인재 양성에 집중하고 있으며, 이번 인공지능 분야 추가 선정을 통해 융합형 고급 연구인력 양성 체계가 한층 더 강화될 전망이다.",
+      "discovered_from": "https://ice.yu.ac.kr/ice/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "게시판 > 학과소식 게시판목록 | 영남대학교 컴퓨터학부 정보통신공학전공",
+      "final_url": "https://ice.yu.ac.kr/ice/board/sportlight.do",
+      "total": 48,
+      "pinned": 0,
+      "regular_first": 10,
+      "pages_checked": 2,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://ice.yu.ac.kr/ice/guide/learning.do",
+      "label": "Major of Information & Communication Engineering 네트워크·보안,인공지능,차세대통신·IoT,모바일임베디드,소프트웨어에 특화된 IT 전문가 양성",
+      "discovered_from": "https://ice.yu.ac.kr/ice/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "뭘배우나요? | 영남대학교 컴퓨터학부 정보통신공학전공",
+      "final_url": "https://ice.yu.ac.kr/ice/guide/learning.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://im.yu.ac.kr/im/bachelor/entrance-faq.do",
+      "label": "입학&학사안내",
+      "discovered_from": "https://im.yu.ac.kr/im/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "입학 FAQ 게시판목록 | 영남대학교 산업경영학과",
+      "final_url": "https://im.yu.ac.kr/im/bachelor/entrance-faq.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://ims.yu.ac.kr/ims/notice/data.do",
+      "label": "자료실",
+      "discovered_from": "https://ims.yu.ac.kr/ims/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "공지사항 > 자료실 게시판목록 | 영남대학교 의과학연구소",
+      "final_url": "https://ims.yu.ac.kr/ims/notice/data.do",
+      "total": 5,
+      "pinned": 0,
+      "regular_first": 5,
+      "pages_checked": 1,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://iore.yu.ac.kr/iore/notice/links.do",
+      "label": "관련사이트",
+      "discovered_from": "https://iore.yu.ac.kr/iore/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "관련사이트 | 영남대학교 지역경제연구소",
+      "final_url": "https://iore.yu.ac.kr/iore/notice/links.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://itenglish.yu.ac.kr/main/bachelor/bachelor-guide.do",
+      "label": "학사안내 게시판",
+      "discovered_from": "https://itenglish.yu.ac.kr/itenglish/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "학사안내 게시판목록 | 영남대학교",
+      "final_url": "https://itenglish.yu.ac.kr/main/bachelor/bachelor-guide.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://japan.yu.ac.kr/japan/grad/grad-scholarship.do",
+      "label": "장학안내",
+      "discovered_from": "https://japan.yu.ac.kr/japan/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "장학안내 | 영남대학교 일어일문학과",
+      "final_url": "https://japan.yu.ac.kr/japan/grad/grad-scholarship.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://japan.yu.ac.kr/japan/intro/scholarship.do",
+      "label": "장학안내",
+      "discovered_from": "https://japan.yu.ac.kr/japan/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "장학안내 | 영남대학교 일어일문학과",
+      "final_url": "https://japan.yu.ac.kr/japan/intro/scholarship.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://korean.yu.ac.kr/apply/board/notice.do",
+      "label": "더보기",
+      "discovered_from": "https://korean.yu.ac.kr/korean/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "공지사항 게시판목록 | CMS 관리자 지원 홈페이지",
+      "final_url": "https://korean.yu.ac.kr/apply/board/notice.do",
+      "reason": "공지 제목 또는 원문 링크가 없습니다.",
+      "exclusion_reason": "administration-site"
+    },
+    {
+      "url": "https://korean.yu.ac.kr/korean/notice/schedule.do",
+      "label": "공지사항",
+      "discovered_from": "https://korean.yu.ac.kr/korean/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "공지사항 > 학사일정 게시판목록 | 영남대학교 국어국문학과",
+      "final_url": "https://korean.yu.ac.kr/korean/notice/schedule.do",
+      "total": 3,
+      "pinned": 2,
+      "regular_first": 3,
+      "pages_checked": 1,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://koreanedu.yu.ac.kr/koreanedu/board/department-free-board.do",
+      "label": "[장소 확정] TOPIK 3급 대비 특강반 장소 및 시간 공지 09-10",
+      "discovered_from": "https://koreanedu.yu.ac.kr/koreanedu/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "자유게시판 게시판목록 | 영남대학교 국제한국어교육전공",
+      "final_url": "https://koreanedu.yu.ac.kr/koreanedu/board/department-free-board.do",
+      "reason": "공지 제목 또는 원문 링크가 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://loveyu.yu.ac.kr/loveyu/intro/fund-announcement.do",
+      "label": "기금안내",
+      "discovered_from": "https://loveyu.yu.ac.kr/loveyu/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "발전기금 전체보기 | 영남대학교 발전기금",
+      "final_url": "https://loveyu.yu.ac.kr/loveyu/intro/fund-announcement.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://math.yu.ac.kr/main/bachelor/bachelor-guide.do",
+      "label": "학사안내",
+      "discovered_from": "https://math.yu.ac.kr/math/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "학사안내 게시판목록 | 영남대학교",
+      "final_url": "https://math.yu.ac.kr/main/bachelor/bachelor-guide.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://mathedu.yu.ac.kr/mathedu/info/academic.do",
+      "label": "학사안내",
+      "discovered_from": "https://mathedu.yu.ac.kr/mathedu/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "정보게시판 > 학사안내 게시판목록 | 영남대학교 수학교육과",
+      "final_url": "https://mathedu.yu.ac.kr/mathedu/info/academic.do",
+      "total": 2,
+      "pinned": 0,
+      "regular_first": 2,
+      "pages_checked": 1,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://mbt.yu.ac.kr/mbt/bachelor/calendar.do",
+      "label": "학사안내",
+      "discovered_from": "https://mbt.yu.ac.kr/mbt/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "대학 학사일정 게시판목록 | 영남대학교 의생명공학과",
+      "final_url": "https://mbt.yu.ac.kr/mbt/bachelor/calendar.do",
+      "reason": "게시일 영역을 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://me.yu.ac.kr/me/notice/qna.do",
+      "label": "Q&A",
+      "discovered_from": "https://me.yu.ac.kr/me/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "Q&A 게시판목록 | 영남대학교 기계공학부",
+      "final_url": "https://me.yu.ac.kr/me/notice/qna.do",
+      "total": 1,
+      "pinned": 0,
+      "regular_first": 1,
+      "pages_checked": 1,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://mse.yu.ac.kr/mse/bachelor/scholarship.do",
+      "label": "<2027-1학기 신소재공학부 장학사정> 1. 선발 기준 가. 성적, 공인어학성적점수 충족여부, 비교과프로그램 참여여부를 장학사정에 반영함. 나. 비율은 성적 80% + 공인어학성적 충족 10% + 비교과프로그램 참여 10% 로 환산 계산하여, 환산점수 상위 순(석차순) 으로 선발함. 다. 1학년 학생은 신소재입문을 수강한 경우에 한하여 장학사정 대상자로 인정함. 라. 신소재공학부 장학사정 기준 외의 사항은 \"영남대학교 학업성적 우수 장학금 선발기준\" 을 따름. 2. 항목별 상세 기준 가. 성적 1) 직전학기(2026-2) 과락(F)없이 12학점 이상 취득하고, 학업성적 평점평균이 B(3.0) 이상인 자 중에서 선정 지급함. 2) 직전학기(2026-2) PASS학점이 6학점을 초과할 경우 선발에서 제외함. 3) 계절학기 성적은 장학사정에 반영되지 않음. 나. 공인어학성적 (TOEIC, TOEIC SPEAKING, OPIC 가능) [공인어학성적 충족기준표] 1학년 2학년 3학년 4학년 TOEIC 450 (모의토익 가능) 500 550 600 TOEIC SPEAKING 90 100 110 120 OPIC NH NH IL IL * 어학성적은 제출 시점의 재학 학년을 기준으로 함. 1) 제출방법: URP에 등록 후 검증 절차를 거쳐 “승인” 완료된 성적만 인정함. 제출경로: URP → YUCAN → YUCAN등록 탭 → 성적 입력 및 성적표 첨부 → 저장 및 발송 → 검증 후 승인 (외부업체 및 진로취업지원팀, 검증 월 1회 실시 및 승인까지 약 2주 소요) - 본인이 입력한 공인어학성적 정보와 성적표 파일이 (화면 캡쳐는 증빙 불가) 일치하여야 승인 가능 2) 1학년의 경우, 모의토익 성적도 공인어학성적으로 인정함. - 모의토익은 URP 시스템 상 승인처리가 불가능하므로 \"발송\" 상태를 인정 기준으로 하되, 추후 모의토익 성적표 취합 시 성적표 제출 필수 3) 공인어학성적은 이전에 입력하였던 성적이더라도, 매 학기 URP에 다시 입력- 발송하여야 함. 4) 어학성적은 시험 응시일 기준 2년 이내 성적만 유효하며, 2025. 2. 1. 이후 응시한 성적만 인정함. 다. 비교과프로그램 참여 (유토피아, 어울림, 신소재공학부 비교과프로그램 中 1건 이상) 1) 제출방법: 비교과프로그램 참여 후 네이버폼에 입력 (네이버폼에 입력한 내역만 인정함.) - 유토피아, 어울림을 통해 참여한 비교과프로그램의 경우 교육이수증, 수료증 첨부 필수 - 신소재공학부 비교과프로그램의 경우, 네이버 폼에 교육이수증, 수료증 첨부 필요없음. (학부에서 행사 참석자명단 대조) * 학부 프로그램은 홈페이지 및 인스타그램에 공지된 프로그램을 대상으로 함. 2) 비교과프로그램은 2026-하계방학기간 ~ 2026-2학기 종강 이전 참여한 프로그램 (2026.06.20.~2026.12.18.)에 한해 인정 3) 네이버폼 작성 링크: https://naver.me/xB7kH6yq 3. 제출기한 가. 공인어학성적 URP 발송 기한 : 2026.09.01. - 2026.12.31. 나. 비교과프로그램 네이버폼 제출 기한: 2026.09.01. - 2026.12.31. 4. 문의사항은 학부사무실(053-810-2470) 장학사정 관련 FAQ Q1. 장학금 신청은 어떻게 하나요? A1. 교비성적우수장학금의 경우 별도의 신청 절차는 없습니다. 직전 학기 성적 기준을 충족하는 학생을 대상으로 장학사정을 진행하며, 예산 및 인원 배정에 따라 상위 순으로 선정하여 지급합니다. (2. 항목 별 상세기준 - 가. 성적 참조) Q2. 환산 점수가 같을 경우 환산 석차는 어떻게 결정되나요? A2. 환산 점수가 동점일 경우, 직전 학기(2026-2) 취득학점이 높은 학생이 상위 석차가 됩니다. Q3. 공인어학성적 및 비교과프로그램 점수는 어떻게 부여되나요? A3. 공인어학성적은 충족 기준을 달성하면 10점이 부여되며, 미충족 시에는 0점입니다. 비교과 프로그램은 참여 후 네이버폼에 입력 - 해당 내용 검토 후 이상이 없으면 10점이 부여됩니다. 만약 비교과프로그램에 참여했더라도 네이버폼에 입력하지 않으면 인정이 불가하오니, 반드시 네이버폼 입력까지 완료하시기 바랍니다. Q4. 공인어학성적 승인은 언제 되나요? A4. 공인어학성적은 URP 발송 이후 외부업체 및 진로취업지원팀의 검증 절차를 거쳐 승인 처리됩니다. 또한, 제출 기한 내 URP ‘발송’이 완료되더라도, 검증 과정에서 반려될 수 있으며 최종 인정은 ‘승인 완료’된 성적에 한하여 가능합니다. 반려된 경우 기한 내 재입력·재발송이 완료되지 않으면 인정이 불가하므로, 검증 소요 기간을 고려하여 가급적 조기에 입력·발송하시기 바랍니다. 본인의 부주의로 인한 반려, 지연 제출, 기한 경과 후 재입력 불가 등으로 발생하는 불이익에 대해서는 학부사무실에서 책임지지 않습니다. 제출 전 성적을 정확히 입력하였는지, 올바른 성적표를 첨부하였는지 반드시 확인하시기 바랍니다. Q5. 1학년은 「신소재입문」을 수강해야 장학사정 대상이 되나요? A5. 2027학년도 1학기 장학사정부터 1학년 학생은 「신소재입문」을 수강한 경우에 한하여 장학사정 대상자로 인정합니다. 「신소재입문」은 2학기 개설 과목이므로, 직전학기(2학기)에 해당 과목이 개설되는 1학기 장학사정에 한하여 적용합니다.",
+      "discovered_from": "https://mse.yu.ac.kr/mse/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "장학 게시판목록 | 영남대학교 신소재공학부",
+      "final_url": "https://mse.yu.ac.kr/mse/bachelor/scholarship.do",
+      "total": 69,
+      "pinned": 1,
+      "regular_first": 10,
+      "pages_checked": 2,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://mti.yu.ac.kr/mti/notice/lab-schedule.do",
+      "label": "연구소일정",
+      "discovered_from": "https://mti.yu.ac.kr/mti/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "알림마당 > 연구소일정 게시판목록 | 영남대학교 재료기술연구소",
+      "final_url": "https://mti.yu.ac.kr/mti/notice/lab-schedule.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://mti.yu.ac.kr/mti/notice/news.do",
+      "label": "알림마당",
+      "discovered_from": "https://mti.yu.ac.kr/mti/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unverified",
+      "title": "알림마당 > 연구소소식 게시판목록 | 영남대학교 재료기술연구소",
+      "final_url": "https://mti.yu.ac.kr/mti/notice/news.do",
+      "reason": "empty-board",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://mti.yu.ac.kr/mti/notice/photo-gallery.do",
+      "label": "포토갤러리",
+      "discovered_from": "https://mti.yu.ac.kr/mti/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "알림마당 > 포토갤러리 게시판목록 | 영남대학교 재료기술연구소",
+      "final_url": "https://mti.yu.ac.kr/mti/notice/photo-gallery.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://pa.yu.ac.kr/pa/bachelor/curriculum.do",
+      "label": "학사안내",
+      "discovered_from": "https://pa.yu.ac.kr/pa/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "교육과정 | 영남대학교 행정학과",
+      "final_url": "https://pa.yu.ac.kr/pa/bachelor/curriculum.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://phil.yu.ac.kr/phil/notice/promotion-video.do",
+      "label": "홍보영상",
+      "discovered_from": "https://phil.yu.ac.kr/phil/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "홍보영상 게시판목록 | 철학과",
+      "final_url": "https://phil.yu.ac.kr/phil/notice/promotion-video.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://police.yu.ac.kr/police/bachelor/curriculum.do",
+      "label": "학사안내",
+      "discovered_from": "https://police.yu.ac.kr/police/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "교육과정 | 영남대학교 경찰행정학과",
+      "final_url": "https://police.yu.ac.kr/police/bachelor/curriculum.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://psy.yu.ac.kr/psy/notice/calendar.do",
+      "label": "학과일정계획표",
+      "discovered_from": "https://psy.yu.ac.kr/psy/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "공지사항/게시판 > 학과일정계획표 게시판목록 | 영남대학교 심리학과",
+      "final_url": "https://psy.yu.ac.kr/psy/notice/calendar.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://psy.yu.ac.kr/psy/notice/faq.do",
+      "label": "Q&A",
+      "discovered_from": "https://psy.yu.ac.kr/psy/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "공지사항 > FAQ 게시판목록 | 영남대학교 심리학과",
+      "final_url": "https://psy.yu.ac.kr/psy/notice/faq.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://psy.yu.ac.kr/psy/notice/free-board.do",
+      "label": "자유게시판",
+      "discovered_from": "https://psy.yu.ac.kr/psy/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unverified",
+      "title": "공지사항 > 자유게시판 게시판목록 | 영남대학교 심리학과",
+      "final_url": "https://psy.yu.ac.kr/psy/notice/free-board.do",
+      "reason": "empty-board",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://psy.yu.ac.kr/psy/notice/gallery.do",
+      "label": "포토갤러리",
+      "discovered_from": "https://psy.yu.ac.kr/psy/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "공지사항 > 포토갤러리 게시판목록 | 영남대학교 심리학과",
+      "final_url": "https://psy.yu.ac.kr/psy/notice/gallery.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://psy.yu.ac.kr/psy/notice/promotion-video.do",
+      "label": "홍보영상",
+      "discovered_from": "https://psy.yu.ac.kr/psy/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "공지사항 > 홍보영상 게시판목록 | 영남대학교 심리학과",
+      "final_url": "https://psy.yu.ac.kr/psy/notice/promotion-video.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://psy.yu.ac.kr/psy/notice/qna.do",
+      "label": "더보기",
+      "discovered_from": "https://psy.yu.ac.kr/psy/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unverified",
+      "title": "공지사항 > Q&A 게시판목록 | 영남대학교 심리학과",
+      "final_url": "https://psy.yu.ac.kr/psy/notice/qna.do",
+      "reason": "empty-board",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://rise.yu.ac.kr/rise/board/performance.do",
+      "label": "경북도·5개 앵커 대학 공동 비전 선포…특화산업 인재 양성·산학협력 추진 지역 맞춤형 AI 융합교육 확대…글로벌·지역 기업과 산업현장 전환 지원 영남대학교(총장 최외출)가 경상북도 및 지역 대학들과 손잡고 미래 전략산업을 이끌어갈 공동 비전을 선포하며 지역과 대학의 동반성장 체계를 가동했다. 영남대는 15일 천마아트센터에서 ‘경북 전략산업 앵커 대학 비전선포식’을 개최했다. 이번 행사는 경북 전략산업 앵커 대학들이 각 대학의 특화 역량을 바탕으로 지역 전략산업 혁신을 선도하고, 대학·산업·지역 간 협력체계를 구축하기 위해 마련됐다. 이날 선포식에는 황명석 경상북도 행정부지사, 최외출 영남대 총장, 성한기 대구가톨릭대 총장, 윤재웅 대구대 총장, 최호성 경운대 부총장, 홍재표 경일대 부총장을 비롯해 권순태 경상북도인재평생교육재단 대표이사, 박대현 경상북도앵커센터 센터장, 하인성 경북테크노파크 원장, 윤칠석 경북IT융합산업기술원 원장, 유철균 경북연구원 원장 등 지자체·대학·유관기관 관계자들이 대거 참석했다. 참여 대학들은 AI, 미래항공모빌리티, 바이오 등 대학별 특화 분야를 중심으로 인재 양성과 산업 혁신을 연계하고, 대학 간 협력을 통해 성과를 경북 전역으로 확산한다는 공동 비전을 공유했다. 행사는 최외출 총장의 환영사와 황명석 행정부지사의 축사를 시작으로 공동 비전선포, 기조강연, 대학별 사업설명 순으로 이어졌다. 이 가운데 영남대는 ‘AI 분야 앵커 대학’으로서 지역 전략산업의 AI 대전환을 이끄는 거점 역할을 맡는다. 영남대는 연 50억 원씩 4년간 최대 200억 원의 사업비를 지원받아 AI 교육·산학협력·지역 확산을 아우르는 ‘AX 허브 대학’ 구축을 추진한다. 이를 위해 △지역 맞춤형 AI+X 인재 양성 △글로벌 기업 연계 AI 대전환 생태계 구축 △AI 가치확산 공유모델 구축을 핵심 축으로 설정했다. 영남대는 교육 전반에 AI를 접목해 현장 맞춤형 AI 융합 인재를 양성하는 한편, 글로벌 기업 및 지역 기업과의 협력을 확대해 산업 현장의 AI 전환을 적극 지원할 계획이다. 앞서 영남대는 생성형 AI 통합 플랫폼 ‘AI@YU’를 구축해 교육·연구·행정 전반의 AI 전환을 추진해 온 바 있으며, 이번 앵커 사업을 통해 이를 지역 전체로 확장한다는 방침이다. 황명석 경상북도 행정부지사는 축사를 통해 “인공지능 시대를 맞아 대학이 기업과 산업 현장에 필요한 실무 인재를 키우는 것이 중요하다”며 “청년들이 지역에서 배우고 일하며 성장할 수 있는 환경을 만들기 위해 5개 앵커 대학과 적극 협력하겠다”고 말했다. 최외출 영남대 총장은 “지역과 대학은 함께 성장하는 공동체이며 대학의 경쟁력이 곧 지역의 경쟁력”이라며 “이번 비전선포식을 계기로 각 대학의 특화 역량이 지역 산업과 연결되고 경북 전체의 성장동력으로 이어질 수 있도록 앵커 대학으로서 최선을 다하겠다”고 밝혔다. [경북일보] 기사 원문 https://www.kyongbuk.co.kr/news/articleView.html?idxno=4084466 김윤섭 기자",
+      "discovered_from": "https://rise.yu.ac.kr/rise/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "사업성과 > 주요성과 게시판목록 | 영남대학교 RISE사업단",
+      "final_url": "https://rise.yu.ac.kr/rise/board/performance.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://rise.yu.ac.kr/rise/board/press-reports.do",
+      "label": "7만평 의성 바이오밸리 중심 세포배양산업 생태계 구축 입주 예정 포함 9개 기업 유치… 전문인력 15명 지역 취업 대학·기업 공동 R&D로 핵심 소재·부품·장비 국산화 지원 교육→취업→정주 선순환… 경북 바이오산업 성장 기반 마련 지난해 경북 의성에서 '2025 세포배양 배지 심포지엄'이 열렸다. 영남대 제공 백신과 세포치료제부터 배양육까지 미래 바이오산업의 기반이 되는 세포배양 기술이 경북 의성의 새로운 성장동력으로 떠오르고 있다. 영남대학교가 대학의 연구·교육 역량을 지역 산업과 연결해 기업을 유치하고 전문인력을 키우면서 청년들이 지역에서 배우고 일하며 정착하는 선순환 구조 구축에 나서고 있다. 영남대는 경상북도의 '지역성장 인재양성체계(앵커)' 사업을 통해 의성군에 세포배양산업 기반을 구축하고 기업 유치와 전문인력 양성, 공동 연구개발(R＆D), 지역 정주를 연계한 지역성장 모델을 추진하고 있다. 세포배양 기술은 백신과 항체, 단백질, 세포치료제 등 바이오의약품뿐 아니라 배양육 생산에도 활용되는 바이오산업의 핵심 기반 기술이다. 국내에서는 세포와 배지, 용품·장비 등 핵심 요소 상당 부분을 해외 수입에 의존하고 있어 관련 소재·부품·장비의 국산화와 산업 생태계 구축이 과제로 꼽힌다. 영남대는 의성군이 약 7만평 규모로 조성하고 있는 '의성 바이오밸리 일반산업단지'를 중심으로 세포배양산업 생태계를 구축하고 있다. 2023년 단지 내 문을 연 경북세포배양산업지원센터에는 영남대 세포배양연구소 분원이 입주했으며, 현재 박사급 연구인력 2명이 상주하면서 입주 기업과 공동연구와 기술 지원을 진행하고 있다. 지역과의 협력은 10여년 전부터 시작됐다. 영남대 세포배양연구소는 2015년부터 지역 대학과 연구기관, 경북도, 의성군 등과 의성을 세포배양산업 거점으로 육성하기 위한 협력을 이어왔다. 2020년 교육부 중점연구소지원사업 선정을 계기로 연구 기반을 확대한 데 이어 앵커사업을 통해 기업 유치와 인재양성, 기업 연계 R＆D로 영역을 넓혔다. 기업 유치와 지역 인재 취업에서도 성과를 내고 있다. 지금까지 입주 예정 기업을 포함해 모두 9개 기업을 유치했으며, 기업 수요를 반영한 전문가 특강과 특수연구, 현장실습 등 실무교육을 통해 전문인력 15명이 지역 기업에 취업했다. 현재 학부생 7명도 세포배양 기술과 기업 맞춤형 직무교육을 받고 있다. 기업과 연계한 기술 개발도 추진한다. 세포뱅킹 시스템 구축을 비롯해 세포배양 신기술과 배지 개발, 배지 원료·첨가제 개발, 세포배양장치 성능 검증 등을 기업과 공동으로 진행하고 있다. 기업 제품 성능 테스트와 인공지능(AI) 기반 인비트로 분석 등 기업 수요에 맞춘 R＆D도 지원한다. 세포배양식품 규제자유특구와 푸드테크연구지원센터 등 국가 사업과의 연계도 추진하고 있다. 향후에는 '워라밸 복합문화센터(기숙사)'를 건립해 지역 기업에서 근무하는 인력의 정착을 지원하고, 의성 바이오밸리 입주 기업과 연계한 전문인력 공급 체계도 강화할 계획이다. 김승철 영남대 지역혁신사업본부장은 \"세포배양산업화단지 구축 사업은 청년이 지역에서 배우고 지역 기업에 취업해 정착하는 앵커사업의 목적을 대학과 산업 현장에서 구현하는 사업\"이라며 \"기업 수요 맞춤형 인재 양성과 공동 R＆D, 기업 유치를 지속해 경북을 세포배양산업의 거점으로 육성하겠다\"고 말했다. [기사 원문] 매일신문 https://www.imaeil.com/page/view/2026092309344113422 윤정훈 기자",
+      "discovered_from": "https://rise.yu.ac.kr/rise/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "사업성과 > 언론보도 게시판목록 | 영남대학교 RISE사업단",
+      "final_url": "https://rise.yu.ac.kr/rise/board/press-reports.do",
+      "total": 44,
+      "pinned": 0,
+      "regular_first": 10,
+      "pages_checked": 2,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://saram.yu.ac.kr/saram/notice/free-board.do",
+      "label": "자유게시판",
+      "discovered_from": "https://saram.yu.ac.kr/saram/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "공지사항 > 자유게시판 게시판목록 | 영남대학교 문화인류학과",
+      "final_url": "https://saram.yu.ac.kr/saram/notice/free-board.do",
+      "total": 497,
+      "pinned": 0,
+      "regular_first": 10,
+      "pages_checked": 2,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://scholar.yu.ac.kr/scholar/index.do",
+      "label": "장학안내",
+      "discovered_from": "https://mbt.yu.ac.kr/mbt/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "영남대학교 장학안내",
+      "final_url": "https://scholar.yu.ac.kr/scholar/index.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://scholar.yu.ac.kr/scholar/notice/form-board.do",
+      "label": "서식자료실",
+      "discovered_from": "https://scholar.yu.ac.kr/scholar/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "서식 게시판 게시판목록 | 영남대학교 장학안내",
+      "final_url": "https://scholar.yu.ac.kr/scholar/notice/form-board.do",
+      "total": 10,
+      "pinned": 0,
+      "regular_first": 10,
+      "pages_checked": 1,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://spe.yu.ac.kr/spe/board/bulletin-board.do",
+      "label": "(채용공고) - 가이던스 특수체육 운동발달센터",
+      "discovered_from": "https://spe.yu.ac.kr/spe/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "게시판 > 자유게시판 게시판목록 | 영남대학교 특수체육교육과",
+      "final_url": "https://spe.yu.ac.kr/spe/board/bulletin-board.do",
+      "total": 15,
+      "pinned": 0,
+      "regular_first": 10,
+      "pages_checked": 2,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://ss.yu.ac.kr/ss/major/intro.do",
+      "label": "학사안내",
+      "discovered_from": "https://ss.yu.ac.kr/ss/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "교육목표 | 영남대학교 소프트웨어보안전공",
+      "final_url": "https://ss.yu.ac.kr/ss/major/intro.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://ss.yu.ac.kr/ss/notice/qna.do",
+      "label": "Q&A",
+      "discovered_from": "https://ss.yu.ac.kr/ss/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unverified",
+      "title": "Q&A 게시판목록 | 영남대학교 소프트웨어보안전공",
+      "final_url": "https://ss.yu.ac.kr/ss/notice/qna.do",
+      "reason": "empty-board",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://sw.yu.ac.kr/sw/major/intro.do",
+      "label": "학사안내",
+      "discovered_from": "https://sw.yu.ac.kr/sw/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "교육목표 | 소프트웨어융합전공",
+      "final_url": "https://sw.yu.ac.kr/sw/major/intro.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://sw.yu.ac.kr/sw/notice/qna.do",
+      "label": "Q&A",
+      "discovered_from": "https://sw.yu.ac.kr/sw/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unverified",
+      "title": "Q&A 게시판목록 | 소프트웨어융합전공",
+      "final_url": "https://sw.yu.ac.kr/sw/notice/qna.do",
+      "reason": "empty-board",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://trade.yu.ac.kr/trade/grad/admission.do",
+      "label": "입학및장학안내",
+      "discovered_from": "https://trade.yu.ac.kr/trade/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "입학및장학안내 | 영남대학교 무역학부",
+      "final_url": "https://trade.yu.ac.kr/trade/grad/admission.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://vd.yu.ac.kr/vd/community/board.do",
+      "label": "공지사항",
+      "discovered_from": "https://vd.yu.ac.kr/vd/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "커뮤니티 > NEWS 게시판목록 | 영남대학교 시각디자인학과",
+      "final_url": "https://vd.yu.ac.kr/vd/community/board.do",
+      "total": 563,
+      "pinned": 2,
+      "regular_first": 10,
+      "pages_checked": 2,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://www.yu.ac.kr/main/bachelor/bachelor-guide.do",
+      "label": "학사안내",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "학사안내 게시판목록 | 영남대학교",
+      "final_url": "https://www.yu.ac.kr/main/bachelor/bachelor-guide.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://www.yu.ac.kr/main/bachelor/curriculum-guidelines.do",
+      "label": "학사안내",
+      "discovered_from": "https://education.yu.ac.kr/education/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "교육과정이수지침 | 영남대학교",
+      "final_url": "https://www.yu.ac.kr/main/bachelor/curriculum-guidelines.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://www.yu.ac.kr/main/bachelor/tuition-notice.do",
+      "label": "등록금고지서 출력",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "등록금고지서 출력 | 영남대학교",
+      "final_url": "https://www.yu.ac.kr/main/bachelor/tuition-notice.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://www.yu.ac.kr/scholar/notice/form-board.do",
+      "label": "서식자료실 자세히보기",
+      "discovered_from": "https://scholar.yu.ac.kr/scholar/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "서식 게시판 게시판목록 | 영남대학교 장학안내",
+      "final_url": "https://www.yu.ac.kr/scholar/notice/form-board.do",
+      "total": 10,
+      "pinned": 0,
+      "regular_first": 10,
+      "pages_checked": 1,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://www.yu.ac.kr/swedu/notice/major-schedule.do",
+      "label": "주요 일정",
+      "discovered_from": "https://www.yu.ac.kr/swedu/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "주요 일정 게시판목록 | 영남대학교 SW중심대학사업단",
+      "final_url": "https://www.yu.ac.kr/swedu/notice/major-schedule.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://www.yu.ac.kr/swedu/notice/news.do",
+      "label": "사업단 소식",
+      "discovered_from": "https://www.yu.ac.kr/swedu/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "사업단 소식 게시판목록 | 영남대학교 SW중심대학사업단",
+      "final_url": "https://www.yu.ac.kr/swedu/notice/news.do",
+      "total": 8,
+      "pinned": 0,
+      "regular_first": 8,
+      "pages_checked": 1,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://www.yu.ac.kr/swedu/notice/newsletter.do",
+      "label": "뉴스레터",
+      "discovered_from": "https://www.yu.ac.kr/swedu/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "뉴스레터 게시판목록 | 영남대학교 SW중심대학사업단",
+      "final_url": "https://www.yu.ac.kr/swedu/notice/newsletter.do",
+      "total": 3,
+      "pinned": 0,
+      "regular_first": 3,
+      "pages_checked": 1,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://www.yu.ac.kr/swedu/notice/press-release.do",
+      "label": "보도자료",
+      "discovered_from": "https://www.yu.ac.kr/swedu/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "보도자료 게시판목록 | 영남대학교 SW중심대학사업단",
+      "final_url": "https://www.yu.ac.kr/swedu/notice/press-release.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://yebigun.yu.ac.kr/yebigun/training/receiving-the-training-notice.do",
+      "label": "예비군훈련 통지서 수령",
+      "discovered_from": "https://yebigun.yu.ac.kr/yebigun/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "예비군훈련 통지서 수령 | 영남대학교 직장예비군연대",
+      "final_url": "https://yebigun.yu.ac.kr/yebigun/training/receiving-the-training-notice.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://yebigun.yu.ac.kr/yebigun/yebigun/announcement-of-moving.do",
+      "label": "예비군 전입 안내",
+      "discovered_from": "https://yebigun.yu.ac.kr/yebigun/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "예비군 전입 안내 | 영남대학교 직장예비군연대",
+      "final_url": "https://yebigun.yu.ac.kr/yebigun/yebigun/announcement-of-moving.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://yllc.yu.ac.kr/yllc/notice/news.do",
+      "label": "News",
+      "discovered_from": "https://yllc.yu.ac.kr/yllc/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "공지사항 > News 게시판목록 | 영남대학교 리걸클리닉",
+      "final_url": "https://yllc.yu.ac.kr/yllc/notice/news.do",
+      "total": 7,
+      "pinned": 0,
+      "regular_first": 7,
+      "pages_checked": 1,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://yllc.yu.ac.kr/yllc/notice/request.do",
+      "label": "신청게시판",
+      "discovered_from": "https://yllc.yu.ac.kr/yllc/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "로그인 | 영남대학교 포털시스템",
+      "final_url": "https://portal.yu.ac.kr/sso/login.jsp",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "login-required"
+    },
+    {
+      "url": "https://yucf.yu.ac.kr/yucf/notice/diet.do",
+      "label": "금주의식단",
+      "discovered_from": "https://yucf.yu.ac.kr/yucf/index.do",
+      "checked_at": "2026-10-11",
+      "status": "supported",
+      "title": "공지사항 > 금주의식단 게시판목록 | 영남대학교 편의시설",
+      "final_url": "https://yucf.yu.ac.kr/yucf/notice/diet.do",
+      "total": 1150,
+      "pinned": 0,
+      "regular_first": 10,
+      "pages_checked": 2,
+      "reason": "common-yu-board-verified",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://yuhistory.yu.ac.kr/yuhistory/bachelor/curriculum.do",
+      "label": "학사안내",
+      "discovered_from": "https://yuhistory.yu.ac.kr/yuhistory/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "교육과정 | 영남대학교 역사학과",
+      "final_url": "https://yuhistory.yu.ac.kr/yuhistory/bachelor/curriculum.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://yuhousing.yu.ac.kr/main/bachelor/calendar.do",
+      "label": "학사안내",
+      "discovered_from": "https://yuhousing.yu.ac.kr/yuhousing/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "대학 학사일정 게시판목록 | 영남대학교",
+      "final_url": "https://yuhousing.yu.ac.kr/main/bachelor/calendar.do",
+      "reason": "게시일 영역을 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://yulife.yu.ac.kr/yulife/credit-bank-prac/academic-schedule.do",
+      "label": "학사안내",
+      "discovered_from": "https://yulife.yu.ac.kr/yulife/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "학사일정 | 영남대학교 글로벌평생교육원",
+      "final_url": "https://yulife.yu.ac.kr/yulife/credit-bank-prac/academic-schedule.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://yulife.yu.ac.kr/yulife/credit-bank-weekend/academic-schedule.do",
+      "label": "학사안내",
+      "discovered_from": "https://yulife.yu.ac.kr/yulife/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "학사일정 | 영남대학교 글로벌평생교육원",
+      "final_url": "https://yulife.yu.ac.kr/yulife/credit-bank-weekend/academic-schedule.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://yulife.yu.ac.kr/yulife/credit-bank-weekend/recruit-notice-management.do",
+      "label": "모집공고",
+      "discovered_from": "https://yulife.yu.ac.kr/yulife/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "경영학 | 영남대학교 글로벌평생교육원",
+      "final_url": "https://yulife.yu.ac.kr/yulife/credit-bank-weekend/recruit-notice-management.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://yumc.yu.ac.kr/yumc/education/clinical-manual-center-notice.do",
+      "label": "임상수기센터",
+      "discovered_from": "https://yumc.yu.ac.kr/yumc/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "로그인 | 영남대학교 포털시스템",
+      "final_url": "https://portal.yu.ac.kr/sso/login.jsp",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "login-required"
+    },
+    {
+      "url": "https://yumc.yu.ac.kr/yumc/education/notice.do",
+      "label": "교육지원센터",
+      "discovered_from": "https://yumc.yu.ac.kr/yumc/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "로그인 | 영남대학교 포털시스템",
+      "final_url": "https://portal.yu.ac.kr/sso/login.jsp",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "login-required"
+    },
+    {
+      "url": "https://yumc.yu.ac.kr/yumc/intro/announcement-of-visual-acuity.do",
+      "label": "시신기증",
+      "discovered_from": "https://yumc.yu.ac.kr/yumc/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "시신기증 안내 | 영남대학교 의과대학",
+      "final_url": "https://yumc.yu.ac.kr/yumc/intro/announcement-of-visual-acuity.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://yumc.yu.ac.kr/yumc/intro/donation-announcement.do",
+      "label": "발전기금",
+      "discovered_from": "https://yumc.yu.ac.kr/yumc/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "기부 안내 | 영남대학교 의과대학",
+      "final_url": "https://yumc.yu.ac.kr/yumc/intro/donation-announcement.do",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://yumc.yu.ac.kr/yumc/life/life-notice.do",
+      "label": "대학생활",
+      "discovered_from": "https://yumc.yu.ac.kr/yumc/index.do",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "로그인 | 영남대학교 포털시스템",
+      "final_url": "https://portal.yu.ac.kr/sso/login.jsp",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "exclusion_reason": "login-required"
+    },
+    {
+      "url": "https://join.yu.ac.kr/front_new/index.php?g_page=intro&m_page=intro01",
+      "label": "학생성공처 학생성공처 소개 주요 프로그램 진로취업로드맵 공지사항",
+      "discovered_from": "https://join.yu.ac.kr/front_new/",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "영남대학교 취업정보 홈페이지 - 조직 및 업무",
+      "final_url": "https://join.yu.ac.kr/front_new/index.php?g_page=intro&m_page=intro01",
+      "reason": "different-board-format",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://book.yu.ac.kr/community/notice_view.html?no=42",
+      "label": "2학기 교재 구입 안내",
+      "discovered_from": "https://book.yu.ac.kr/main/index.html",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "영남대학교 출판부",
+      "final_url": "https://book.yu.ac.kr/community/notice_view.html?no=42",
+      "reason": "different-board-format",
+      "exclusion_reason": "individual-post"
+    },
+    {
+      "url": "https://book.yu.ac.kr/community/notice_view.html?no=41",
+      "label": "자비출판 신청",
+      "discovered_from": "https://book.yu.ac.kr/main/index.html",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "영남대학교 출판부",
+      "final_url": "https://book.yu.ac.kr/community/notice_view.html?no=41",
+      "reason": "different-board-format",
+      "exclusion_reason": "individual-post"
+    },
+    {
+      "url": "https://book.yu.ac.kr/community/notice_view.html?no=40",
+      "label": "영남대학교 출판부 이메일 안내",
+      "discovered_from": "https://book.yu.ac.kr/main/index.html",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "영남대학교 출판부",
+      "final_url": "https://book.yu.ac.kr/community/notice_view.html?no=40",
+      "reason": "different-board-format",
+      "exclusion_reason": "individual-post"
+    },
+    {
+      "url": "https://book.yu.ac.kr/community/notice_view.html?no=39",
+      "label": "언론출판문화원 출판 도서 대한민국학술원 ‘2025년 우수학술도서’ 지원 사업 선정",
+      "discovered_from": "https://book.yu.ac.kr/main/index.html",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "영남대학교 출판부",
+      "final_url": "https://book.yu.ac.kr/community/notice_view.html?no=39",
+      "reason": "different-board-format",
+      "exclusion_reason": "individual-post"
+    },
+    {
+      "url": "https://book.yu.ac.kr/community/notice_view.html?no=38",
+      "label": "언론출판문화원 출판 도서 (사)한국대학출판협회 ‘2025년 올해의 우수도서’ 선정",
+      "discovered_from": "https://book.yu.ac.kr/main/index.html",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "영남대학교 출판부",
+      "final_url": "https://book.yu.ac.kr/community/notice_view.html?no=38",
+      "reason": "different-board-format",
+      "exclusion_reason": "individual-post"
+    },
+    {
+      "url": "https://book.yu.ac.kr/community/notice_view.html?no=37",
+      "label": "언론출판문화원 출판 도서 ‘2025년 문학나눔보급도서’ 선정",
+      "discovered_from": "https://book.yu.ac.kr/main/index.html",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "영남대학교 출판부",
+      "final_url": "https://book.yu.ac.kr/community/notice_view.html?no=37",
+      "reason": "different-board-format",
+      "exclusion_reason": "individual-post"
+    },
+    {
+      "url": "https://irb.yu.ac.kr/05_edu/edu01.html",
+      "label": "교육공지",
+      "discovered_from": "https://irb.yu.ac.kr/?&year=",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "",
+      "final_url": "https://irb.yu.ac.kr/05_edu/edu01.html",
+      "reason": "different-board-format",
+      "exclusion_reason": "not-notice-board"
+    },
+    {
+      "url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=74",
+      "label": "영남대학교 생명윤리위원회 심의관련 및 e-IRB시스템 연구자 메뉴얼 안내..",
+      "discovered_from": "https://irb.yu.ac.kr/?&year=",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "",
+      "final_url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=74",
+      "reason": "different-board-format",
+      "exclusion_reason": "individual-post"
+    },
+    {
+      "url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=72",
+      "label": "e-IRB시스템 회원가입 및 온라인 생명윤리 교육관련 안내",
+      "discovered_from": "https://irb.yu.ac.kr/?&year=",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "",
+      "final_url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=72",
+      "reason": "different-board-format",
+      "exclusion_reason": "individual-post"
+    },
+    {
+      "url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=71",
+      "label": "연구자를 위한 연구계획서 작성법 교육자료 안내",
+      "discovered_from": "https://irb.yu.ac.kr/?&year=",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "",
+      "final_url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=71",
+      "reason": "different-board-format",
+      "exclusion_reason": "individual-post"
+    },
+    {
+      "url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=70",
+      "label": "2026학년도 생명윤리위원회 정규심의 일정 안내",
+      "discovered_from": "https://irb.yu.ac.kr/?&year=",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "",
+      "final_url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=70",
+      "reason": "different-board-format",
+      "exclusion_reason": "individual-post"
+    },
+    {
+      "url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=69",
+      "label": "2025학년도 생명윤리위원회 정규심의 일정 안내",
+      "discovered_from": "https://irb.yu.ac.kr/?&year=",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "",
+      "final_url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=69",
+      "reason": "different-board-format",
+      "exclusion_reason": "individual-post"
+    },
+    {
+      "url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=68",
+      "label": "[부재 안내] 2024.12.24. 13:00~17:00",
+      "discovered_from": "https://irb.yu.ac.kr/?&year=",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "",
+      "final_url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=68",
+      "reason": "different-board-format",
+      "exclusion_reason": "individual-post"
+    },
+    {
+      "url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=67",
+      "label": "[부재 안내] 2024.12.19. 14:00~17:00",
+      "discovered_from": "https://irb.yu.ac.kr/?&year=",
+      "checked_at": "2026-10-11",
+      "status": "unsupported",
+      "title": "",
+      "final_url": "https://irb.yu.ac.kr/04_brd/notice.html?Item=board7&No=67",
+      "reason": "different-board-format",
+      "exclusion_reason": "individual-post"
+    }
+  ],
+  "external_directory_links": [
+    {
+      "name": "병무청홈페이지",
+      "url": "https://www.mma.go.kr/index.do",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "동창회",
+      "url": "http://www.yn.or.kr",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "페이스북",
+      "url": "https://www.facebook.com/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "트위터",
+      "url": "https://twitter.com/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "네이버블로그",
+      "url": "https://section.blog.naver.com/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "카카오스토리",
+      "url": "https://accounts.kakao.com/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "경북글로벌교류센터",
+      "url": "https://ggec.happydorm.or.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "대경태양전지 지역혁신센터",
+      "url": "http://yuric.or.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "동창회",
+      "url": "http://www.yn.or.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "의료원",
+      "url": "http://yumc.ac.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "영천영대병원",
+      "url": "https://yumc.ac.kr:8443/yc/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "창업보육센터",
+      "url": "http://www.yubi.or.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "청년희망 Y-STAR PROJECT",
+      "url": "https://www.y-star.org/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "총학생회",
+      "url": "http://yuch.co.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "대학원총학생회",
+      "url": "http://yugd.or.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "총동아리 연합회",
+      "url": "http://www.yuclub.co.kr/",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "대학정보공시",
+      "url": "https://www.academyinfo.go.kr/popup/pubinfo1690/list.do?schlId=0000151",
+      "discovered_from": "https://www.yu.ac.kr/main/life/homepage.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "",
+      "url": "https://www.imaeil.com/page/view/2026061111332261010",
+      "discovered_from": "https://www.yu.ac.kr/main/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "인스타그램",
+      "url": "https://www.instagram.com/yustar1947/",
+      "discovered_from": "https://www.yu.ac.kr/main/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "페이스북",
+      "url": "https://www.facebook.com/yu1947",
+      "discovered_from": "https://www.yu.ac.kr/main/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "블로그",
+      "url": "https://blog.naver.com/ynuniv",
+      "discovered_from": "https://www.yu.ac.kr/main/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "유튜브",
+      "url": "https://www.youtube.com/YeungnamUniversity",
+      "discovered_from": "https://www.yu.ac.kr/main/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "facebook “네팔에 희망을 전해요!” 영남대, 지구촌 이웃과 함께하는 나눔 실천 10월 2일까지 네팔... 2026.09.23",
+      "url": "https://www.facebook.com/558054676362977/posts/1514333730735062",
+      "discovered_from": "https://www.yu.ac.kr/main/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "facebook 영남대, ‘차세대 배터리’ 원천기술 개발…상용화 성큼 화학과 강미숙 교수팀, 계면공학(In... 2026.09.23",
+      "url": "https://www.facebook.com/558054676362977/posts/1514332954068473",
+      "discovered_from": "https://www.yu.ac.kr/main/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "facebook 영남대, 우즈베키스탄 고위공무원 초청 연수…‘HRD·새마을학’으로 개도국 행정 혁신 이끈다... 2026.09.23",
+      "url": "https://www.facebook.com/558054676362977/posts/1514331814068587",
+      "discovered_from": "https://www.yu.ac.kr/main/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "facebook 영남대, 과기부 ‘AI최고급신진연구자지원사업’ 선정 ‘지역 산학협력 기반 제조특화 휴머노이... 2026.09.23",
+      "url": "https://www.facebook.com/558054676362977/posts/1514330924068676",
+      "discovered_from": "https://www.yu.ac.kr/main/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "insta 정들었던 교정을 떠나 세상을 향해 위풍당당하게 첫발을 내딛는 영남대학교 졸업생 여러분, 졸... 2026.09.01",
+      "url": "https://www.instagram.com/reel/DcvKDOSTSNc/",
+      "discovered_from": "https://www.yu.ac.kr/main/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "insta 겨울에 만든 김치가 딱 떨어지는 한여름, 신선한 김치가 더욱 절실한 이웃들을 위해 영남대학... 2026.08.31",
+      "url": "https://www.instagram.com/reel/DcsjQt5z75D/",
+      "discovered_from": "https://www.yu.ac.kr/main/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "insta 연이은 폭염 속에서도 영남대학교의 발전과 환자 치료를 위해 묵묵히 헌신해 주시는 분들이 있... 2026.08.25",
+      "url": "https://www.instagram.com/reel/DccUrbuzPW2/",
+      "discovered_from": "https://www.yu.ac.kr/main/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "insta ⠀ 영남대 학생들이 이번 여름방학에 꼭 이루고 싶은 진짜 목표는 무엇일까요? 치열한 '갓생... 2026.08.05",
+      "url": "https://www.instagram.com/reel/Dbo7KRkT_Y4/",
+      "discovered_from": "https://www.yu.ac.kr/main/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "http://www.ynmin.net/",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "홈페이지 바로가기",
+      "url": "http://www.kribd.kr/web/",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "S2journal(학술지 통합관리)",
+      "url": "http://s2journal.bwise.kr",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "WIPS ON(온라인 특허검색)",
+      "url": "https://www.wipson.com/service/mai/main.wips",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "https://www.hrd4u.or.kr/champ",
+      "url": "https://www.hrd4u.or.kr/champ",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/centerbusiness-team.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "",
+      "url": "http://gbcn",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/centerbusiness-team.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "https://gburc.or.kr",
+      "url": "https://gburc.or.kr/",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/centerbusiness-team.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "http://ccfsm.foodnara.go.kr/daegudonggu",
+      "url": "http://ccfsm.foodnara.go.kr/ daegudonggu/",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/centerbusiness-team.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "http://www.gtep.or.kr",
+      "url": "http://www.gtep.or.kr",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/centerbusiness-team.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "http://www.yubi.or.kr",
+      "url": "http://www.yubi.or.kr",
+      "discovered_from": "https://www.yu.ac.kr/rnd/introduction/centerbusiness-team.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "교육부",
+      "url": "https://www.moe.go.kr/",
+      "discovered_from": "https://rise.yu.ac.kr/rise/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "경상북도",
+      "url": "https://www.gb.go.kr/",
+      "discovered_from": "https://rise.yu.ac.kr/rise/index.do",
+      "status": "outside-initial-domain-scope"
+    },
+    {
+      "name": "경상북도RISE센터",
+      "url": "https://www.gbrise.or.kr/",
+      "discovered_from": "https://rise.yu.ac.kr/rise/index.do",
+      "status": "outside-initial-domain-scope"
+    }
+  ]
+}

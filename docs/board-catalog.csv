@@ -1,0 +1,273 @@
+﻿id,category,organization,name,status,url,aliases,reason,checked_at
+yu_b38a6145887a,단과대학,경영대학,공지사항,supported,https://sob.yu.ac.kr/sob/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_7108d1e9ffe6,단과대학,경영대학,국제교류 > 국제교류공지사항,supported,https://sob.yu.ac.kr/sob/exchange/notice.do,,common-yu-board-verified,2026-10-11
+yu_d019d02880d1,단과대학,공과대학,커뮤니티 > 공지사항,supported,https://eng.yu.ac.kr/eng/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_71c325286411,단과대학,글로벌인재대학,공지사항,supported,https://gl.yu.ac.kr/gl/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_3c1d1b2e3ea1,단과대학,디지털융합대학,게시판 > 공지사항,supported,https://ai.yu.ac.kr/digital/board/notice.do,https://appliedsw.yu.ac.kr/digital/board/notice.do | https://asw.yu.ac.kr/digital/board/notice.do | https://digital.yu.ac.kr/digital/board/notice.do,common-yu-board-verified,2026-10-11
+yu_fcdc790ea2e8,단과대학,사범대학,공지사항,supported,https://education.yu.ac.kr/education/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_6395ee373f71,단과대학,사회과학대학,커뮤니티 > 공지사항,supported,https://politics.yu.ac.kr/politics/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_a466f6906fe4,단과대학,생명응용과학대학,커뮤니티 > 공지사항,supported,https://life.yu.ac.kr/life/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_6609d57dd635,단과대학,생활과학대학,커뮤니티 > 공지사항,supported,https://chek.yu.ac.kr/chek/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_c06d1da34fa0,단과대학,약학대학,커뮤니티 > 공지사항,supported,https://pharm.yu.ac.kr/pharm/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_b5e2eaf92aee,단과대학,예술대학,공지사항,supported,https://arts.yu.ac.kr/arts/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_c0ed48e4b1e6,단과대학,예술대학,실기(경연)대회 > 공지사항,supported,https://arts.yu.ac.kr/arts/contest/notice-art.do,,common-yu-board-verified,2026-10-11
+yu_b6129eb832cf,단과대학,예술대학,음악경연대회 > 공지사항,supported,https://arts.yu.ac.kr/arts/contest/notice-music.do,,common-yu-board-verified,2026-10-11
+yu_e8c044137410,단과대학,예술대학,전시안내,supported,https://arts.yu.ac.kr/arts/community/exhibition-guide.do,,common-yu-board-verified,2026-10-11
+yu_1cd0fc553302,단과대학,의과대학,공지사항,supported,https://yumc.yu.ac.kr/yumc/notice/notice-board.do,,common-yu-board-verified,2026-10-11
+yu_786e87864a67,단과대학,의과대학,대학생활 > 학생 생활관 > 커뮤니티 > 공지사항(생활관),supported,https://yumc.yu.ac.kr/yumc/life/notice-residence-hall.do,,common-yu-board-verified,2026-10-11
+yu_d73767b3c2e1,단과대학,의과대학,연구 > 공지사항,supported,https://yumc.yu.ac.kr/yumc/support/notice.do,,common-yu-board-verified,2026-10-11
+yu_4aceb677afe1,단과대학,의과대학,학생회 > 공지사항,unverified,https://yumc.yu.ac.kr/yumc/life/student-council-notice.do,,empty-board,2026-10-11
+yu_6b4e7c4ddc47,단과대학,인문대학,게시판 > 공지사항,supported,https://liberalart.yu.ac.kr/liberalart/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_a25a35a4f25b,단과대학,인문대학,인문사업단 > 공지사항,supported,https://liberalart.yu.ac.kr/liberalart/business/notice.do,,common-yu-board-verified,2026-10-11
+yu_198391d5b8d7,단과대학,자연과학대학,공지사항,supported,https://sci.yu.ac.kr/sci/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_f672fdbabf77,대학원,경영행정대학원,공지사항 > 경영행정대학원,supported,https://gsbapa.yu.ac.kr/gsbapa/notice/gsbapa.do,,common-yu-board-verified,2026-10-11
+yu_293ac87c97ec,대학원,공학대학원,공지사항,supported,https://gsist.yu.ac.kr/gsist/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_fc784fa699ec,대학원,교육대학원,게시판 > 공지사항,supported,https://edu.yu.ac.kr/edu/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_349555f7345b,대학원,교육대학원,공지사항,unverified,http://edu.yu.ac.kr/indexSub.jsp?linkUrl=5_1.html,,HTTP Error 404: Not Found,2026-10-11
+yu_c24f47449246,대학원,법학전문대학원,공지사항,supported,https://lawschool.yu.ac.kr/lawschool/studentcenter/notice.do,,common-yu-board-verified,2026-10-11
+yu_dd3e00af1321,대학원,법학전문대학원,입학안내 > 전문석사학위과정 > 입학공지,supported,https://lawschool.yu.ac.kr/lawschool/admission/notice.do,,common-yu-board-verified,2026-10-11
+yu_1e86abf3bc3f,대학원,법학전문대학원,행정,supported,https://lawschool.yu.ac.kr/lawschool/board/administrative.do,,common-yu-board-verified,2026-10-11
+yu_0fad3324be14,대학원,일반대학원,커뮤니티 > 공지사항,supported,https://graduate.yu.ac.kr/graduate/community/notice.do,https://koreanedu.yu.ac.kr/graduate/community/notice.do,common-yu-board-verified,2026-10-11
+yu_b7b97bf76438,대학원,일반대학원,커뮤니티 > 외부공고,supported,https://graduate.yu.ac.kr/graduate/community/external-notice.do,,common-yu-board-verified,2026-10-11
+yu_950d43ba6f23,대학원,환경보건대학원,게시판 > 공지사항,supported,https://ental.yu.ac.kr/ental/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_de1746d44ce1,사업단·연구소,Eco바이오머티리얼스연구소,공지사항,supported,https://ecobio.yu.ac.kr/ecobio/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_29e8b1d5d4fb,사업단·연구소,RISE사업단,게시판 > 공지사항,supported,https://www.yu.ac.kr/rise/board/notice.do,https://rise.yu.ac.kr/rise/board/notice.do,common-yu-board-verified,2026-10-11
+swedu,사업단·연구소,SW중심대학사업단,공지사항,supported,https://www.yu.ac.kr/swedu/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_942016468018,사업단·연구소,건축연구소,게시판 > 공지사항,supported,https://ari.yu.ac.kr/ari/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_7a500300f8c8,사업단·연구소,경영학과,커뮤니티 > 공지사항,unverified,https://biz.yu.ac.kr/biz/bk21/notice.do,,empty-board,2026-10-11
+yu_b877e8a268cc,사업단·연구소,고등교육정책연구소,공지사항,supported,https://hepri.yu.ac.kr/hepri/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_e6420d911249,사업단·연구소,공업기술연구소,게시판 > 공지사항,supported,https://iite.yu.ac.kr/iite/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_22be0ade4676,사업단·연구소,광·나노기술연구소,알림마당 > 공지사항,supported,https://ipnt.yu.ac.kr/ipnt/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_291e220265db,사업단·연구소,교육학과,BK21 > 커뮤니티 > 공지사항,supported,https://eduwm.yu.ac.kr/eduwm/bk21/notice.do,,common-yu-board-verified,2026-10-11
+yu_36d26d3d47ce,사업단·연구소,국어문화연구소,소통방 > 알림,supported,https://klci.yu.ac.kr/klci/communicate/notice.do,,common-yu-board-verified,2026-10-11
+yu_216794ee5f34,사업단·연구소,기계공학부,BK21 공지사항,supported,https://me.yu.ac.kr/me/bk21/notice.do,,common-yu-board-verified,2026-10-11
+yu_297b77160278,사업단·연구소,기계기술연구소,공지사항 > 공지사항,supported,https://rimet.yu.ac.kr/rimet/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_8c43a018de71,사업단·연구소,기계기술연구소,공지사항 > 학술세미나,supported,https://rimet.yu.ac.kr/rimet/notice/academic-seminar.do,,common-yu-board-verified,2026-10-11
+yu_120273c002b0,사업단·연구소,기초과학연구소,커뮤니티 > 공지사항,supported,https://ins.yu.ac.kr/ins/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_591402f859a7,사업단·연구소,노화유전체디코딩연구소,공지사항,supported,https://aging.yu.ac.kr/aging/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_e82eb4f38c0f,사업단·연구소,농촌개발연구소,게시판 > 공지사항,supported,https://rdi.yu.ac.kr/rdi/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_b95734944914,사업단·연구소,문화인류학과,BK21 > 커뮤니티 > 공지사항,supported,https://saram.yu.ac.kr/saram/bk21/notice.do,,common-yu-board-verified,2026-10-11
+yu_06fdf9d272db,사업단·연구소,물리학과,BK21 > 공지사항 및 자료실,supported,https://physics.yu.ac.kr/physics/bk21/announcement-and-library.do,,common-yu-board-verified,2026-10-11
+yu_a213b5209750,사업단·연구소,미래교육연구소,게시판 > 공지사항,supported,https://sedu.yu.ac.kr/sedu/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_0904c30adfe6,사업단·연구소,반도체특성화대학사업단,공지사항,unsupported,https://semi.yu.ac.kr/front/index.php?g_page=community&m_page=community01,,different-board-format,2026-10-11
+yu_b4a5e3c0d220,사업단·연구소,법학연구소,공지사항,supported,https://ylaw.yu.ac.kr/ylaw/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_106e646cc022,사업단·연구소,사이버감성연구소,공지사항,supported,https://cerc.yu.ac.kr/cerc/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_f8e4fc70231e,사업단·연구소,사회과학연구소,게시판 > 공지사항,supported,https://iss.yu.ac.kr/iss/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_ffb4d8d4539a,사업단·연구소,산학협력단,공지사항,supported,https://www.yu.ac.kr/rnd/community/notice.do,https://rnd.yu.ac.kr/rnd/community/notice.do,common-yu-board-verified,2026-10-11
+yu_ef6608dbc210,사업단·연구소,산학협력단,과제공고,unsupported,https://rnd.yu.ac.kr/rnd/support/homework-announcement.do,,공지 목록 구조를 확인할 수 없습니다.,2026-10-11
+yu_10b0c471fa73,사업단·연구소,산학협력단,과제공고,unsupported,https://www.yu.ac.kr/rnd/support/homework-announcement.do,,공지 목록 구조를 확인할 수 없습니다.,2026-10-11
+yu_b21a2711533f,사업단·연구소,생명공학연구소,공지사항,unverified,https://biotech.yu.ac.kr/biotech/board/notice.do,,empty-board,2026-10-11
+yu_4ad9032e51a6,사업단·연구소,생활과학연구소,게시판 > 공지사항,supported,https://ihe.yu.ac.kr/ihe/news/notice.do,,common-yu-board-verified,2026-10-11
+yu_97fc7dbffbf6,사업단·연구소,세포배양연구소,커뮤니티 > 공지사항,supported,https://yuricc.yu.ac.kr/yuricc/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_d43cf527bba6,사업단·연구소,수소산업 융복합 인력양성 사업단,공지사항,supported,https://herc.yu.ac.kr/herc/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_c9c41ec95ddb,사업단·연구소,스포츠과학연구소,게시판 > 공지사항,supported,https://ssi.yu.ac.kr/ssi/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_c53b4c0ffa84,사업단·연구소,앵커사업단,게시판 > 공지사항,supported,https://anchor.yu.ac.kr/anchor/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_043dc5418745,사업단·연구소,약학대학,BK21 > 커뮤니티 > 공지사항,supported,https://www.yu.ac.kr/pharm/bk21/bk21-notice.do,https://pharm.yu.ac.kr/pharm/bk21/bk21-notice.do,common-yu-board-verified,2026-10-11
+yu_0a89a90f2ee7,사업단·연구소,의과학연구소,공지사항 > 공지사항,supported,https://ims.yu.ac.kr/ims/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_54ed12cff3a2,사업단·연구소,인문과학연구소,게시판 > 공지사항,supported,https://human.yu.ac.kr/human/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_edf100201f31,사업단·연구소,자원문제연구소,커뮤니티 > 공지사항,supported,https://ird.yu.ac.kr/ird/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_c652fbfa6927,사업단·연구소,재료기술연구소,알림마당 > 공지사항,supported,https://mti.yu.ac.kr/mti/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_5f85e76c2252,사업단·연구소,중국연구센터,게시판 > 공지사항,supported,https://crc.yu.ac.kr/crc/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_05d57f86c3b0,사업단·연구소,중소기업HRD사업단,공지사항 1 페이지,unsupported,https://hrd.yu.ac.kr/pages/community/1/,,different-board-format,2026-10-11
+yu_0e1bcbf8b878,사업단·연구소,지역경제연구소,공지사항,supported,https://iore.yu.ac.kr/iore/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_102686c0c10c,사업단·연구소,청정기술연구소,커뮤니티 > 공지사항,supported,https://clean.yu.ac.kr/clean/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_fd1a9276f3d0,사업단·연구소,컴퓨터공학전공,BK21 > 커뮤니티 > 공지사항,supported,https://www.yu.ac.kr/cse/bk21/notice.do,https://cse.yu.ac.kr/cse/bk21/notice.do,common-yu-board-verified,2026-10-11
+yu_1e949c4c87d8,사업단·연구소,컴퓨터학부 정보통신공학전공,BK21 > 커뮤니티 > 공지사항,unverified,https://ice.yu.ac.kr/ice/bk21/notice.do,,empty-board,2026-10-11
+yu_a985ed9bd39b,사업단·연구소,통일문제연구소,게시판 > 공지사항,supported,https://uni.yu.ac.kr/uni/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_569dd31d2c8d,사업단·연구소,한국군사문제연구소,커뮤니티 > 공지사항,supported,https://rima.yu.ac.kr/rima/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_d16acf4bbe32,사업단·연구소,한자문화연구소,Community > 공지사항,supported,https://hmy.yu.ac.kr/hmy/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_eab8b6dec9ef,사업단·연구소,화학공학부,BK21 > 커뮤니티 > 공지사항,supported,https://che.yu.ac.kr/che/bk21/notice.do,,common-yu-board-verified,2026-10-11
+yu_904b4cdd9b76,사업단·연구소,화학과,BK21 > 공지사항,unverified,https://chem.yu.ac.kr/chem/bk21/notice.do,,empty-board,2026-10-11
+yu_7a1d61d16bd4,지원기관·학교공통,AI정보혁신처,정보보안 공지 사항,supported,https://iics.yu.ac.kr/iics/safety/info-security-news.do,,common-yu-board-verified,2026-10-11
+yu_fcc1b4155620,지원기관·학교공통,Park Chung Hee School of Policy and Saemaul (PSPS),Information Center > Notice,unsupported,https://psps.yu.ac.kr/psps/information/notice.do,,공지 목록 구조를 확인할 수 없습니다.,2026-10-11
+yu_563da25e9eaf,지원기관·학교공통,Park Chung Hee School of Policy and Saemaul (PSPS),Information Center > Notice,unsupported,https://pspsk.yu.ac.kr/psps/information/notice.do,,공지 목록 구조를 확인할 수 없습니다.,2026-10-11
+yu_c0223c5da394,지원기관·학교공통,School of Global General Education,공지사항,unsupported,https://gge.yu.ac.kr/gge/notice/notice.do,,공지 목록 구조를 확인할 수 없습니다.,2026-10-11
+yu_31bf4516cb6c,지원기관·학교공통,건강관리센터,게시판 > 공지사항,supported,https://health.yu.ac.kr/health/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_0222fb4690c1,지원기관·학교공통,고시원,게시판 > 공지사항,supported,https://gosiwon.yu.ac.kr/gosiwon/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_c1b81663f468,지원기관·학교공통,공학교육혁신센터,공지사항,supported,https://abeekcenter.yu.ac.kr/abeekcenter/news/notice.do,,common-yu-board-verified,2026-10-11
+yu_1975974a5d80,지원기관·학교공통,교수회,공지사항 - 영남대학교 교수회,unsupported,https://profs.yu.ac.kr/content.html?md=0024,,different-board-format,2026-10-11
+yu_5e201cf8f321,지원기관·학교공통,교육연수원,공지사항,unverified,https://middle.yu.ac.kr/middle/board/notice.do,,empty-board,2026-10-11
+yu_eda18032914d,지원기관·학교공통,교직안내,게시판 > 공지사항,supported,https://teaching.yu.ac.kr/teaching/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_2dbf5e9e11c4,지원기관·학교공통,구)유학생지원본부,공지사항,supported,https://is.yu.ac.kr/is/notice/notice.do,https://oia.yu.ac.kr/is/notice/notice.do,common-yu-board-verified,2026-10-11
+yu_b7603d4e512f,지원기관·학교공통,구)유학생지원본부,외부공고,supported,https://is.yu.ac.kr/is/notice/external-announcement.do,,common-yu-board-verified,2026-10-11
+yu_ce34d71f64cc,지원기관·학교공통,국제협력팀,BULLETIN > NOTICE,supported,https://oia.yu.ac.kr/intl/bulltein/notice.do,https://intl.yu.ac.kr/intl/bulltein/notice.do,common-yu-board-verified,2026-10-11
+yu_5bc279fb8fc2,지원기관·학교공통,글로벌평생교육원,교육원소식 > 공지사항,supported,https://yulife.yu.ac.kr/yulife/news/notice.do,,common-yu-board-verified,2026-10-11
+yu_74c06105d14a,지원기관·학교공통,다문화교육연구원,커뮤니티 > 공지사항,supported,https://meri.yu.ac.kr/meri/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_92a239847e1e,지원기관·학교공통,도서관,공지사항,unsupported,https://libs.yu.ac.kr/bbs/list/1,,different-board-format,2026-10-11
+yu_53597d3393e1,지원기관·학교공통,도서관,학술DB공지,unsupported,https://libs.yu.ac.kr/bbs/list/2,,different-board-format,2026-10-11
+yu_a4e7331dfe46,지원기관·학교공통,리걸클리닉,공지사항 > 공지사항,supported,https://yllc.yu.ac.kr/yllc/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_776b78432931,지원기관·학교공통,리걸클리닉,공지사항 > 실무수습,supported,https://yllc.yu.ac.kr/yllc/notice/training.do,https://lawschool.yu.ac.kr/yllc/notice/training.do,common-yu-board-verified,2026-10-11
+yu_9187d871a0c4,지원기관·학교공통,박정희새마을연구원,게시판 > 공지사항,supported,https://cando.yu.ac.kr/cando/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_a367724f2877,지원기관·학교공통,발전기금,기금소식 > 공지사항,supported,https://loveyu.yu.ac.kr/loveyu/news/news-about-the-event.do,,common-yu-board-verified,2026-10-11
+yu_35597049dbd5,지원기관·학교공통,사이버홍보실,공지사항(영대사랑),unsupported,https://pr.yu.ac.kr/pr/love/notice001.do,,공지 목록 구조를 확인할 수 없습니다.,2026-10-11
+yu_807b982aac2e,지원기관·학교공통,사회공헌단,ESG혁신센터 > 커뮤니티 > 공지사항,unverified,https://volunteer.yu.ac.kr/volunteer/esg/notice.do,,empty-board,2026-10-11
+yu_37b3398c4479,지원기관·학교공통,사회공헌단,사회봉사,supported,https://volunteer.yu.ac.kr/volunteer/news/notice.do,,common-yu-board-verified,2026-10-11
+yu_c957024ee854,지원기관·학교공통,생명윤리위원회,공지사항,unsupported,https://irb.yu.ac.kr/04_brd/notice.html,,different-board-format,2026-10-11
+yu_7caa49fef601,지원기관·학교공통,생활관,커뮤니티 > 공지사항,supported,https://dormi.yu.ac.kr/dormi/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_4030f96304b4,지원기관·학교공통,수련원,공지사항,supported,https://yutc.yu.ac.kr/yutc/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_79b5a9d53dd1,지원기관·학교공통,실험동물센터,공지사항,supported,https://lac.yu.ac.kr/lac/info/notice.do,,common-yu-board-verified,2026-10-11
+yu_3690570b5301,지원기관·학교공통,실험동물센터,법정교육 공지,supported,https://lac.yu.ac.kr/lac/education/legal-training-notice.do,,common-yu-board-verified,2026-10-11
+yu_4a1275acba77,지원기관·학교공통,안전게시판,공지사항,supported,https://www.yu.ac.kr/main/intro/notice-safety-manage.do,,common-yu-board-verified,2026-10-11
+yu_0b3157eea089,지원기관·학교공통,운동부,게시판 > 공지사항,supported,https://sports.yu.ac.kr/sports/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_b47be06bd0c0,지원기관·학교공통,유학생입학팀,공지사항 > 공지사항,supported,https://isa.yu.ac.kr/isa/board/notice.do,https://oia.yu.ac.kr/isa/board/notice.do,common-yu-board-verified,2026-10-11
+yu_0e922ec6e7f5,지원기관·학교공통,유학생지원본부,공지사항,supported,https://issh.yu.ac.kr/issh/board/announcements.do,,common-yu-board-verified,2026-10-11
+yu_fe7b049ed9a1,지원기관·학교공통,유학생지원본부,외부공고,supported,https://issh.yu.ac.kr/issh/board/external-announcements.do,,common-yu-board-verified,2026-10-11
+yu_a6ca858ebde3,지원기관·학교공통,유학생지원본부,프로그램 안내,supported,https://issh.yu.ac.kr/issh/board/gks-notice.do,,common-yu-board-verified,2026-10-11
+yu_a42affb23c3f,지원기관·학교공통,인권센터,게시판 > 공지사항,supported,https://humanrights.yu.ac.kr/humanrights/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_66c1815ab3a9,지원기관·학교공통,입학처,입학 공지사항,unverified,https://enter.yu.ac.kr/page/board/doumi_notice.htm?bbsid=notice,,HTTP Error 404: Not Found,2026-10-11
+yu_bee23b691987,지원기관·학교공통,장애학생지원센터,게시판 > 공지사항,supported,https://jangae.yu.ac.kr/jangae/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_21ebd15c3e8f,지원기관·학교공통,장학안내,공지사항,unsupported,https://ai.yu.ac.kr/scholar/notice/notice.do,,공지 목록 구조를 확인할 수 없습니다.,2026-10-11
+yu_6da2f1e14256,지원기관·학교공통,장학안내,공지사항,unsupported,https://scholar.yu.ac.kr/scholar/notice/notice.do,,공지 목록 구조를 확인할 수 없습니다.,2026-10-11
+yu_29f09c4f35a3,지원기관·학교공통,장학안내,공지사항,unsupported,https://www.yu.ac.kr/scholar/notice/notice.do,,공지 목록 구조를 확인할 수 없습니다.,2026-10-11
+yu_b4b091c893f1,지원기관·학교공통,직장예비군연대,상담실 > 공지사항,supported,https://yebigun.yu.ac.kr/yebigun/counsel/notice.do,,common-yu-board-verified,2026-10-11
+yu_87542abc15f1,지원기관·학교공통,천마아트센터,고객지원 > 공지사항,supported,https://cmac.yu.ac.kr/cmac/support/notice.do,,common-yu-board-verified,2026-10-11
+yu_2d3ab3de399d,지원기관·학교공통,출판부,공지사항,unsupported,https://book.yu.ac.kr/community/notice_list.html,,different-board-format,2026-10-11
+yu_934964ada183,지원기관·학교공통,취업지원,공지사항,unsupported,https://join.yu.ac.kr/front_new/index.php?g_page=intro&m_page=intro04,,different-board-format,2026-10-11
+yu_9fb0780b109e,지원기관·학교공통,편의시설,공지사항 > 공지사항,supported,https://yucf.yu.ac.kr/yucf/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_c88e58951383,지원기관·학교공통,학교법인공지사항,학교법인 공지사항,supported,https://www.yu.ac.kr/main/intro/notice-related-to-coronavirus-20.do,,common-yu-board-verified,2026-10-11
+yu_6bf0a783a9b0,지원기관·학교공통,학생군사교육단,community > 공지사항,supported,https://rotc121.yu.ac.kr/rotc121/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_8192180d6c3c,지원기관·학교공통,학생군사교육단,community > 후보생 공지사항,unverified,https://rotc121.yu.ac.kr/rotc121/community/cadet-notice.do,,empty-board,2026-10-11
+yu_3da6074ad8f7,지원기관·학교공통,학생상담센터,공지사항,supported,https://yucoun.yu.ac.kr/yucoun/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_b8ca2c74bc4b,학과·학부,건설시스템공학과,ABEEK공지사항,supported,https://civil.yu.ac.kr/civil/abeek/abeek-notice.do,,common-yu-board-verified,2026-10-11
+yu_0689c8639b59,학과·학부,건설시스템공학과,대학원공지사항,supported,https://civil.yu.ac.kr/civil/notice/grad-notice.do,,common-yu-board-verified,2026-10-11
+yu_d8ddb730fb9a,학과·학부,건설시스템공학과,취업정보,supported,https://civil.yu.ac.kr/civil/notice/employment-information.do,,common-yu-board-verified,2026-10-11
+yu_819d63e08440,학과·학부,건설시스템공학과,학과공지사항,supported,https://civil.yu.ac.kr/civil/notice/department-notice.do,,common-yu-board-verified,2026-10-11
+yu_e75c73410deb,학과·학부,건축학부,Notice > 공지사항,supported,https://arch.yu.ac.kr/arch/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_70026cdfcdfd,학과·학부,건축학부,Notice > 취업안내,supported,https://arch.yu.ac.kr/arch/notice/job.do,,common-yu-board-verified,2026-10-11
+yu_33e5280b5bc1,학과·학부,경영학과,공지사항,supported,https://biz.yu.ac.kr/biz/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_b02525ce06f0,학과·학부,경영학과,대학원 > 공지사항,supported,https://biz.yu.ac.kr/biz/grad/grad-notice.do,,common-yu-board-verified,2026-10-11
+yu_33f96aa50b9c,학과·학부,경영학과,취업,supported,https://biz.yu.ac.kr/biz/board/employment.do,,common-yu-board-verified,2026-10-11
+yu_c0c61cea6f7a,학과·학부,경영학과,현장실습,supported,https://biz.yu.ac.kr/biz/board/field-training.do,,common-yu-board-verified,2026-10-11
+yu_8c7764b90294,학과·학부,경제금융학부,대학원 > 공지사항,unverified,https://econ.yu.ac.kr/econ/grad/grad-notice.do,,empty-board,2026-10-11
+yu_2f579ad82a87,학과·학부,경제금융학부,학부소식 > 학부알림판,supported,https://econ.yu.ac.kr/econ/dept/undergrad-notice.do,,common-yu-board-verified,2026-10-11
+yu_be006c4444c1,학과·학부,경찰행정학과,공지사항 > 공지사항,supported,https://police.yu.ac.kr/police/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_fc5f82f50db4,학과·학부,교육학과,대학원 > 대학원 공지,supported,https://eduwm.yu.ac.kr/eduwm/grad/notice.do,,common-yu-board-verified,2026-10-11
+yu_1869543ad3aa,학과·학부,교육학과,커뮤니티 > 학부공지,supported,https://eduwm.yu.ac.kr/eduwm/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_a2529b6979f3,학과·학부,국어교육과,공지사항,supported,https://koredu21.yu.ac.kr/koredu21/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_d8aba3237272,학과·학부,국어국문학과,공지사항 > 장학공지,supported,https://korean.yu.ac.kr/korean/notice/notice-of-scholarship.do,,common-yu-board-verified,2026-10-11
+yu_919ba0db93d9,학과·학부,국어국문학과,공지사항 > 진로·취업,supported,https://korean.yu.ac.kr/korean/notice/notice-of-career-and-employment.do,,common-yu-board-verified,2026-10-11
+yu_88b3dec1f57c,학과·학부,국어국문학과,공지사항 > 행사공지,supported,https://korean.yu.ac.kr/korean/notice/events-notice.do,,common-yu-board-verified,2026-10-11
+yu_50f5840110e7,학과·학부,국어국문학과,대학원 > 공지사항,supported,https://korean.yu.ac.kr/korean/grad/grad-notice.do,,common-yu-board-verified,2026-10-11
+yu_66c7a60d12dc,학과·학부,국어국문학과,사업단 > 공지사항,supported,https://korean.yu.ac.kr/korean/organization/organization-notice.do,,common-yu-board-verified,2026-10-11
+yu_d24495ea14c8,학과·학부,국제새마을개발학과,대학원과정 > 공지사항,unsupported,https://intdev.yu.ac.kr/intdev/grad/graduate-notice.do,,공지 목록 구조를 확인할 수 없습니다.,2026-10-11
+yu_eab5673e9001,학과·학부,국제새마을개발학과,학과소식 > 공지사항,unsupported,https://intdev.yu.ac.kr/intdev/news/notice.do,,공지 목록 구조를 확인할 수 없습니다.,2026-10-11
+yu_ac863722ad7f,학과·학부,국제한국어교육전공,학과 공지사항,supported,https://koreanedu.yu.ac.kr/koreanedu/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_7b62f3ba8b95,학과·학부,군사학과,대학원 > 대학원공지사항,supported,https://ms.yu.ac.kr/ms/grad/grad-notice.do,,common-yu-board-verified,2026-10-11
+yu_6421928b6fd2,학과·학부,군사학과,커뮤니티 > 공지사항,supported,https://ms.yu.ac.kr/ms/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_c52074e58c3a,학과·학부,글로벌비즈니스학과,공지사항 > 취업 공지사항,unverified,https://gbusiness.yu.ac.kr/gbusiness/news/career.do,,empty-board,2026-10-11
+yu_0c076248c4b0,학과·학부,글로벌비즈니스학과,공지사항 > 학사 공지사항,supported,https://gbusiness.yu.ac.kr/gbusiness/news/notice.do,,common-yu-board-verified,2026-10-11
+yu_fd2dea0a71fb,학과·학부,글로벌학부,공지사항,supported,https://globalkr.yu.ac.kr/globalkr/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_a8295ec0268e,학과·학부,기계공학부,공지사항,supported,https://me.yu.ac.kr/me/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_c9fcf0411778,학과·학부,기계공학부,취업공지사항,supported,https://me.yu.ac.kr/me/notice/employment-notice.do,,common-yu-board-verified,2026-10-11
+yu_fe13d768adef,학과·학부,기계공학부,학생회 공지사항,supported,https://me.yu.ac.kr/me/council/student-council-notice.do,,common-yu-board-verified,2026-10-11
+yu_9c0df0e974dd,학과·학부,도시공학과,공지사항,supported,https://urban.yu.ac.kr/urban/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_aada9f7d7bcd,학과·학부,도시공학과,취업안내,supported,https://urban.yu.ac.kr/urban/board/employment.do,,common-yu-board-verified,2026-10-11
+yu_9bd64827e5a7,학과·학부,독일언어문화전공,공지사항,supported,https://www.yu.ac.kr/gori/community/notice.do,https://gori.yu.ac.kr/gori/community/notice.do,common-yu-board-verified,2026-10-11
+yu_b6959cf029b2,학과·학부,독일언어문화전공,취업정보,supported,https://gori.yu.ac.kr/gori/community/employment.do,,common-yu-board-verified,2026-10-11
+yu_1828d7884921,학과·학부,로봇공학과,ABEEK(공학교육인증)공지,supported,https://robotics.yu.ac.kr/robotics/community/abek-engineering-education-certification-notice.do,,common-yu-board-verified,2026-10-11
+yu_3f818e1f06ed,학과·학부,로봇공학과,대학원 > 대학원 공지사항,supported,https://robotics.yu.ac.kr/robotics/grad/grad-notice.do,,common-yu-board-verified,2026-10-11
+yu_bed1a6cfc155,학과·학부,로봇공학과,학과공지,supported,https://robotics.yu.ac.kr/robotics/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_e60d06755b67,학과·학부,로봇공학과,학사공지,supported,https://robotics.yu.ac.kr/robotics/community/bachelor-notice.do,,common-yu-board-verified,2026-10-11
+yu_a9259eff9aa6,학과·학부,로봇공학과,학생회 공지사항,unverified,https://robotics.yu.ac.kr/robotics/community/student-council-notice.do,,empty-board,2026-10-11
+yu_31de4e709767,학과·학부,무역학부,학부소식 > 공지사항,supported,https://trade.yu.ac.kr/trade/news/notice.do,,common-yu-board-verified,2026-10-11
+yu_641126f36e1e,학과·학부,무용학전공,커뮤니티 > 공지사항,supported,https://dance.yu.ac.kr/dance/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_ed00da745cbf,학과·학부,문화인류학과,공지사항 > 공지사항,supported,https://saram.yu.ac.kr/saram/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_d3967deeb058,학과·학부,물리학과,커뮤니티 > 취업정보,supported,https://physics.yu.ac.kr/physics/community/employment-information.do,,common-yu-board-verified,2026-10-11
+yu_cddf6a54fb6a,학과·학부,물리학과,학사업무 > 공지사항,supported,https://physics.yu.ac.kr/physics/bachelor/notice.do,,common-yu-board-verified,2026-10-11
+yu_8b240cf626e5,학과·학부,물리학과,학사업무 > 대학원공지사항,supported,https://physics.yu.ac.kr/physics/bachelor/grad-notice.do,,common-yu-board-verified,2026-10-11
+yu_2a8445635051,학과·학부,미디어커뮤니케이션학과,공지사항,supported,https://mnc.yu.ac.kr/mnc/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_d0d5ea020ff8,학과·학부,미디어커뮤니케이션학과,대학원 공지사항,supported,https://mnc.yu.ac.kr/mnc/grad/notice.do,,common-yu-board-verified,2026-10-11
+yu_698bd9f76c35,학과·학부,미래자동차공학과,커뮤니티 > 공지사항 보관,supported,https://automotive.yu.ac.kr/automotive/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_be2f3cf2e5c5,학과·학부,미래자동차공학과,커뮤니티 > 교육프로그램 공지,supported,https://automotive.yu.ac.kr/automotive/community/education-program-notice.do,,common-yu-board-verified,2026-10-11
+yu_003dc0ab3e4f,학과·학부,미래자동차공학과,커뮤니티 > 장학공지,supported,https://automotive.yu.ac.kr/automotive/community/scholarship-notice.do,,common-yu-board-verified,2026-10-11
+yu_7f1ecdb8464c,학과·학부,미래자동차공학과,커뮤니티 > 취업정보,supported,https://automotive.yu.ac.kr/automotive/community/employment-information.do,,common-yu-board-verified,2026-10-11
+yu_9599e186a703,학과·학부,미래자동차공학과,커뮤니티 > 학사공지,supported,https://automotive.yu.ac.kr/automotive/community/academic-notice.do,,common-yu-board-verified,2026-10-11
+yu_be52b36d594b,학과·학부,사회학과,대학원 > 대학원 공지,supported,https://socio.yu.ac.kr/socio/grad/notice.do,,common-yu-board-verified,2026-10-11
+yu_48e68fd210c7,학과·학부,사회학과,동창회 > 공지사항,supported,https://socio.yu.ac.kr/socio/alumni/notice.do,,common-yu-board-verified,2026-10-11
+yu_d76341824fb8,학과·학부,사회학과,정보광장 > 공지사항,supported,https://socio.yu.ac.kr/socio/info/notice.do,,common-yu-board-verified,2026-10-11
+yu_6e5c083d9b3a,학과·학부,산림자원학과,공지사항,supported,https://forestry.yu.ac.kr/forestry/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_2ebf6ab9276e,학과·학부,산업경영학과,공지사항,supported,https://im.yu.ac.kr/im/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_fc930c28c460,학과·학부,산업디자인학과,공지사항,supported,https://id.yu.ac.kr/id/news/notice.do,,common-yu-board-verified,2026-10-11
+yu_6ac73f4b119e,학과·학부,생명공학과,생명공학과 공지,supported,https://bt1.yu.ac.kr/bt1/community/biotechnology-board.do,,common-yu-board-verified,2026-10-11
+yu_5fe444c3ed77,학과·학부,생명과학과,학과소개 > 생명과학과공지 > 공지사항,supported,https://lifesciences.yu.ac.kr/lifesciences/intro/notice.do,,common-yu-board-verified,2026-10-11
+yu_4acbc235c6e9,학과·학부,생활과학대학 주거환경학과,공지사항,supported,https://yuhousing.yu.ac.kr/yuhousing/certificate/notice-board.do,,common-yu-board-verified,2026-10-11
+yu_370f8bcdc38c,학과·학부,소프트웨어보안전공,공지사항,supported,https://ss.yu.ac.kr/ss/notice/notice.do,https://computer.yu.ac.kr/ss/notice/notice.do,common-yu-board-verified,2026-10-11
+yu_c40abfccc51c,학과·학부,소프트웨어보안전공,취업공지사항,unverified,https://ss.yu.ac.kr/ss/notice/employment-notice.do,,empty-board,2026-10-11
+yu_86ba79fb7ed3,학과·학부,소프트웨어융합전공,공지사항,supported,https://sw.yu.ac.kr/sw/notice/notice.do,https://computer.yu.ac.kr/sw/notice/notice.do,common-yu-board-verified,2026-10-11
+yu_83953764f912,학과·학부,소프트웨어융합전공,취업공지사항,supported,https://sw.yu.ac.kr/sw/notice/employment-notice.do,,common-yu-board-verified,2026-10-11
+yu_fdcf9ec3b833,학과·학부,소프트웨어응용학부,공지사항,supported,https://appliedsw.yu.ac.kr/appliedsw/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_55f8ea0908f0,학과·학부,수학과,공지사항,supported,https://math.yu.ac.kr/math/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_6da6cfd09be5,학과·학부,수학과,취업정보,supported,https://math.yu.ac.kr/math/community/employment.do,,common-yu-board-verified,2026-10-11
+yu_00290c877132,학과·학부,수학교육과,정보게시판 > 공지사항,supported,https://mathedu.yu.ac.kr/mathedu/info/notice.do,,common-yu-board-verified,2026-10-11
+yu_bf5de943d2ae,학과·학부,스마트모빌리티학과,커뮤니티 > 공지사항,supported,https://smartmobility.yu.ac.kr/smartmobility/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_e8edfc7422f5,학과·학부,식품공학과,공지사항,supported,https://foodscience.yu.ac.kr/foodscience/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_0ceafa40167e,학과·학부,식품영양학과,공지사항,supported,https://food.yu.ac.kr/food/bachelor/notice.do,,common-yu-board-verified,2026-10-11
+yu_247980accec1,학과·학부,식품영양학과,취업게시판,supported,https://food.yu.ac.kr/food/career/job-board.do,,common-yu-board-verified,2026-10-11
+yu_6acc90ca98f3,학과·학부,신소재공학부,공지사항,supported,https://mse.yu.ac.kr/mse/master/notice.do,,common-yu-board-verified,2026-10-11
+yu_9680883efd55,학과·학부,신소재공학부,"교내외,학부 교육 프로그램",supported,https://mse.yu.ac.kr/mse/bachelor/programs.do,,common-yu-board-verified,2026-10-11
+yu_037aced097d5,학과·학부,심리학과,공지사항 > 공지사항,supported,https://psy.yu.ac.kr/psy/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_3cf6b6c04dbb,학과·학부,심리학과,공지사항 > 취업정보,supported,https://psy.yu.ac.kr/psy/notice/job.do,,common-yu-board-verified,2026-10-11
+yu_4cefc81456dd,학과·학부,역사학과,게시판 > 공지사항,supported,https://yuhistory.yu.ac.kr/yuhistory/bulletin-board/notice.do,,common-yu-board-verified,2026-10-11
+yu_d0564052260c,학과·학부,역사학과,게시판 > 취업 알림판,supported,https://yuhistory.yu.ac.kr/yuhistory/bulletin-board/employment-notification-board.do,,common-yu-board-verified,2026-10-11
+yu_29da441d2715,학과·학부,영어교육과,커뮤니티 > 공지사항,supported,https://dele.yu.ac.kr/dele/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_d7c37c6508d7,학과·학부,영어영문학과,게시판 > 공지사항,supported,https://engl.yu.ac.kr/engl/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_2f53c5211fa4,학과·학부,영어영문학과,게시판 > 취업정보,supported,https://engl.yu.ac.kr/engl/board/employment-information.do,,common-yu-board-verified,2026-10-11
+yu_0c254d79cf9a,학과·학부,영어통번역전공,게시판 > 공지사항,supported,https://itenglish.yu.ac.kr/itenglish/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_d40bc4946c63,학과·학부,원예생명과학과,"취업,진로 > 취업정보게시판",supported,https://hort.yu.ac.kr/hort/career/employment-information-bulletin-board.do,,common-yu-board-verified,2026-10-11
+yu_46ea471ddacc,학과·학부,원예생명과학과,커뮤니티 > 공지사항,supported,https://hort.yu.ac.kr/hort/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_615bde1bf431,학과·학부,유럽언어문화학부,커뮤니티 > 공지사항,supported,https://europe.yu.ac.kr/europe/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_c903c1f4a9b0,학과·학부,유아교육과,공지사항,supported,https://child.yu.ac.kr/child/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_3603540a41a3,학과·학부,유아교육과,대학원게시판,supported,https://child.yu.ac.kr/child/grad/grad-notice.do,,common-yu-board-verified,2026-10-11
+yu_60221326e699,학과·학부,응용중국어통번역전공,커뮤니티 > 공지사항,supported,https://trans.yu.ac.kr/trans/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_f83b28f89ece,학과·학부,의류패션학과,공지사항,supported,https://fashion.yu.ac.kr/fashion/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_74ba783f078d,학과·학부,의생명공학과,커뮤니티 > 학과공지,supported,https://mbt.yu.ac.kr/mbt/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_deea33ce6d94,학과·학부,일어일문학과,커뮤니티 > 공지사항,supported,https://japan.yu.ac.kr/japan/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_d1b642696302,학과·학부,자동차소프트웨어학과,공지사항,supported,https://asw.yu.ac.kr/asw/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_8b3e43c74cb9,학과·학부,전기공학과,게시판 > 공지사항 > 학과,supported,https://ee.yu.ac.kr/ee/board/department.do,,common-yu-board-verified,2026-10-11
+yu_6e2d7baffff7,학과·학부,전기공학과,대학원 > 공지시항,supported,https://ee.yu.ac.kr/ee/grad/notice.do,,common-yu-board-verified,2026-10-11
+yu_17398bcc8868,학과·학부,전자공학과,대학원 > 대학원 공지사항,supported,https://electronics.yu.ac.kr/electronics/grad/grad-notice.do,,common-yu-board-verified,2026-10-11
+yu_287d9e02a320,학과·학부,전자공학과,커뮤니티 > 공지사항,supported,https://electronics.yu.ac.kr/electronics/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_bfaa031b7791,학과·학부,정치외교학과,Hot Focus,supported,https://pol.yu.ac.kr/pol/board/hot-focus.do,,common-yu-board-verified,2026-10-11
+yu_95ccbc1073a1,학과·학부,정치외교학과,공지사항,supported,https://pol.yu.ac.kr/pol/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_187a7a214451,학과·학부,정치외교학과,대학원 > 공지사항,supported,https://pol.yu.ac.kr/pol/grad/grad-notice.do,,common-yu-board-verified,2026-10-11
+yu_ae2dec0a8789,학과·학부,조경학과,취업정보 > 채용안내 및 공고,supported,https://land.yu.ac.kr/land/job/announcement.do,,common-yu-board-verified,2026-10-11
+yu_97fa69935fbe,학과·학부,조경학과,커뮤니티 > 공지사항,supported,https://land.yu.ac.kr/land/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_1aa39f339bf9,학과·학부,중국언어문화학과,학과소개 > 공지사항 > 공고 및 신청게시판,unsupported,https://china.yu.ac.kr/china/intro/announcement-and-application-board.do,,공지 제목 또는 원문 링크가 없습니다.,2026-10-11
+yu_fd53bc8961bd,학과·학부,중국언어문화학과,학과소개 > 공지사항 > 공지사항,supported,https://china.yu.ac.kr/china/intro/notice.do,,common-yu-board-verified,2026-10-11
+yu_abc316b633b7,학과·학부,중국언어문화학과,학과소개 > 공지사항 > 취업정보,supported,https://china.yu.ac.kr/china/intro/employment-information.do,,common-yu-board-verified,2026-10-11
+yu_14ab1e570677,학과·학부,차세대반도체학과,공지사항,supported,https://nextsemi.yu.ac.kr/nextsemi/academic/notice.do,,common-yu-board-verified,2026-10-11
+yu_c5f90883a06f,학과·학부,천마인재학부,커뮤니티 > 공지사항,supported,https://honors.yu.ac.kr/honors/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_001918b74422,학과·학부,천마학부대학,학생지원 > 공지사항,supported,https://ccgs.yu.ac.kr/ccgs/support/notice.do,,common-yu-board-verified,2026-10-11
+yu_2d8822332118,학과·학부,철학과,공지사항,supported,https://phil.yu.ac.kr/phil/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_a4e6c8afca66,학과·학부,체육학부,공지사항,supported,https://pe.yu.ac.kr/pe/board/notice.do,,common-yu-board-verified,2026-10-11
+cse,학과·학부,컴퓨터공학전공,커뮤니티 > 공지사항,supported,https://www.yu.ac.kr/cse/community/notice.do,https://computer.yu.ac.kr/cse/community/notice.do | https://cse.yu.ac.kr/cse/community/notice.do,common-yu-board-verified,2026-10-11
+yu_9eabbdc52569,학과·학부,컴퓨터학부,공지사항,supported,https://ai.yu.ac.kr/computer/notice/notice.do,https://computer.yu.ac.kr/computer/notice/notice.do,common-yu-board-verified,2026-10-11
+yu_ef0a1281d5ef,학과·학부,컴퓨터학부 AI융합전공,커뮤니티 > 공지사항,supported,https://ai.yu.ac.kr/ai/board/notice.do,https://computer.yu.ac.kr/ai/board/notice.do,common-yu-board-verified,2026-10-11
+yu_243dd7de62af,학과·학부,컴퓨터학부 정보통신공학전공,KOICA > Notice,unverified,https://ice.yu.ac.kr/ice/koica/notice.do,,empty-board,2026-10-11
+yu_56161a3cb4ad,학과·학부,컴퓨터학부 정보통신공학전공,게시판 > 공지사항,supported,https://ice.yu.ac.kr/ice/board/notice.do,https://computer.yu.ac.kr/ice/board/notice.do,common-yu-board-verified,2026-10-11
+yu_0d8d6ed87d3a,학과·학부,통계학과,공지사항,supported,https://sta.yu.ac.kr/sta/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_f07c98cf174f,학과·학부,트랜스아트과,공지사항,supported,https://transart.yu.ac.kr/transart/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_a1105265df67,학과·학부,특수체육교육과,게시판 > 공지사항,supported,https://spe.yu.ac.kr/spe/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_56f0dabe6046,학과·학부,특수체육교육과,게시판 > 취업정보,supported,https://spe.yu.ac.kr/spe/board/employment-information.do,,common-yu-board-verified,2026-10-11
+yu_b5f0efad4dfa,학과·학부,파이버시스템공학과,취업정보,supported,https://textiles.yu.ac.kr/textiles/employment/job-board.do,,common-yu-board-verified,2026-10-11
+yu_63bd6e799a8b,학과·학부,파이버시스템공학과,커뮤니티 공지사항,supported,https://textiles.yu.ac.kr/textiles/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_11a48ec92293,학과·학부,프랑스어문전공,커뮤니티 > 공지사항,supported,https://french.yu.ac.kr/french/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_626ad02ab712,학과·학부,한문교육과,공지사항,supported,https://eduhankyo.yu.ac.kr/eduhankyo/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_43de80b351f5,학과·학부,항공운송학과,커뮤니티 > 공지사항,supported,https://daspo.yu.ac.kr/daspo/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_86f385788a8f,학과·학부,행정학과,공지사항,supported,https://pa.yu.ac.kr/pa/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_10448712d24f,학과·학부,화학공학부,공지사항 > 취업정보,supported,https://che.yu.ac.kr/che/notice/employment.do,,common-yu-board-verified,2026-10-11
+yu_065e94251d0e,학과·학부,화학공학부,공지사항 > 학부게시판,supported,https://che.yu.ac.kr/che/notice/bulletin-board.do,,common-yu-board-verified,2026-10-11
+yu_c78a1382d82e,학과·학부,화학공학부,공지사항 > 학부공지,supported,https://che.yu.ac.kr/che/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_1800099a03de,학과·학부,화학공학부,공지사항>대학원공지,supported,https://che.yu.ac.kr/che/notice/graduate-school-announcement.do,,common-yu-board-verified,2026-10-11
+yu_3045f572b26e,학과·학부,화학공학부,공지사항>현장실습공지,supported,https://che.yu.ac.kr/che/notice/field-training-announcement.do,,common-yu-board-verified,2026-10-11
+yu_211caf304c4f,학과·학부,화학과,게시판 > 공지사항,supported,https://chem.yu.ac.kr/chem/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_d79b65de38cb,학과·학부,화학과,대학원 > 공지사항,supported,https://chem.yu.ac.kr/chem/grad/grad-notice.do,,common-yu-board-verified,2026-10-11
+yu_3dface2196d1,학과·학부,환경공학과,게시판 > 공지사항,supported,https://enveng.yu.ac.kr/enveng/board/notice.do,,common-yu-board-verified,2026-10-11
+yu_c585c20ffa45,학과·학부,환경공학과,대학원·연구실 > 대학원 공지사항,supported,https://enveng.yu.ac.kr/enveng/grad/grad-notice.do,,common-yu-board-verified,2026-10-11
+yu_0537e46b2ab0,학과·학부,회계세무학과,공지사항 > 공지사항,supported,https://acc.yu.ac.kr/acc/notice/notice.do,,common-yu-board-verified,2026-10-11
+yu_6ec88c96a205,학과·학부,회계세무학과,공지사항 > 취업정보란,supported,https://acc.yu.ac.kr/acc/notice/employment.do,,common-yu-board-verified,2026-10-11
+yu_a1904dfc42ce,학과·학부,회계세무학과,공지사항 > 현장실습,supported,https://acc.yu.ac.kr/acc/notice/training.do,,common-yu-board-verified,2026-10-11
+yu_f57c468942aa,학과·학부,회계세무학과,대학원 > 공지사항,supported,https://acc.yu.ac.kr/acc/grad/notice.do,,common-yu-board-verified,2026-10-11
+yu_3595ffeb5f35,학과·학부,회화과,커뮤니티 > 공지사항,supported,https://painting.yu.ac.kr/painting/community/notice.do,,common-yu-board-verified,2026-10-11
+yu_dd3f1301bb09,학과·학부,휴먼서비스학과,대학원 > 대학원 공지사항,unverified,https://humanservice.yu.ac.kr/humanservice/grad/grad-notice.do,,empty-board,2026-10-11
+yu_40538f1876c8,학과·학부,휴먼서비스학과,커뮤니티 > 공지사항,supported,https://humanservice.yu.ac.kr/humanservice/community/notice.do,,common-yu-board-verified,2026-10-11

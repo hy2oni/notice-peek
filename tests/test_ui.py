@@ -19,6 +19,7 @@ class UiTests(unittest.TestCase):
         self.temp = TemporaryDirectory()
         self.store = Store(Path(self.temp.name) / "ui.sqlite3")
         for source in SOURCES:
+            self.store.subscribe(source.id)
             self.store.save_collection(source.id, [
                 Notice(source.id, "100", "학교 공지 · 원문 열기", "2026-10-01",
                        source.url + "?mode=view&articleNo=100"),
@@ -81,7 +82,7 @@ class UiTests(unittest.TestCase):
         self.root.deiconify()
         self.root.update()
         canvas = self.app.source_canvas
-        self.assertEqual(self.app.tree["columns"], ("favorite", "read", "new", "title", "source", "date"))
+        self.assertEqual(self.app.tree["columns"], ("favorite", "read", "title", "source", "date"))
 
         def check_alignment():
             self.root.update()
@@ -169,7 +170,7 @@ class UiTests(unittest.TestCase):
         self.select()
         self.app.read_button.invoke()
         self.app.favorite_button.invoke()
-        self.app.source_filter.set("컴퓨터공학과")
+        self.app.source_filter.set(self.app.names['cse'])
         self.app.unread_check.invoke()
         self.app.favorite_check.invoke()
         self.assertEqual(self.app.tree.get_children(), ("cse:100",))
@@ -296,11 +297,19 @@ class UiTests(unittest.TestCase):
         self.assertEqual(self.app.new_keys, {"cse:101", "swedu:101"})
         self.select("cse:101")
         self.app.toggle_read()
-        self.assertEqual(self.app.tree.set("cse:101", "new"), "신규")
+        self.assertEqual(self.app.tree.set("cse:101", "title"), "NEW  공지 101")
         self.app.refresh()
         self.pump_until(lambda: not self.app.busy)
-        self.assertEqual(self.app.tree.set("cse:101", "new"), "신규")
+        self.assertEqual(self.app.tree.set("cse:101", "title"), "NEW  공지 101")
         self.assertIn("신규 0건", self.app.summary.get())
+        self.assertEqual(self.store.list_notices("cse")[0]["title"], "공지 101")
+        self.app.close()
+        self.root = tk.Tk()
+        self.root.withdraw()
+        self.app = NoticeApp(self.root, Store(self.store.path), auto_sync=False, opener=self.opener)
+        self.root.update()
+        self.assertFalse(self.app.new_keys)
+        self.assertEqual(self.app.tree.set("cse:101", "title"), "공지 101")
 
     def test_partial_failure_keeps_rows_and_explains_source(self):
         self.client.fail = lambda source, offset: source == "cse"

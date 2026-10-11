@@ -5,7 +5,7 @@ from pathlib import Path
 import sys
 from threading import Event
 
-from .models import SOURCES, StorageError
+from .models import StorageError
 from .service import SyncService
 from .storage import Store
 
@@ -30,7 +30,7 @@ def main():
                 print(f"{n['published'] or '날짜 없음'} [{n['source_id']}] "
                       f"{'읽음' if n['is_read'] else '안 읽음'} {n['title']}\n  {n['url']}")
             return 0
-        names = {s.id: s.name for s in SOURCES}
+        names = {s.id: s.name for s in store.subscriptions()}
         results = SyncService(store).sync(Event(), lambda source, pages: print(f"{names[source]}: {pages}페이지 확인"))
         for result in results:
             if result.status == "success":

@@ -93,6 +93,8 @@ class CoreTests(unittest.TestCase):
         self.temp = TemporaryDirectory()
         self.path = Path(self.temp.name) / "notices.sqlite3"
         self.store = Store(self.path)
+        for source in SOURCES:
+            self.store.subscribe(source.id)
 
     def tearDown(self):
         self.temp.cleanup()
@@ -100,15 +102,15 @@ class CoreTests(unittest.TestCase):
     def sync(self, client=None, sources=SOURCES, cancel=None, progress=None):
         return SyncService(self.store, client or FakeClient(), sources).sync(cancel, progress)
 
-    def test_initial_30_plus_pins_all_read_and_per_source_identity(self):
+    def test_initial_20_plus_pins_all_read_and_per_source_identity(self):
         client = FakeClient()
         results = self.sync(client)
-        self.assertEqual(len(client.calls), 6)
-        self.assertTrue(all(r.initial and r.added == 31 and not r.new_ids for r in results))
+        self.assertEqual(len(client.calls), 4)
+        self.assertTrue(all(r.initial and r.added == 21 and not r.new_ids for r in results))
         rows = self.store.list_notices()
-        self.assertEqual(len(rows), 62)
+        self.assertEqual(len(rows), 42)
         self.assertTrue(all(r["is_read"] and not r["favorite"] for r in rows))
-        self.assertEqual(len(Store(self.path).list_notices()), 62)
+        self.assertEqual(len(Store(self.path).list_notices()), 42)
 
     def test_repeat_stops_at_first_page_and_keeps_manual_flags(self):
         self.sync()
@@ -150,7 +152,7 @@ class CoreTests(unittest.TestCase):
         results = self.sync(FakeClient(fail=lambda source, offset: source == "cse"))
         self.assertEqual([r.status for r in results], ["network_error", "success"])
         self.assertFalse(self.store.state("cse")["initialized"])
-        self.assertEqual(len(self.store.list_notices()), 31)
+        self.assertEqual(len(self.store.list_notices()), 21)
         self.assertTrue(self.sync()[0].initial)
 
     def test_later_page_failure_does_not_partially_save(self):
@@ -159,7 +161,7 @@ class CoreTests(unittest.TestCase):
         results = self.sync(FakeClient(ids=[str(i) for i in range(125, 60, -1)],
                                       fail=lambda source, offset: source == "cse" and offset == 10))
         self.assertEqual(results[0].status, "network_error")
-        self.assertEqual(len(self.store.list_notices("cse")), 31)
+        self.assertEqual(len(self.store.list_notices("cse")), 21)
         self.assertEqual(self.store.state("cse")["last_success"], before)
         self.assertEqual(results[1].added, 25)
 
@@ -188,14 +190,14 @@ class CoreTests(unittest.TestCase):
         client = FakeClient()
         client.get = lambda url, cancel: "<html>접근 제한</html>"
         self.assertTrue(all(r.status == "parse_error" for r in self.sync(client)))
-        self.assertEqual(len(self.store.list_notices()), 62)
+        self.assertEqual(len(self.store.list_notices()), 42)
 
     def test_storage_failure_is_not_success_and_other_source_continues(self):
         save = self.store.save_collection
-        def fail_cse(source, notices):
+        def fail_cse(source, notices, **kwargs):
             if source == "cse":
                 raise StorageError("모의 디스크 오류")
-            return save(source, notices)
+            return save(source, notices, **kwargs)
         with patch.object(self.store, "save_collection", side_effect=fail_cse):
             results = self.sync()
         self.assertEqual([r.status for r in results], ["storage_error", "success"])

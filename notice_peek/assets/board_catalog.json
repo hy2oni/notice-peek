@@ -1,0 +1,5326 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-11",
+  "scope": "영남대학교 공개 공지 게시판; yu.ac.kr 및 하위 도메인",
+  "status_definitions": {
+    "supported": "현재 수집기로 목록·원문 링크·필요한 다음 페이지 확인",
+    "unsupported": "공개 페이지 확인, 현재 수집기와 형식 불일치",
+    "unverified": "접속 실패 또는 빈 게시판으로 호환성 미확인"
+  },
+  "boards": [
+    {
+      "id": "yu_b38a6145887a",
+      "organization": "경영대학",
+      "name": "공지사항",
+      "category": "단과대학",
+      "url": "https://sob.yu.ac.kr/sob/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 74,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://sob.yu.ac.kr/sob/index.do"
+      ]
+    },
+    {
+      "id": "yu_7108d1e9ffe6",
+      "organization": "경영대학",
+      "name": "국제교류 > 국제교류공지사항",
+      "category": "단과대학",
+      "url": "https://sob.yu.ac.kr/sob/exchange/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 123,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://sob.yu.ac.kr/sob/index.do"
+      ]
+    },
+    {
+      "id": "yu_d019d02880d1",
+      "organization": "공과대학",
+      "name": "커뮤니티 > 공지사항",
+      "category": "단과대학",
+      "url": "https://eng.yu.ac.kr/eng/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 727,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://eng.yu.ac.kr/eng/index.do"
+      ]
+    },
+    {
+      "id": "yu_71c325286411",
+      "organization": "글로벌인재대학",
+      "name": "공지사항",
+      "category": "단과대학",
+      "url": "https://gl.yu.ac.kr/gl/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 244,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://gl.yu.ac.kr/gl/index.do"
+      ]
+    },
+    {
+      "id": "yu_3c1d1b2e3ea1",
+      "organization": "디지털융합대학",
+      "name": "게시판 > 공지사항",
+      "category": "단과대학",
+      "url": "https://ai.yu.ac.kr/digital/board/notice.do",
+      "aliases": [
+        "https://appliedsw.yu.ac.kr/digital/board/notice.do",
+        "https://asw.yu.ac.kr/digital/board/notice.do",
+        "https://digital.yu.ac.kr/digital/board/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 427,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://ai.yu.ac.kr/ai/index.do",
+        "https://appliedsw.yu.ac.kr/appliedsw/index.do",
+        "https://asw.yu.ac.kr/asw/index.do",
+        "https://digital.yu.ac.kr/digital/index.do"
+      ]
+    },
+    {
+      "id": "yu_fcdc790ea2e8",
+      "organization": "사범대학",
+      "name": "공지사항",
+      "category": "단과대학",
+      "url": "https://education.yu.ac.kr/education/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 173,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://education.yu.ac.kr/education/index.do"
+      ]
+    },
+    {
+      "id": "yu_6395ee373f71",
+      "organization": "사회과학대학",
+      "name": "커뮤니티 > 공지사항",
+      "category": "단과대학",
+      "url": "https://politics.yu.ac.kr/politics/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 349,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://politics.yu.ac.kr/politics/index.do"
+      ]
+    },
+    {
+      "id": "yu_a466f6906fe4",
+      "organization": "생명응용과학대학",
+      "name": "커뮤니티 > 공지사항",
+      "category": "단과대학",
+      "url": "https://life.yu.ac.kr/life/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 329,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://life.yu.ac.kr/life/index.do"
+      ]
+    },
+    {
+      "id": "yu_6609d57dd635",
+      "organization": "생활과학대학",
+      "name": "커뮤니티 > 공지사항",
+      "category": "단과대학",
+      "url": "https://chek.yu.ac.kr/chek/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 295,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://chek.yu.ac.kr/chek/index.do"
+      ]
+    },
+    {
+      "id": "yu_c06d1da34fa0",
+      "organization": "약학대학",
+      "name": "커뮤니티 > 공지사항",
+      "category": "단과대학",
+      "url": "https://pharm.yu.ac.kr/pharm/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 550,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://pharm.yu.ac.kr/pharm/index.do"
+      ]
+    },
+    {
+      "id": "yu_b5e2eaf92aee",
+      "organization": "예술대학",
+      "name": "공지사항",
+      "category": "단과대학",
+      "url": "https://arts.yu.ac.kr/arts/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 246,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://arts.yu.ac.kr/arts/index.do"
+      ]
+    },
+    {
+      "id": "yu_c0ed48e4b1e6",
+      "organization": "예술대학",
+      "name": "실기(경연)대회 > 공지사항",
+      "category": "단과대학",
+      "url": "https://arts.yu.ac.kr/arts/contest/notice-art.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 19,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://arts.yu.ac.kr/arts/index.do"
+      ]
+    },
+    {
+      "id": "yu_b6129eb832cf",
+      "organization": "예술대학",
+      "name": "음악경연대회 > 공지사항",
+      "category": "단과대학",
+      "url": "https://arts.yu.ac.kr/arts/contest/notice-music.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 11,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://arts.yu.ac.kr/arts/index.do"
+      ]
+    },
+    {
+      "id": "yu_e8c044137410",
+      "organization": "예술대학",
+      "name": "전시안내",
+      "category": "단과대학",
+      "url": "https://arts.yu.ac.kr/arts/community/exhibition-guide.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 21,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://arts.yu.ac.kr/arts/index.do"
+      ]
+    },
+    {
+      "id": "yu_1cd0fc553302",
+      "organization": "의과대학",
+      "name": "공지사항",
+      "category": "단과대학",
+      "url": "https://yumc.yu.ac.kr/yumc/notice/notice-board.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 15,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://yumc.yu.ac.kr/yumc/index.do"
+      ]
+    },
+    {
+      "id": "yu_786e87864a67",
+      "organization": "의과대학",
+      "name": "대학생활 > 학생 생활관 > 커뮤니티 > 공지사항(생활관)",
+      "category": "단과대학",
+      "url": "https://yumc.yu.ac.kr/yumc/life/notice-residence-hall.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 69,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://yumc.yu.ac.kr/yumc/index.do"
+      ]
+    },
+    {
+      "id": "yu_d73767b3c2e1",
+      "organization": "의과대학",
+      "name": "연구 > 공지사항",
+      "category": "단과대학",
+      "url": "https://yumc.yu.ac.kr/yumc/support/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 4,
+        "regular_first": 4,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://yumc.yu.ac.kr/yumc/index.do"
+      ]
+    },
+    {
+      "id": "yu_4aceb677afe1",
+      "organization": "의과대학",
+      "name": "학생회 > 공지사항",
+      "category": "단과대학",
+      "url": "https://yumc.yu.ac.kr/yumc/life/student-council-notice.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://yumc.yu.ac.kr/yumc/index.do"
+      ]
+    },
+    {
+      "id": "yu_6b4e7c4ddc47",
+      "organization": "인문대학",
+      "name": "게시판 > 공지사항",
+      "category": "단과대학",
+      "url": "https://liberalart.yu.ac.kr/liberalart/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 337,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://liberalart.yu.ac.kr/liberalart/index.do"
+      ]
+    },
+    {
+      "id": "yu_a25a35a4f25b",
+      "organization": "인문대학",
+      "name": "인문사업단 > 공지사항",
+      "category": "단과대학",
+      "url": "https://liberalart.yu.ac.kr/liberalart/business/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 44,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://liberalart.yu.ac.kr/liberalart/index.do"
+      ]
+    },
+    {
+      "id": "yu_198391d5b8d7",
+      "organization": "자연과학대학",
+      "name": "공지사항",
+      "category": "단과대학",
+      "url": "https://sci.yu.ac.kr/sci/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 305,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://sci.yu.ac.kr/sci/index.do"
+      ]
+    },
+    {
+      "id": "yu_f672fdbabf77",
+      "organization": "경영행정대학원",
+      "name": "공지사항 > 경영행정대학원",
+      "category": "대학원",
+      "url": "https://gsbapa.yu.ac.kr/gsbapa/notice/gsbapa.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 138,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://gsbapa.yu.ac.kr/gsbapa/index.do"
+      ]
+    },
+    {
+      "id": "yu_293ac87c97ec",
+      "organization": "공학대학원",
+      "name": "공지사항",
+      "category": "대학원",
+      "url": "https://gsist.yu.ac.kr/gsist/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 290,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://gsist.yu.ac.kr/gsist/index.do"
+      ]
+    },
+    {
+      "id": "yu_fc784fa699ec",
+      "organization": "교육대학원",
+      "name": "게시판 > 공지사항",
+      "category": "대학원",
+      "url": "https://edu.yu.ac.kr/edu/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 561,
+        "regular_first": 10,
+        "pinned": 5
+      },
+      "discovery_urls": [
+        "https://edu.yu.ac.kr/edu/index.do"
+      ]
+    },
+    {
+      "id": "yu_349555f7345b",
+      "organization": "교육대학원",
+      "name": "공지사항",
+      "category": "대학원",
+      "url": "http://edu.yu.ac.kr/indexSub.jsp?linkUrl=5_1.html",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "HTTP Error 404: Not Found",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://mathedu.yu.ac.kr/mathedu/index.do"
+      ]
+    },
+    {
+      "id": "yu_c24f47449246",
+      "organization": "법학전문대학원",
+      "name": "공지사항",
+      "category": "대학원",
+      "url": "https://lawschool.yu.ac.kr/lawschool/studentcenter/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 19,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://lawschool.yu.ac.kr/lawschool/index.do"
+      ]
+    },
+    {
+      "id": "yu_dd3e00af1321",
+      "organization": "법학전문대학원",
+      "name": "입학안내 > 전문석사학위과정 > 입학공지",
+      "category": "대학원",
+      "url": "https://lawschool.yu.ac.kr/lawschool/admission/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 19,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://lawschool.yu.ac.kr/lawschool/index.do"
+      ]
+    },
+    {
+      "id": "yu_1e86abf3bc3f",
+      "organization": "법학전문대학원",
+      "name": "행정",
+      "category": "대학원",
+      "url": "https://lawschool.yu.ac.kr/lawschool/board/administrative.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 958,
+        "regular_first": 10,
+        "pinned": 8
+      },
+      "discovery_urls": [
+        "https://lawschool.yu.ac.kr/lawschool/index.do"
+      ]
+    },
+    {
+      "id": "yu_0fad3324be14",
+      "organization": "일반대학원",
+      "name": "커뮤니티 > 공지사항",
+      "category": "대학원",
+      "url": "https://graduate.yu.ac.kr/graduate/community/notice.do",
+      "aliases": [
+        "https://koreanedu.yu.ac.kr/graduate/community/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 1485,
+        "regular_first": 10,
+        "pinned": 6
+      },
+      "discovery_urls": [
+        "https://engraduate.yu.ac.kr/engraduate/index.do",
+        "https://koreanedu.yu.ac.kr/koreanedu/index.do"
+      ]
+    },
+    {
+      "id": "yu_b7b97bf76438",
+      "organization": "일반대학원",
+      "name": "커뮤니티 > 외부공고",
+      "category": "대학원",
+      "url": "https://graduate.yu.ac.kr/graduate/community/external-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 214,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://graduate.yu.ac.kr/graduate/index.do"
+      ]
+    },
+    {
+      "id": "yu_950d43ba6f23",
+      "organization": "환경보건대학원",
+      "name": "게시판 > 공지사항",
+      "category": "대학원",
+      "url": "https://ental.yu.ac.kr/ental/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 115,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://ental.yu.ac.kr/ental/index.do"
+      ]
+    },
+    {
+      "id": "yu_de1746d44ce1",
+      "organization": "Eco바이오머티리얼스연구소",
+      "name": "공지사항",
+      "category": "사업단·연구소",
+      "url": "https://ecobio.yu.ac.kr/ecobio/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 1,
+        "regular_first": 1,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://ecobio.yu.ac.kr/ecobio/index.do"
+      ]
+    },
+    {
+      "id": "yu_29e8b1d5d4fb",
+      "organization": "RISE사업단",
+      "name": "게시판 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://www.yu.ac.kr/rise/board/notice.do",
+      "aliases": [
+        "https://rise.yu.ac.kr/rise/board/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 73,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://rise.yu.ac.kr/rise/index.do",
+        "official-search"
+      ]
+    },
+    {
+      "id": "swedu",
+      "organization": "SW중심대학사업단",
+      "name": "공지사항",
+      "category": "사업단·연구소",
+      "url": "https://www.yu.ac.kr/swedu/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 198,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://www.yu.ac.kr/swedu/index.do"
+      ]
+    },
+    {
+      "id": "yu_942016468018",
+      "organization": "건축연구소",
+      "name": "게시판 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://ari.yu.ac.kr/ari/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 4,
+        "regular_first": 4,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://ari.yu.ac.kr/ari/index.do"
+      ]
+    },
+    {
+      "id": "yu_7a500300f8c8",
+      "organization": "경영학과",
+      "name": "커뮤니티 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://biz.yu.ac.kr/biz/bk21/notice.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://biz.yu.ac.kr/biz/index.do"
+      ]
+    },
+    {
+      "id": "yu_b877e8a268cc",
+      "organization": "고등교육정책연구소",
+      "name": "공지사항",
+      "category": "사업단·연구소",
+      "url": "https://hepri.yu.ac.kr/hepri/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 22,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://hepri.yu.ac.kr/hepri/index.do"
+      ]
+    },
+    {
+      "id": "yu_e6420d911249",
+      "organization": "공업기술연구소",
+      "name": "게시판 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://iite.yu.ac.kr/iite/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 13,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://iite.yu.ac.kr/iite/index.do"
+      ]
+    },
+    {
+      "id": "yu_22be0ade4676",
+      "organization": "광·나노기술연구소",
+      "name": "알림마당 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://ipnt.yu.ac.kr/ipnt/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 19,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://ipnt.yu.ac.kr/ipnt/index.do"
+      ]
+    },
+    {
+      "id": "yu_291e220265db",
+      "organization": "교육학과",
+      "name": "BK21 > 커뮤니티 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://eduwm.yu.ac.kr/eduwm/bk21/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 89,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://eduwm.yu.ac.kr/eduwm/index.do"
+      ]
+    },
+    {
+      "id": "yu_36d26d3d47ce",
+      "organization": "국어문화연구소",
+      "name": "소통방 > 알림",
+      "category": "사업단·연구소",
+      "url": "https://klci.yu.ac.kr/klci/communicate/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 318,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://klci.yu.ac.kr/klci/index.do"
+      ]
+    },
+    {
+      "id": "yu_216794ee5f34",
+      "organization": "기계공학부",
+      "name": "BK21 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://me.yu.ac.kr/me/bk21/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 12,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://me.yu.ac.kr/me/index.do"
+      ]
+    },
+    {
+      "id": "yu_297b77160278",
+      "organization": "기계기술연구소",
+      "name": "공지사항 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://rimet.yu.ac.kr/rimet/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 5,
+        "regular_first": 5,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://rimet.yu.ac.kr/rimet/index.do"
+      ]
+    },
+    {
+      "id": "yu_8c43a018de71",
+      "organization": "기계기술연구소",
+      "name": "공지사항 > 학술세미나",
+      "category": "사업단·연구소",
+      "url": "https://rimet.yu.ac.kr/rimet/notice/academic-seminar.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 95,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://rimet.yu.ac.kr/rimet/index.do"
+      ]
+    },
+    {
+      "id": "yu_120273c002b0",
+      "organization": "기초과학연구소",
+      "name": "커뮤니티 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://ins.yu.ac.kr/ins/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 38,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://ins.yu.ac.kr/ins/index.do"
+      ]
+    },
+    {
+      "id": "yu_591402f859a7",
+      "organization": "노화유전체디코딩연구소",
+      "name": "공지사항",
+      "category": "사업단·연구소",
+      "url": "https://aging.yu.ac.kr/aging/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 1,
+        "regular_first": 1,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://aging.yu.ac.kr/aging/index.do"
+      ]
+    },
+    {
+      "id": "yu_e82eb4f38c0f",
+      "organization": "농촌개발연구소",
+      "name": "게시판 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://rdi.yu.ac.kr/rdi/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 27,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://rdi.yu.ac.kr/rdi/index.do"
+      ]
+    },
+    {
+      "id": "yu_b95734944914",
+      "organization": "문화인류학과",
+      "name": "BK21 > 커뮤니티 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://saram.yu.ac.kr/saram/bk21/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 124,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://saram.yu.ac.kr/saram/index.do"
+      ]
+    },
+    {
+      "id": "yu_06fdf9d272db",
+      "organization": "물리학과",
+      "name": "BK21 > 공지사항 및 자료실",
+      "category": "사업단·연구소",
+      "url": "https://physics.yu.ac.kr/physics/bk21/announcement-and-library.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 151,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://physics.yu.ac.kr/physics/index.do"
+      ]
+    },
+    {
+      "id": "yu_a213b5209750",
+      "organization": "미래교육연구소",
+      "name": "게시판 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://sedu.yu.ac.kr/sedu/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 3,
+        "regular_first": 3,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://sedu.yu.ac.kr/sedu/index.do"
+      ]
+    },
+    {
+      "id": "yu_0904c30adfe6",
+      "organization": "반도체특성화대학사업단",
+      "name": "공지사항",
+      "category": "사업단·연구소",
+      "url": "https://semi.yu.ac.kr/front/index.php?g_page=community&m_page=community01",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "different-board-format",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://semi.yu.ac.kr/front/"
+      ]
+    },
+    {
+      "id": "yu_b4a5e3c0d220",
+      "organization": "법학연구소",
+      "name": "공지사항",
+      "category": "사업단·연구소",
+      "url": "https://ylaw.yu.ac.kr/ylaw/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 108,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://ylaw.yu.ac.kr/ylaw/index.do"
+      ]
+    },
+    {
+      "id": "yu_106e646cc022",
+      "organization": "사이버감성연구소",
+      "name": "공지사항",
+      "category": "사업단·연구소",
+      "url": "https://cerc.yu.ac.kr/cerc/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 43,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://cerc.yu.ac.kr/cerc/index.do"
+      ]
+    },
+    {
+      "id": "yu_f8e4fc70231e",
+      "organization": "사회과학연구소",
+      "name": "게시판 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://iss.yu.ac.kr/iss/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 30,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://iss.yu.ac.kr/iss/index.do"
+      ]
+    },
+    {
+      "id": "yu_ffb4d8d4539a",
+      "organization": "산학협력단",
+      "name": "공지사항",
+      "category": "사업단·연구소",
+      "url": "https://www.yu.ac.kr/rnd/community/notice.do",
+      "aliases": [
+        "https://rnd.yu.ac.kr/rnd/community/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 209,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://rnd.yu.ac.kr/rnd/index.do",
+        "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do"
+      ]
+    },
+    {
+      "id": "yu_ef6608dbc210",
+      "organization": "산학협력단",
+      "name": "과제공고",
+      "category": "사업단·연구소",
+      "url": "https://rnd.yu.ac.kr/rnd/support/homework-announcement.do",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://rnd.yu.ac.kr/rnd/index.do"
+      ]
+    },
+    {
+      "id": "yu_10b0c471fa73",
+      "organization": "산학협력단",
+      "name": "과제공고",
+      "category": "사업단·연구소",
+      "url": "https://www.yu.ac.kr/rnd/support/homework-announcement.do",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://www.yu.ac.kr/rnd/introduction/affiliated-research-institute.do"
+      ]
+    },
+    {
+      "id": "yu_b21a2711533f",
+      "organization": "생명공학연구소",
+      "name": "공지사항",
+      "category": "사업단·연구소",
+      "url": "https://biotech.yu.ac.kr/biotech/board/notice.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://biotech.yu.ac.kr/biotech/index.do"
+      ]
+    },
+    {
+      "id": "yu_4ad9032e51a6",
+      "organization": "생활과학연구소",
+      "name": "게시판 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://ihe.yu.ac.kr/ihe/news/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 124,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://ihe.yu.ac.kr/ihe/index.do"
+      ]
+    },
+    {
+      "id": "yu_97fc7dbffbf6",
+      "organization": "세포배양연구소",
+      "name": "커뮤니티 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://yuricc.yu.ac.kr/yuricc/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 100,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://yuricc.yu.ac.kr/yuricc/index.do"
+      ]
+    },
+    {
+      "id": "yu_d43cf527bba6",
+      "organization": "수소산업 융복합 인력양성 사업단",
+      "name": "공지사항",
+      "category": "사업단·연구소",
+      "url": "https://herc.yu.ac.kr/herc/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 11,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://herc.yu.ac.kr/herc/index.do"
+      ]
+    },
+    {
+      "id": "yu_c9c41ec95ddb",
+      "organization": "스포츠과학연구소",
+      "name": "게시판 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://ssi.yu.ac.kr/ssi/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 26,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://ssi.yu.ac.kr/ssi/index.do"
+      ]
+    },
+    {
+      "id": "yu_c53b4c0ffa84",
+      "organization": "앵커사업단",
+      "name": "게시판 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://anchor.yu.ac.kr/anchor/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 73,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://anchor.yu.ac.kr/anchor/index.do"
+      ]
+    },
+    {
+      "id": "yu_043dc5418745",
+      "organization": "약학대학",
+      "name": "BK21 > 커뮤니티 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://www.yu.ac.kr/pharm/bk21/bk21-notice.do",
+      "aliases": [
+        "https://pharm.yu.ac.kr/pharm/bk21/bk21-notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 8,
+        "regular_first": 8,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://pharm.yu.ac.kr/pharm/index.do",
+        "official-search"
+      ]
+    },
+    {
+      "id": "yu_0a89a90f2ee7",
+      "organization": "의과학연구소",
+      "name": "공지사항 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://ims.yu.ac.kr/ims/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 76,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://ims.yu.ac.kr/ims/index.do"
+      ]
+    },
+    {
+      "id": "yu_54ed12cff3a2",
+      "organization": "인문과학연구소",
+      "name": "게시판 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://human.yu.ac.kr/human/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 54,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://human.yu.ac.kr/human/index.do"
+      ]
+    },
+    {
+      "id": "yu_edf100201f31",
+      "organization": "자원문제연구소",
+      "name": "커뮤니티 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://ird.yu.ac.kr/ird/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 83,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://ird.yu.ac.kr/ird/index.do"
+      ]
+    },
+    {
+      "id": "yu_c652fbfa6927",
+      "organization": "재료기술연구소",
+      "name": "알림마당 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://mti.yu.ac.kr/mti/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 62,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://mti.yu.ac.kr/mti/index.do"
+      ]
+    },
+    {
+      "id": "yu_5f85e76c2252",
+      "organization": "중국연구센터",
+      "name": "게시판 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://crc.yu.ac.kr/crc/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 4,
+        "regular_first": 4,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://crc.yu.ac.kr/crc/index.do"
+      ]
+    },
+    {
+      "id": "yu_05d57f86c3b0",
+      "organization": "중소기업HRD사업단",
+      "name": "공지사항 1 페이지",
+      "category": "사업단·연구소",
+      "url": "https://hrd.yu.ac.kr/pages/community/1/",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "different-board-format",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://hrd.yu.ac.kr/pages/sitemap/"
+      ]
+    },
+    {
+      "id": "yu_0e1bcbf8b878",
+      "organization": "지역경제연구소",
+      "name": "공지사항",
+      "category": "사업단·연구소",
+      "url": "https://iore.yu.ac.kr/iore/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 15,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://iore.yu.ac.kr/iore/index.do"
+      ]
+    },
+    {
+      "id": "yu_102686c0c10c",
+      "organization": "청정기술연구소",
+      "name": "커뮤니티 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://clean.yu.ac.kr/clean/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 25,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://clean.yu.ac.kr/clean/index.do"
+      ]
+    },
+    {
+      "id": "yu_fd1a9276f3d0",
+      "organization": "컴퓨터공학전공",
+      "name": "BK21 > 커뮤니티 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://www.yu.ac.kr/cse/bk21/notice.do",
+      "aliases": [
+        "https://cse.yu.ac.kr/cse/bk21/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 7,
+        "regular_first": 7,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://cse.yu.ac.kr/cse/index.do",
+        "https://www.yu.ac.kr/cse/index.do"
+      ]
+    },
+    {
+      "id": "yu_1e949c4c87d8",
+      "organization": "컴퓨터학부 정보통신공학전공",
+      "name": "BK21 > 커뮤니티 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://ice.yu.ac.kr/ice/bk21/notice.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://ice.yu.ac.kr/ice/index.do"
+      ]
+    },
+    {
+      "id": "yu_a985ed9bd39b",
+      "organization": "통일문제연구소",
+      "name": "게시판 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://uni.yu.ac.kr/uni/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 15,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://uni.yu.ac.kr/uni/index.do"
+      ]
+    },
+    {
+      "id": "yu_569dd31d2c8d",
+      "organization": "한국군사문제연구소",
+      "name": "커뮤니티 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://rima.yu.ac.kr/rima/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 28,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://rima.yu.ac.kr/rima/index.do"
+      ]
+    },
+    {
+      "id": "yu_d16acf4bbe32",
+      "organization": "한자문화연구소",
+      "name": "Community > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://hmy.yu.ac.kr/hmy/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 32,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://hmy.yu.ac.kr/hmy/index.do"
+      ]
+    },
+    {
+      "id": "yu_eab8b6dec9ef",
+      "organization": "화학공학부",
+      "name": "BK21 > 커뮤니티 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://che.yu.ac.kr/che/bk21/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 4,
+        "regular_first": 4,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://che.yu.ac.kr/che/index.do"
+      ]
+    },
+    {
+      "id": "yu_904b4cdd9b76",
+      "organization": "화학과",
+      "name": "BK21 > 공지사항",
+      "category": "사업단·연구소",
+      "url": "https://chem.yu.ac.kr/chem/bk21/notice.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://chem.yu.ac.kr/chem/index.do"
+      ]
+    },
+    {
+      "id": "yu_7a1d61d16bd4",
+      "organization": "AI정보혁신처",
+      "name": "정보보안 공지 사항",
+      "category": "지원기관·학교공통",
+      "url": "https://iics.yu.ac.kr/iics/safety/info-security-news.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 5,
+        "regular_first": 5,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://iics.yu.ac.kr/iics/index.do"
+      ]
+    },
+    {
+      "id": "yu_fcc1b4155620",
+      "organization": "Park Chung Hee School of Policy and Saemaul (PSPS)",
+      "name": "Information Center > Notice",
+      "category": "지원기관·학교공통",
+      "url": "https://psps.yu.ac.kr/psps/information/notice.do",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "official-search"
+      ]
+    },
+    {
+      "id": "yu_563da25e9eaf",
+      "organization": "Park Chung Hee School of Policy and Saemaul (PSPS)",
+      "name": "Information Center > Notice",
+      "category": "지원기관·학교공통",
+      "url": "https://pspsk.yu.ac.kr/psps/information/notice.do",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://pspsk.yu.ac.kr/pspsk/index.do"
+      ]
+    },
+    {
+      "id": "yu_c0223c5da394",
+      "organization": "School of Global General Education",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://gge.yu.ac.kr/gge/notice/notice.do",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://gge.yu.ac.kr/gge/index.do"
+      ]
+    },
+    {
+      "id": "yu_31bf4516cb6c",
+      "organization": "건강관리센터",
+      "name": "게시판 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://health.yu.ac.kr/health/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 126,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://health.yu.ac.kr/health/index.do"
+      ]
+    },
+    {
+      "id": "yu_0222fb4690c1",
+      "organization": "고시원",
+      "name": "게시판 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://gosiwon.yu.ac.kr/gosiwon/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 192,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://gosiwon.yu.ac.kr/gosiwon/index.do"
+      ]
+    },
+    {
+      "id": "yu_c1b81663f468",
+      "organization": "공학교육혁신센터",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://abeekcenter.yu.ac.kr/abeekcenter/news/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 155,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://abeekcenter.yu.ac.kr/abeekcenter/index.do"
+      ]
+    },
+    {
+      "id": "yu_1975974a5d80",
+      "organization": "교수회",
+      "name": "공지사항 - 영남대학교 교수회",
+      "category": "지원기관·학교공통",
+      "url": "https://profs.yu.ac.kr/content.html?md=0024",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "different-board-format",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://profs.yu.ac.kr/content.html?md=0042"
+      ]
+    },
+    {
+      "id": "yu_5e201cf8f321",
+      "organization": "교육연수원",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://middle.yu.ac.kr/middle/board/notice.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://middle.yu.ac.kr/middle/index.do"
+      ]
+    },
+    {
+      "id": "yu_eda18032914d",
+      "organization": "교직안내",
+      "name": "게시판 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://teaching.yu.ac.kr/teaching/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 369,
+        "regular_first": 10,
+        "pinned": 7
+      },
+      "discovery_urls": [
+        "https://teaching.yu.ac.kr/teaching/index.do"
+      ]
+    },
+    {
+      "id": "yu_2dbf5e9e11c4",
+      "organization": "구)유학생지원본부",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://is.yu.ac.kr/is/notice/notice.do",
+      "aliases": [
+        "https://oia.yu.ac.kr/is/notice/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 515,
+        "regular_first": 10,
+        "pinned": 18
+      },
+      "discovery_urls": [
+        "https://oia.yu.ac.kr/oia/index.do"
+      ]
+    },
+    {
+      "id": "yu_b7603d4e512f",
+      "organization": "구)유학생지원본부",
+      "name": "외부공고",
+      "category": "지원기관·학교공통",
+      "url": "https://is.yu.ac.kr/is/notice/external-announcement.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 456,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://oia.yu.ac.kr/oia/index.do"
+      ]
+    },
+    {
+      "id": "yu_ce34d71f64cc",
+      "organization": "국제협력팀",
+      "name": "BULLETIN > NOTICE",
+      "category": "지원기관·학교공통",
+      "url": "https://oia.yu.ac.kr/intl/bulltein/notice.do",
+      "aliases": [
+        "https://intl.yu.ac.kr/intl/bulltein/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 1061,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://intl.yu.ac.kr/intl/index.do",
+        "https://oia.yu.ac.kr/oia/index.do"
+      ]
+    },
+    {
+      "id": "yu_5bc279fb8fc2",
+      "organization": "글로벌평생교육원",
+      "name": "교육원소식 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://yulife.yu.ac.kr/yulife/news/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 397,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://yulife.yu.ac.kr/yulife/index.do"
+      ]
+    },
+    {
+      "id": "yu_74c06105d14a",
+      "organization": "다문화교육연구원",
+      "name": "커뮤니티 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://meri.yu.ac.kr/meri/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 196,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://meri.yu.ac.kr/meri/index.do"
+      ]
+    },
+    {
+      "id": "yu_92a239847e1e",
+      "organization": "도서관",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://libs.yu.ac.kr/bbs/list/1",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "different-board-format",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://libs.yu.ac.kr/"
+      ]
+    },
+    {
+      "id": "yu_53597d3393e1",
+      "organization": "도서관",
+      "name": "학술DB공지",
+      "category": "지원기관·학교공통",
+      "url": "https://libs.yu.ac.kr/bbs/list/2",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "different-board-format",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://libs.yu.ac.kr/"
+      ]
+    },
+    {
+      "id": "yu_a4e7331dfe46",
+      "organization": "리걸클리닉",
+      "name": "공지사항 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://yllc.yu.ac.kr/yllc/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 36,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://yllc.yu.ac.kr/yllc/index.do"
+      ]
+    },
+    {
+      "id": "yu_776b78432931",
+      "organization": "리걸클리닉",
+      "name": "공지사항 > 실무수습",
+      "category": "지원기관·학교공통",
+      "url": "https://yllc.yu.ac.kr/yllc/notice/training.do",
+      "aliases": [
+        "https://lawschool.yu.ac.kr/yllc/notice/training.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 184,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://lawschool.yu.ac.kr/lawschool/index.do"
+      ]
+    },
+    {
+      "id": "yu_9187d871a0c4",
+      "organization": "박정희새마을연구원",
+      "name": "게시판 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://cando.yu.ac.kr/cando/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 70,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://cando.yu.ac.kr/cando/index.do"
+      ]
+    },
+    {
+      "id": "yu_a367724f2877",
+      "organization": "발전기금",
+      "name": "기금소식 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://loveyu.yu.ac.kr/loveyu/news/news-about-the-event.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 6,
+        "regular_first": 6,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://loveyu.yu.ac.kr/loveyu/index.do"
+      ]
+    },
+    {
+      "id": "yu_35597049dbd5",
+      "organization": "사이버홍보실",
+      "name": "공지사항(영대사랑)",
+      "category": "지원기관·학교공통",
+      "url": "https://pr.yu.ac.kr/pr/love/notice001.do",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://pr.yu.ac.kr/pr/index.do"
+      ]
+    },
+    {
+      "id": "yu_807b982aac2e",
+      "organization": "사회공헌단",
+      "name": "ESG혁신센터 > 커뮤니티 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://volunteer.yu.ac.kr/volunteer/esg/notice.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://volunteer.yu.ac.kr/volunteer/index.do"
+      ]
+    },
+    {
+      "id": "yu_37b3398c4479",
+      "organization": "사회공헌단",
+      "name": "사회봉사",
+      "category": "지원기관·학교공통",
+      "url": "https://volunteer.yu.ac.kr/volunteer/news/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 24,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://volunteer.yu.ac.kr/volunteer/index.do"
+      ]
+    },
+    {
+      "id": "yu_c957024ee854",
+      "organization": "생명윤리위원회",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://irb.yu.ac.kr/04_brd/notice.html",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "different-board-format",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://irb.yu.ac.kr/?&year="
+      ]
+    },
+    {
+      "id": "yu_7caa49fef601",
+      "organization": "생활관",
+      "name": "커뮤니티 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://dormi.yu.ac.kr/dormi/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 1346,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://dormi.yu.ac.kr/dormi/index.do"
+      ]
+    },
+    {
+      "id": "yu_4030f96304b4",
+      "organization": "수련원",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://yutc.yu.ac.kr/yutc/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 12,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://yutc.yu.ac.kr/yutc/index.do"
+      ]
+    },
+    {
+      "id": "yu_79b5a9d53dd1",
+      "organization": "실험동물센터",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://lac.yu.ac.kr/lac/info/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 1,
+        "regular_first": 1,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://lac.yu.ac.kr/lac/index.do"
+      ]
+    },
+    {
+      "id": "yu_3690570b5301",
+      "organization": "실험동물센터",
+      "name": "법정교육 공지",
+      "category": "지원기관·학교공통",
+      "url": "https://lac.yu.ac.kr/lac/education/legal-training-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 1,
+        "regular_first": 1,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://lac.yu.ac.kr/lac/index.do"
+      ]
+    },
+    {
+      "id": "yu_4a1275acba77",
+      "organization": "안전게시판",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://www.yu.ac.kr/main/intro/notice-safety-manage.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 4,
+        "regular_first": 4,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://www.yu.ac.kr/main/life/homepage.do"
+      ]
+    },
+    {
+      "id": "yu_0b3157eea089",
+      "organization": "운동부",
+      "name": "게시판 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://sports.yu.ac.kr/sports/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 44,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://sports.yu.ac.kr/sports/index.do"
+      ]
+    },
+    {
+      "id": "yu_b47be06bd0c0",
+      "organization": "유학생입학팀",
+      "name": "공지사항 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://isa.yu.ac.kr/isa/board/notice.do",
+      "aliases": [
+        "https://oia.yu.ac.kr/isa/board/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 35,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://isa.yu.ac.kr/isa/index.do",
+        "https://oia.yu.ac.kr/oia/index.do"
+      ]
+    },
+    {
+      "id": "yu_0e922ec6e7f5",
+      "organization": "유학생지원본부",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://issh.yu.ac.kr/issh/board/announcements.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 515,
+        "regular_first": 10,
+        "pinned": 18
+      },
+      "discovery_urls": [
+        "https://issh.yu.ac.kr/issh/index.do"
+      ]
+    },
+    {
+      "id": "yu_fe7b049ed9a1",
+      "organization": "유학생지원본부",
+      "name": "외부공고",
+      "category": "지원기관·학교공통",
+      "url": "https://issh.yu.ac.kr/issh/board/external-announcements.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 456,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://issh.yu.ac.kr/issh/index.do"
+      ]
+    },
+    {
+      "id": "yu_a6ca858ebde3",
+      "organization": "유학생지원본부",
+      "name": "프로그램 안내",
+      "category": "지원기관·학교공통",
+      "url": "https://issh.yu.ac.kr/issh/board/gks-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 20,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://issh.yu.ac.kr/issh/index.do"
+      ]
+    },
+    {
+      "id": "yu_a42affb23c3f",
+      "organization": "인권센터",
+      "name": "게시판 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://humanrights.yu.ac.kr/humanrights/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 48,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://humanrights.yu.ac.kr/humanrights/index.do"
+      ]
+    },
+    {
+      "id": "yu_66c1815ab3a9",
+      "organization": "입학처",
+      "name": "입학 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://enter.yu.ac.kr/page/board/doumi_notice.htm?bbsid=notice",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "HTTP Error 404: Not Found",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://enter.yu.ac.kr/page/board/doumi_notice.htm"
+      ]
+    },
+    {
+      "id": "yu_bee23b691987",
+      "organization": "장애학생지원센터",
+      "name": "게시판 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://jangae.yu.ac.kr/jangae/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 715,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://jangae.yu.ac.kr/jangae/index.do"
+      ]
+    },
+    {
+      "id": "yu_21ebd15c3e8f",
+      "organization": "장학안내",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://ai.yu.ac.kr/scholar/notice/notice.do",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://ai.yu.ac.kr/ai/index.do"
+      ]
+    },
+    {
+      "id": "yu_6da2f1e14256",
+      "organization": "장학안내",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://scholar.yu.ac.kr/scholar/notice/notice.do",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://scholar.yu.ac.kr/scholar/index.do"
+      ]
+    },
+    {
+      "id": "yu_29f09c4f35a3",
+      "organization": "장학안내",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://www.yu.ac.kr/scholar/notice/notice.do",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://www.yu.ac.kr/main/index.do"
+      ]
+    },
+    {
+      "id": "yu_b4b091c893f1",
+      "organization": "직장예비군연대",
+      "name": "상담실 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://yebigun.yu.ac.kr/yebigun/counsel/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 7,
+        "regular_first": 7,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://yebigun.yu.ac.kr/yebigun/index.do"
+      ]
+    },
+    {
+      "id": "yu_87542abc15f1",
+      "organization": "천마아트센터",
+      "name": "고객지원 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://cmac.yu.ac.kr/cmac/support/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 157,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://cmac.yu.ac.kr/cmac/index.do"
+      ]
+    },
+    {
+      "id": "yu_2d3ab3de399d",
+      "organization": "출판부",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://book.yu.ac.kr/community/notice_list.html",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "different-board-format",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://book.yu.ac.kr/main/index.html"
+      ]
+    },
+    {
+      "id": "yu_934964ada183",
+      "organization": "취업지원",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://join.yu.ac.kr/front_new/index.php?g_page=intro&m_page=intro04",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "different-board-format",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://join.yu.ac.kr/front_new/"
+      ]
+    },
+    {
+      "id": "yu_9fb0780b109e",
+      "organization": "편의시설",
+      "name": "공지사항 > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://yucf.yu.ac.kr/yucf/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 161,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://yucf.yu.ac.kr/yucf/index.do"
+      ]
+    },
+    {
+      "id": "yu_c88e58951383",
+      "organization": "학교법인공지사항",
+      "name": "학교법인 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://www.yu.ac.kr/main/intro/notice-related-to-coronavirus-20.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 72,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://www.yu.ac.kr/main/life/homepage.do"
+      ]
+    },
+    {
+      "id": "yu_6bf0a783a9b0",
+      "organization": "학생군사교육단",
+      "name": "community > 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://rotc121.yu.ac.kr/rotc121/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 11,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://rotc121.yu.ac.kr/rotc121/index.do"
+      ]
+    },
+    {
+      "id": "yu_8192180d6c3c",
+      "organization": "학생군사교육단",
+      "name": "community > 후보생 공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://rotc121.yu.ac.kr/rotc121/community/cadet-notice.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://rotc121.yu.ac.kr/rotc121/index.do"
+      ]
+    },
+    {
+      "id": "yu_3da6074ad8f7",
+      "organization": "학생상담센터",
+      "name": "공지사항",
+      "category": "지원기관·학교공통",
+      "url": "https://yucoun.yu.ac.kr/yucoun/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 116,
+        "regular_first": 10,
+        "pinned": 8
+      },
+      "discovery_urls": [
+        "https://yucoun.yu.ac.kr/yucoun/index.do"
+      ]
+    },
+    {
+      "id": "yu_b8ca2c74bc4b",
+      "organization": "건설시스템공학과",
+      "name": "ABEEK공지사항",
+      "category": "학과·학부",
+      "url": "https://civil.yu.ac.kr/civil/abeek/abeek-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 25,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://civil.yu.ac.kr/civil/index.do"
+      ]
+    },
+    {
+      "id": "yu_0689c8639b59",
+      "organization": "건설시스템공학과",
+      "name": "대학원공지사항",
+      "category": "학과·학부",
+      "url": "https://civil.yu.ac.kr/civil/notice/grad-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 157,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://civil.yu.ac.kr/civil/index.do"
+      ]
+    },
+    {
+      "id": "yu_d8ddb730fb9a",
+      "organization": "건설시스템공학과",
+      "name": "취업정보",
+      "category": "학과·학부",
+      "url": "https://civil.yu.ac.kr/civil/notice/employment-information.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 325,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://civil.yu.ac.kr/civil/index.do"
+      ]
+    },
+    {
+      "id": "yu_819d63e08440",
+      "organization": "건설시스템공학과",
+      "name": "학과공지사항",
+      "category": "학과·학부",
+      "url": "https://civil.yu.ac.kr/civil/notice/department-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 580,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://civil.yu.ac.kr/civil/index.do"
+      ]
+    },
+    {
+      "id": "yu_e75c73410deb",
+      "organization": "건축학부",
+      "name": "Notice > 공지사항",
+      "category": "학과·학부",
+      "url": "https://arch.yu.ac.kr/arch/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 730,
+        "regular_first": 10,
+        "pinned": 8
+      },
+      "discovery_urls": [
+        "https://arch.yu.ac.kr/arch/index.do"
+      ]
+    },
+    {
+      "id": "yu_70026cdfcdfd",
+      "organization": "건축학부",
+      "name": "Notice > 취업안내",
+      "category": "학과·학부",
+      "url": "https://arch.yu.ac.kr/arch/notice/job.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 192,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://arch.yu.ac.kr/arch/index.do"
+      ]
+    },
+    {
+      "id": "yu_33e5280b5bc1",
+      "organization": "경영학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://biz.yu.ac.kr/biz/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 1057,
+        "regular_first": 10,
+        "pinned": 7
+      },
+      "discovery_urls": [
+        "https://biz.yu.ac.kr/biz/index.do"
+      ]
+    },
+    {
+      "id": "yu_b02525ce06f0",
+      "organization": "경영학과",
+      "name": "대학원 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://biz.yu.ac.kr/biz/grad/grad-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 14,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://biz.yu.ac.kr/biz/index.do"
+      ]
+    },
+    {
+      "id": "yu_33f96aa50b9c",
+      "organization": "경영학과",
+      "name": "취업",
+      "category": "학과·학부",
+      "url": "https://biz.yu.ac.kr/biz/board/employment.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 40,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://biz.yu.ac.kr/biz/index.do"
+      ]
+    },
+    {
+      "id": "yu_c0c61cea6f7a",
+      "organization": "경영학과",
+      "name": "현장실습",
+      "category": "학과·학부",
+      "url": "https://biz.yu.ac.kr/biz/board/field-training.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 227,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://biz.yu.ac.kr/biz/index.do"
+      ]
+    },
+    {
+      "id": "yu_8c7764b90294",
+      "organization": "경제금융학부",
+      "name": "대학원 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://econ.yu.ac.kr/econ/grad/grad-notice.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://econ.yu.ac.kr/econ/index.do"
+      ]
+    },
+    {
+      "id": "yu_2f579ad82a87",
+      "organization": "경제금융학부",
+      "name": "학부소식 > 학부알림판",
+      "category": "학과·학부",
+      "url": "https://econ.yu.ac.kr/econ/dept/undergrad-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 561,
+        "regular_first": 10,
+        "pinned": 5
+      },
+      "discovery_urls": [
+        "https://econ.yu.ac.kr/econ/index.do"
+      ]
+    },
+    {
+      "id": "yu_be006c4444c1",
+      "organization": "경찰행정학과",
+      "name": "공지사항 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://police.yu.ac.kr/police/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 618,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://police.yu.ac.kr/police/index.do"
+      ]
+    },
+    {
+      "id": "yu_fc5f82f50db4",
+      "organization": "교육학과",
+      "name": "대학원 > 대학원 공지",
+      "category": "학과·학부",
+      "url": "https://eduwm.yu.ac.kr/eduwm/grad/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 99,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://eduwm.yu.ac.kr/eduwm/index.do"
+      ]
+    },
+    {
+      "id": "yu_1869543ad3aa",
+      "organization": "교육학과",
+      "name": "커뮤니티 > 학부공지",
+      "category": "학과·학부",
+      "url": "https://eduwm.yu.ac.kr/eduwm/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 591,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://eduwm.yu.ac.kr/eduwm/index.do"
+      ]
+    },
+    {
+      "id": "yu_a2529b6979f3",
+      "organization": "국어교육과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://koredu21.yu.ac.kr/koredu21/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 347,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://koredu21.yu.ac.kr/koredu21/index.do"
+      ]
+    },
+    {
+      "id": "yu_d8aba3237272",
+      "organization": "국어국문학과",
+      "name": "공지사항 > 장학공지",
+      "category": "학과·학부",
+      "url": "https://korean.yu.ac.kr/korean/notice/notice-of-scholarship.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 22,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://korean.yu.ac.kr/korean/index.do"
+      ]
+    },
+    {
+      "id": "yu_919ba0db93d9",
+      "organization": "국어국문학과",
+      "name": "공지사항 > 진로·취업",
+      "category": "학과·학부",
+      "url": "https://korean.yu.ac.kr/korean/notice/notice-of-career-and-employment.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 114,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://korean.yu.ac.kr/korean/index.do"
+      ]
+    },
+    {
+      "id": "yu_88b3dec1f57c",
+      "organization": "국어국문학과",
+      "name": "공지사항 > 행사공지",
+      "category": "학과·학부",
+      "url": "https://korean.yu.ac.kr/korean/notice/events-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 50,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://korean.yu.ac.kr/korean/index.do"
+      ]
+    },
+    {
+      "id": "yu_50f5840110e7",
+      "organization": "국어국문학과",
+      "name": "대학원 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://korean.yu.ac.kr/korean/grad/grad-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 22,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://korean.yu.ac.kr/korean/index.do"
+      ]
+    },
+    {
+      "id": "yu_66c7a60d12dc",
+      "organization": "국어국문학과",
+      "name": "사업단 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://korean.yu.ac.kr/korean/organization/organization-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 31,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://korean.yu.ac.kr/korean/index.do"
+      ]
+    },
+    {
+      "id": "yu_d24495ea14c8",
+      "organization": "국제새마을개발학과",
+      "name": "대학원과정 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://intdev.yu.ac.kr/intdev/grad/graduate-notice.do",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://intdev.yu.ac.kr/intdev/index.do"
+      ]
+    },
+    {
+      "id": "yu_eab5673e9001",
+      "organization": "국제새마을개발학과",
+      "name": "학과소식 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://intdev.yu.ac.kr/intdev/news/notice.do",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "공지 목록 구조를 확인할 수 없습니다.",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://intdev.yu.ac.kr/intdev/index.do"
+      ]
+    },
+    {
+      "id": "yu_ac863722ad7f",
+      "organization": "국제한국어교육전공",
+      "name": "학과 공지사항",
+      "category": "학과·학부",
+      "url": "https://koreanedu.yu.ac.kr/koreanedu/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 327,
+        "regular_first": 10,
+        "pinned": 5
+      },
+      "discovery_urls": [
+        "https://koreanedu.yu.ac.kr/koreanedu/index.do"
+      ]
+    },
+    {
+      "id": "yu_7b62f3ba8b95",
+      "organization": "군사학과",
+      "name": "대학원 > 대학원공지사항",
+      "category": "학과·학부",
+      "url": "https://ms.yu.ac.kr/ms/grad/grad-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 3,
+        "regular_first": 3,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://ms.yu.ac.kr/ms/index.do"
+      ]
+    },
+    {
+      "id": "yu_6421928b6fd2",
+      "organization": "군사학과",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://ms.yu.ac.kr/ms/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 302,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://ms.yu.ac.kr/ms/index.do"
+      ]
+    },
+    {
+      "id": "yu_c52074e58c3a",
+      "organization": "글로벌비즈니스학과",
+      "name": "공지사항 > 취업 공지사항",
+      "category": "학과·학부",
+      "url": "https://gbusiness.yu.ac.kr/gbusiness/news/career.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://gbusiness.yu.ac.kr/gbusiness/index.do"
+      ]
+    },
+    {
+      "id": "yu_0c076248c4b0",
+      "organization": "글로벌비즈니스학과",
+      "name": "공지사항 > 학사 공지사항",
+      "category": "학과·학부",
+      "url": "https://gbusiness.yu.ac.kr/gbusiness/news/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 229,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://gbusiness.yu.ac.kr/gbusiness/index.do"
+      ]
+    },
+    {
+      "id": "yu_fd2dea0a71fb",
+      "organization": "글로벌학부",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://globalkr.yu.ac.kr/globalkr/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 28,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://globalkr.yu.ac.kr/globalkr/index.do"
+      ]
+    },
+    {
+      "id": "yu_a8295ec0268e",
+      "organization": "기계공학부",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://me.yu.ac.kr/me/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 2688,
+        "regular_first": 10,
+        "pinned": 7
+      },
+      "discovery_urls": [
+        "https://me.yu.ac.kr/me/index.do"
+      ]
+    },
+    {
+      "id": "yu_c9fcf0411778",
+      "organization": "기계공학부",
+      "name": "취업공지사항",
+      "category": "학과·학부",
+      "url": "https://me.yu.ac.kr/me/notice/employment-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 1487,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://me.yu.ac.kr/me/index.do"
+      ]
+    },
+    {
+      "id": "yu_fe13d768adef",
+      "organization": "기계공학부",
+      "name": "학생회 공지사항",
+      "category": "학과·학부",
+      "url": "https://me.yu.ac.kr/me/council/student-council-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 26,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://me.yu.ac.kr/me/index.do"
+      ]
+    },
+    {
+      "id": "yu_9c0df0e974dd",
+      "organization": "도시공학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://urban.yu.ac.kr/urban/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 409,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://urban.yu.ac.kr/urban/index.do"
+      ]
+    },
+    {
+      "id": "yu_aada9f7d7bcd",
+      "organization": "도시공학과",
+      "name": "취업안내",
+      "category": "학과·학부",
+      "url": "https://urban.yu.ac.kr/urban/board/employment.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 23,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://urban.yu.ac.kr/urban/index.do"
+      ]
+    },
+    {
+      "id": "yu_9bd64827e5a7",
+      "organization": "독일언어문화전공",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://www.yu.ac.kr/gori/community/notice.do",
+      "aliases": [
+        "https://gori.yu.ac.kr/gori/community/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 483,
+        "regular_first": 10,
+        "pinned": 8
+      },
+      "discovery_urls": [
+        "https://gori.yu.ac.kr/gori/index.do"
+      ]
+    },
+    {
+      "id": "yu_b6959cf029b2",
+      "organization": "독일언어문화전공",
+      "name": "취업정보",
+      "category": "학과·학부",
+      "url": "https://gori.yu.ac.kr/gori/community/employment.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 71,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://gori.yu.ac.kr/gori/index.do"
+      ]
+    },
+    {
+      "id": "yu_1828d7884921",
+      "organization": "로봇공학과",
+      "name": "ABEEK(공학교육인증)공지",
+      "category": "학과·학부",
+      "url": "https://robotics.yu.ac.kr/robotics/community/abek-engineering-education-certification-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 30,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://robotics.yu.ac.kr/robotics/index.do"
+      ]
+    },
+    {
+      "id": "yu_3f818e1f06ed",
+      "organization": "로봇공학과",
+      "name": "대학원 > 대학원 공지사항",
+      "category": "학과·학부",
+      "url": "https://robotics.yu.ac.kr/robotics/grad/grad-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 20,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://robotics.yu.ac.kr/robotics/index.do"
+      ]
+    },
+    {
+      "id": "yu_bed1a6cfc155",
+      "organization": "로봇공학과",
+      "name": "학과공지",
+      "category": "학과·학부",
+      "url": "https://robotics.yu.ac.kr/robotics/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 650,
+        "regular_first": 10,
+        "pinned": 9
+      },
+      "discovery_urls": [
+        "https://robotics.yu.ac.kr/robotics/index.do"
+      ]
+    },
+    {
+      "id": "yu_e60d06755b67",
+      "organization": "로봇공학과",
+      "name": "학사공지",
+      "category": "학과·학부",
+      "url": "https://robotics.yu.ac.kr/robotics/community/bachelor-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 22,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://robotics.yu.ac.kr/robotics/index.do"
+      ]
+    },
+    {
+      "id": "yu_a9259eff9aa6",
+      "organization": "로봇공학과",
+      "name": "학생회 공지사항",
+      "category": "학과·학부",
+      "url": "https://robotics.yu.ac.kr/robotics/community/student-council-notice.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://robotics.yu.ac.kr/robotics/index.do"
+      ]
+    },
+    {
+      "id": "yu_31de4e709767",
+      "organization": "무역학부",
+      "name": "학부소식 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://trade.yu.ac.kr/trade/news/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 785,
+        "regular_first": 10,
+        "pinned": 6
+      },
+      "discovery_urls": [
+        "https://trade.yu.ac.kr/trade/index.do"
+      ]
+    },
+    {
+      "id": "yu_641126f36e1e",
+      "organization": "무용학전공",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://dance.yu.ac.kr/dance/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 26,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://dance.yu.ac.kr/dance/index.do"
+      ]
+    },
+    {
+      "id": "yu_ed00da745cbf",
+      "organization": "문화인류학과",
+      "name": "공지사항 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://saram.yu.ac.kr/saram/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 1312,
+        "regular_first": 10,
+        "pinned": 5
+      },
+      "discovery_urls": [
+        "https://saram.yu.ac.kr/saram/index.do"
+      ]
+    },
+    {
+      "id": "yu_d3967deeb058",
+      "organization": "물리학과",
+      "name": "커뮤니티 > 취업정보",
+      "category": "학과·학부",
+      "url": "https://physics.yu.ac.kr/physics/community/employment-information.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 192,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://physics.yu.ac.kr/physics/index.do"
+      ]
+    },
+    {
+      "id": "yu_cddf6a54fb6a",
+      "organization": "물리학과",
+      "name": "학사업무 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://physics.yu.ac.kr/physics/bachelor/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 845,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://physics.yu.ac.kr/physics/index.do"
+      ]
+    },
+    {
+      "id": "yu_8b240cf626e5",
+      "organization": "물리학과",
+      "name": "학사업무 > 대학원공지사항",
+      "category": "학과·학부",
+      "url": "https://physics.yu.ac.kr/physics/bachelor/grad-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 154,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://physics.yu.ac.kr/physics/index.do"
+      ]
+    },
+    {
+      "id": "yu_2a8445635051",
+      "organization": "미디어커뮤니케이션학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://mnc.yu.ac.kr/mnc/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 528,
+        "regular_first": 10,
+        "pinned": 6
+      },
+      "discovery_urls": [
+        "https://mnc.yu.ac.kr/mnc/index.do"
+      ]
+    },
+    {
+      "id": "yu_d0d5ea020ff8",
+      "organization": "미디어커뮤니케이션학과",
+      "name": "대학원 공지사항",
+      "category": "학과·학부",
+      "url": "https://mnc.yu.ac.kr/mnc/grad/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 51,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://mnc.yu.ac.kr/mnc/index.do"
+      ]
+    },
+    {
+      "id": "yu_698bd9f76c35",
+      "organization": "미래자동차공학과",
+      "name": "커뮤니티 > 공지사항 보관",
+      "category": "학과·학부",
+      "url": "https://automotive.yu.ac.kr/automotive/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 1186,
+        "regular_first": 10,
+        "pinned": 10
+      },
+      "discovery_urls": [
+        "https://automotive.yu.ac.kr/automotive/index.do"
+      ]
+    },
+    {
+      "id": "yu_be2f3cf2e5c5",
+      "organization": "미래자동차공학과",
+      "name": "커뮤니티 > 교육프로그램 공지",
+      "category": "학과·학부",
+      "url": "https://automotive.yu.ac.kr/automotive/community/education-program-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 52,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://automotive.yu.ac.kr/automotive/index.do"
+      ]
+    },
+    {
+      "id": "yu_003dc0ab3e4f",
+      "organization": "미래자동차공학과",
+      "name": "커뮤니티 > 장학공지",
+      "category": "학과·학부",
+      "url": "https://automotive.yu.ac.kr/automotive/community/scholarship-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 7,
+        "regular_first": 7,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://automotive.yu.ac.kr/automotive/index.do"
+      ]
+    },
+    {
+      "id": "yu_7f1ecdb8464c",
+      "organization": "미래자동차공학과",
+      "name": "커뮤니티 > 취업정보",
+      "category": "학과·학부",
+      "url": "https://automotive.yu.ac.kr/automotive/community/employment-information.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 234,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://automotive.yu.ac.kr/automotive/index.do"
+      ]
+    },
+    {
+      "id": "yu_9599e186a703",
+      "organization": "미래자동차공학과",
+      "name": "커뮤니티 > 학사공지",
+      "category": "학과·학부",
+      "url": "https://automotive.yu.ac.kr/automotive/community/academic-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 52,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://automotive.yu.ac.kr/automotive/index.do"
+      ]
+    },
+    {
+      "id": "yu_be52b36d594b",
+      "organization": "사회학과",
+      "name": "대학원 > 대학원 공지",
+      "category": "학과·학부",
+      "url": "https://socio.yu.ac.kr/socio/grad/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 52,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://socio.yu.ac.kr/socio/index.do"
+      ]
+    },
+    {
+      "id": "yu_48e68fd210c7",
+      "organization": "사회학과",
+      "name": "동창회 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://socio.yu.ac.kr/socio/alumni/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 3,
+        "regular_first": 3,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://socio.yu.ac.kr/socio/index.do"
+      ]
+    },
+    {
+      "id": "yu_d76341824fb8",
+      "organization": "사회학과",
+      "name": "정보광장 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://socio.yu.ac.kr/socio/info/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 521,
+        "regular_first": 10,
+        "pinned": 5
+      },
+      "discovery_urls": [
+        "https://socio.yu.ac.kr/socio/index.do"
+      ]
+    },
+    {
+      "id": "yu_6e5c083d9b3a",
+      "organization": "산림자원학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://forestry.yu.ac.kr/forestry/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 865,
+        "regular_first": 10,
+        "pinned": 6
+      },
+      "discovery_urls": [
+        "https://forestry.yu.ac.kr/forestry/index.do"
+      ]
+    },
+    {
+      "id": "yu_2ebf6ab9276e",
+      "organization": "산업경영학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://im.yu.ac.kr/im/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 130,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://im.yu.ac.kr/im/index.do"
+      ]
+    },
+    {
+      "id": "yu_fc930c28c460",
+      "organization": "산업디자인학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://id.yu.ac.kr/id/news/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 670,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://id.yu.ac.kr/id/index.do"
+      ]
+    },
+    {
+      "id": "yu_6ac73f4b119e",
+      "organization": "생명공학과",
+      "name": "생명공학과 공지",
+      "category": "학과·학부",
+      "url": "https://bt1.yu.ac.kr/bt1/community/biotechnology-board.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 470,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://bt1.yu.ac.kr/bt1/index.do"
+      ]
+    },
+    {
+      "id": "yu_5fe444c3ed77",
+      "organization": "생명과학과",
+      "name": "학과소개 > 생명과학과공지 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://lifesciences.yu.ac.kr/lifesciences/intro/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 531,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://lifesciences.yu.ac.kr/lifesciences/index.do"
+      ]
+    },
+    {
+      "id": "yu_4acbc235c6e9",
+      "organization": "생활과학대학 주거환경학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://yuhousing.yu.ac.kr/yuhousing/certificate/notice-board.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 186,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://yuhousing.yu.ac.kr/yuhousing/index.do"
+      ]
+    },
+    {
+      "id": "yu_370f8bcdc38c",
+      "organization": "소프트웨어보안전공",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://ss.yu.ac.kr/ss/notice/notice.do",
+      "aliases": [
+        "https://computer.yu.ac.kr/ss/notice/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 217,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://computer.yu.ac.kr/computer/index.do",
+        "https://ss.yu.ac.kr/ss/index.do"
+      ]
+    },
+    {
+      "id": "yu_c40abfccc51c",
+      "organization": "소프트웨어보안전공",
+      "name": "취업공지사항",
+      "category": "학과·학부",
+      "url": "https://ss.yu.ac.kr/ss/notice/employment-notice.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://ss.yu.ac.kr/ss/index.do"
+      ]
+    },
+    {
+      "id": "yu_86ba79fb7ed3",
+      "organization": "소프트웨어융합전공",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://sw.yu.ac.kr/sw/notice/notice.do",
+      "aliases": [
+        "https://computer.yu.ac.kr/sw/notice/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 224,
+        "regular_first": 10,
+        "pinned": 6
+      },
+      "discovery_urls": [
+        "https://computer.yu.ac.kr/computer/index.do",
+        "https://sw.yu.ac.kr/sw/index.do"
+      ]
+    },
+    {
+      "id": "yu_83953764f912",
+      "organization": "소프트웨어융합전공",
+      "name": "취업공지사항",
+      "category": "학과·학부",
+      "url": "https://sw.yu.ac.kr/sw/notice/employment-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 56,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://sw.yu.ac.kr/sw/index.do"
+      ]
+    },
+    {
+      "id": "yu_fdcf9ec3b833",
+      "organization": "소프트웨어응용학부",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://appliedsw.yu.ac.kr/appliedsw/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 56,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://appliedsw.yu.ac.kr/appliedsw/index.do"
+      ]
+    },
+    {
+      "id": "yu_55f8ea0908f0",
+      "organization": "수학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://math.yu.ac.kr/math/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 330,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://math.yu.ac.kr/math/index.do"
+      ]
+    },
+    {
+      "id": "yu_6da6cfd09be5",
+      "organization": "수학과",
+      "name": "취업정보",
+      "category": "학과·학부",
+      "url": "https://math.yu.ac.kr/math/community/employment.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 33,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://math.yu.ac.kr/math/index.do"
+      ]
+    },
+    {
+      "id": "yu_00290c877132",
+      "organization": "수학교육과",
+      "name": "정보게시판 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://mathedu.yu.ac.kr/mathedu/info/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 535,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://mathedu.yu.ac.kr/mathedu/index.do"
+      ]
+    },
+    {
+      "id": "yu_bf5de943d2ae",
+      "organization": "스마트모빌리티학과",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://smartmobility.yu.ac.kr/smartmobility/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 31,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://smartmobility.yu.ac.kr/smartmobility/index.do"
+      ]
+    },
+    {
+      "id": "yu_e8edfc7422f5",
+      "organization": "식품공학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://foodscience.yu.ac.kr/foodscience/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 365,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://foodscience.yu.ac.kr/foodscience/index.do"
+      ]
+    },
+    {
+      "id": "yu_0ceafa40167e",
+      "organization": "식품영양학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://food.yu.ac.kr/food/bachelor/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 699,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://food.yu.ac.kr/food/index.do"
+      ]
+    },
+    {
+      "id": "yu_247980accec1",
+      "organization": "식품영양학과",
+      "name": "취업게시판",
+      "category": "학과·학부",
+      "url": "https://food.yu.ac.kr/food/career/job-board.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 48,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://food.yu.ac.kr/food/index.do"
+      ]
+    },
+    {
+      "id": "yu_6acc90ca98f3",
+      "organization": "신소재공학부",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://mse.yu.ac.kr/mse/master/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 10,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://mse.yu.ac.kr/mse/index.do"
+      ]
+    },
+    {
+      "id": "yu_9680883efd55",
+      "organization": "신소재공학부",
+      "name": "교내외,학부 교육 프로그램",
+      "category": "학과·학부",
+      "url": "https://mse.yu.ac.kr/mse/bachelor/programs.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 298,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://mse.yu.ac.kr/mse/index.do"
+      ]
+    },
+    {
+      "id": "yu_037aced097d5",
+      "organization": "심리학과",
+      "name": "공지사항 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://psy.yu.ac.kr/psy/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 373,
+        "regular_first": 10,
+        "pinned": 5
+      },
+      "discovery_urls": [
+        "https://psy.yu.ac.kr/psy/index.do"
+      ]
+    },
+    {
+      "id": "yu_3cf6b6c04dbb",
+      "organization": "심리학과",
+      "name": "공지사항 > 취업정보",
+      "category": "학과·학부",
+      "url": "https://psy.yu.ac.kr/psy/notice/job.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 124,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://psy.yu.ac.kr/psy/index.do"
+      ]
+    },
+    {
+      "id": "yu_4cefc81456dd",
+      "organization": "역사학과",
+      "name": "게시판 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://yuhistory.yu.ac.kr/yuhistory/bulletin-board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 774,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://yuhistory.yu.ac.kr/yuhistory/index.do"
+      ]
+    },
+    {
+      "id": "yu_d0564052260c",
+      "organization": "역사학과",
+      "name": "게시판 > 취업 알림판",
+      "category": "학과·학부",
+      "url": "https://yuhistory.yu.ac.kr/yuhistory/bulletin-board/employment-notification-board.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 19,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://yuhistory.yu.ac.kr/yuhistory/index.do"
+      ]
+    },
+    {
+      "id": "yu_29da441d2715",
+      "organization": "영어교육과",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://dele.yu.ac.kr/dele/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 412,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://dele.yu.ac.kr/dele/index.do"
+      ]
+    },
+    {
+      "id": "yu_d7c37c6508d7",
+      "organization": "영어영문학과",
+      "name": "게시판 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://engl.yu.ac.kr/engl/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 501,
+        "regular_first": 10,
+        "pinned": 8
+      },
+      "discovery_urls": [
+        "https://engl.yu.ac.kr/engl/index.do"
+      ]
+    },
+    {
+      "id": "yu_2f53c5211fa4",
+      "organization": "영어영문학과",
+      "name": "게시판 > 취업정보",
+      "category": "학과·학부",
+      "url": "https://engl.yu.ac.kr/engl/board/employment-information.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 101,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://engl.yu.ac.kr/engl/index.do"
+      ]
+    },
+    {
+      "id": "yu_0c254d79cf9a",
+      "organization": "영어통번역전공",
+      "name": "게시판 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://itenglish.yu.ac.kr/itenglish/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 109,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://itenglish.yu.ac.kr/itenglish/index.do"
+      ]
+    },
+    {
+      "id": "yu_d40bc4946c63",
+      "organization": "원예생명과학과",
+      "name": "취업,진로 > 취업정보게시판",
+      "category": "학과·학부",
+      "url": "https://hort.yu.ac.kr/hort/career/employment-information-bulletin-board.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 183,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://hort.yu.ac.kr/hort/index.do"
+      ]
+    },
+    {
+      "id": "yu_46ea471ddacc",
+      "organization": "원예생명과학과",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://hort.yu.ac.kr/hort/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 626,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://hort.yu.ac.kr/hort/index.do"
+      ]
+    },
+    {
+      "id": "yu_615bde1bf431",
+      "organization": "유럽언어문화학부",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://europe.yu.ac.kr/europe/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 339,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://europe.yu.ac.kr/europe/index.do"
+      ]
+    },
+    {
+      "id": "yu_c903c1f4a9b0",
+      "organization": "유아교육과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://child.yu.ac.kr/child/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 183,
+        "regular_first": 10,
+        "pinned": 6
+      },
+      "discovery_urls": [
+        "https://child.yu.ac.kr/child/index.do"
+      ]
+    },
+    {
+      "id": "yu_3603540a41a3",
+      "organization": "유아교육과",
+      "name": "대학원게시판",
+      "category": "학과·학부",
+      "url": "https://child.yu.ac.kr/child/grad/grad-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 1,
+        "regular_first": 1,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://child.yu.ac.kr/child/index.do"
+      ]
+    },
+    {
+      "id": "yu_60221326e699",
+      "organization": "응용중국어통번역전공",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://trans.yu.ac.kr/trans/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 123,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://trans.yu.ac.kr/trans/index.do"
+      ]
+    },
+    {
+      "id": "yu_f83b28f89ece",
+      "organization": "의류패션학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://fashion.yu.ac.kr/fashion/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 777,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://fashion.yu.ac.kr/fashion/index.do"
+      ]
+    },
+    {
+      "id": "yu_74ba783f078d",
+      "organization": "의생명공학과",
+      "name": "커뮤니티 > 학과공지",
+      "category": "학과·학부",
+      "url": "https://mbt.yu.ac.kr/mbt/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 393,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://mbt.yu.ac.kr/mbt/index.do"
+      ]
+    },
+    {
+      "id": "yu_deea33ce6d94",
+      "organization": "일어일문학과",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://japan.yu.ac.kr/japan/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 1540,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://japan.yu.ac.kr/japan/index.do"
+      ]
+    },
+    {
+      "id": "yu_d1b642696302",
+      "organization": "자동차소프트웨어학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://asw.yu.ac.kr/asw/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 48,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://asw.yu.ac.kr/asw/index.do"
+      ]
+    },
+    {
+      "id": "yu_8b3e43c74cb9",
+      "organization": "전기공학과",
+      "name": "게시판 > 공지사항 > 학과",
+      "category": "학과·학부",
+      "url": "https://ee.yu.ac.kr/ee/board/department.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 531,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://ee.yu.ac.kr/ee/index.do"
+      ]
+    },
+    {
+      "id": "yu_6e2d7baffff7",
+      "organization": "전기공학과",
+      "name": "대학원 > 공지시항",
+      "category": "학과·학부",
+      "url": "https://ee.yu.ac.kr/ee/grad/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 16,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://ee.yu.ac.kr/ee/index.do"
+      ]
+    },
+    {
+      "id": "yu_17398bcc8868",
+      "organization": "전자공학과",
+      "name": "대학원 > 대학원 공지사항",
+      "category": "학과·학부",
+      "url": "https://electronics.yu.ac.kr/electronics/grad/grad-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 188,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://electronics.yu.ac.kr/electronics/index.do"
+      ]
+    },
+    {
+      "id": "yu_287d9e02a320",
+      "organization": "전자공학과",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://electronics.yu.ac.kr/electronics/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 1135,
+        "regular_first": 10,
+        "pinned": 8
+      },
+      "discovery_urls": [
+        "https://electronics.yu.ac.kr/electronics/index.do"
+      ]
+    },
+    {
+      "id": "yu_bfaa031b7791",
+      "organization": "정치외교학과",
+      "name": "Hot Focus",
+      "category": "학과·학부",
+      "url": "https://pol.yu.ac.kr/pol/board/hot-focus.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 16,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://pol.yu.ac.kr/pol/index.do"
+      ]
+    },
+    {
+      "id": "yu_95ccbc1073a1",
+      "organization": "정치외교학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://pol.yu.ac.kr/pol/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 986,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://pol.yu.ac.kr/pol/index.do"
+      ]
+    },
+    {
+      "id": "yu_187a7a214451",
+      "organization": "정치외교학과",
+      "name": "대학원 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://pol.yu.ac.kr/pol/grad/grad-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 22,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://pol.yu.ac.kr/pol/index.do"
+      ]
+    },
+    {
+      "id": "yu_ae2dec0a8789",
+      "organization": "조경학과",
+      "name": "취업정보 > 채용안내 및 공고",
+      "category": "학과·학부",
+      "url": "https://land.yu.ac.kr/land/job/announcement.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 54,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://land.yu.ac.kr/land/index.do"
+      ]
+    },
+    {
+      "id": "yu_97fa69935fbe",
+      "organization": "조경학과",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://land.yu.ac.kr/land/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 479,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://land.yu.ac.kr/land/index.do"
+      ]
+    },
+    {
+      "id": "yu_1aa39f339bf9",
+      "organization": "중국언어문화학과",
+      "name": "학과소개 > 공지사항 > 공고 및 신청게시판",
+      "category": "학과·학부",
+      "url": "https://china.yu.ac.kr/china/intro/announcement-and-application-board.do",
+      "aliases": [],
+      "status": "unsupported",
+      "reason": "공지 제목 또는 원문 링크가 없습니다.",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://china.yu.ac.kr/china/index.do"
+      ]
+    },
+    {
+      "id": "yu_fd53bc8961bd",
+      "organization": "중국언어문화학과",
+      "name": "학과소개 > 공지사항 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://china.yu.ac.kr/china/intro/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 6,
+        "regular_first": 6,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://china.yu.ac.kr/china/index.do"
+      ]
+    },
+    {
+      "id": "yu_abc316b633b7",
+      "organization": "중국언어문화학과",
+      "name": "학과소개 > 공지사항 > 취업정보",
+      "category": "학과·학부",
+      "url": "https://china.yu.ac.kr/china/intro/employment-information.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 67,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://china.yu.ac.kr/china/index.do"
+      ]
+    },
+    {
+      "id": "yu_14ab1e570677",
+      "organization": "차세대반도체학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://nextsemi.yu.ac.kr/nextsemi/academic/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 59,
+        "regular_first": 10,
+        "pinned": 5
+      },
+      "discovery_urls": [
+        "https://nextsemi.yu.ac.kr/nextsemi/index.do"
+      ]
+    },
+    {
+      "id": "yu_c5f90883a06f",
+      "organization": "천마인재학부",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://honors.yu.ac.kr/honors/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 536,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://honors.yu.ac.kr/honors/index.do"
+      ]
+    },
+    {
+      "id": "yu_001918b74422",
+      "organization": "천마학부대학",
+      "name": "학생지원 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://ccgs.yu.ac.kr/ccgs/support/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 312,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://ccgs.yu.ac.kr/ccgs/index.do"
+      ]
+    },
+    {
+      "id": "yu_2d8822332118",
+      "organization": "철학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://phil.yu.ac.kr/phil/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 608,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://phil.yu.ac.kr/phil/index.do"
+      ]
+    },
+    {
+      "id": "yu_a4e6c8afca66",
+      "organization": "체육학부",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://pe.yu.ac.kr/pe/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 63,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://pe.yu.ac.kr/pe/index.do"
+      ]
+    },
+    {
+      "id": "cse",
+      "organization": "컴퓨터공학전공",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://www.yu.ac.kr/cse/community/notice.do",
+      "aliases": [
+        "https://computer.yu.ac.kr/cse/community/notice.do",
+        "https://cse.yu.ac.kr/cse/community/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 1851,
+        "regular_first": 10,
+        "pinned": 5
+      },
+      "discovery_urls": [
+        "https://computer.yu.ac.kr/computer/index.do",
+        "https://cse.yu.ac.kr/cse/index.do",
+        "https://www.yu.ac.kr/cse/index.do"
+      ]
+    },
+    {
+      "id": "yu_9eabbdc52569",
+      "organization": "컴퓨터학부",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://ai.yu.ac.kr/computer/notice/notice.do",
+      "aliases": [
+        "https://computer.yu.ac.kr/computer/notice/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 299,
+        "regular_first": 10,
+        "pinned": 7
+      },
+      "discovery_urls": [
+        "https://ai.yu.ac.kr/ai/index.do",
+        "https://computer.yu.ac.kr/computer/index.do"
+      ]
+    },
+    {
+      "id": "yu_ef0a1281d5ef",
+      "organization": "컴퓨터학부 AI융합전공",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://ai.yu.ac.kr/ai/board/notice.do",
+      "aliases": [
+        "https://computer.yu.ac.kr/ai/board/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 1,
+        "regular_first": 1,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://ai.yu.ac.kr/ai/index.do",
+        "https://computer.yu.ac.kr/computer/index.do"
+      ]
+    },
+    {
+      "id": "yu_243dd7de62af",
+      "organization": "컴퓨터학부 정보통신공학전공",
+      "name": "KOICA > Notice",
+      "category": "학과·학부",
+      "url": "https://ice.yu.ac.kr/ice/koica/notice.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://ice.yu.ac.kr/ice/index.do"
+      ]
+    },
+    {
+      "id": "yu_56161a3cb4ad",
+      "organization": "컴퓨터학부 정보통신공학전공",
+      "name": "게시판 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://ice.yu.ac.kr/ice/board/notice.do",
+      "aliases": [
+        "https://computer.yu.ac.kr/ice/board/notice.do"
+      ],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 1899,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://computer.yu.ac.kr/computer/index.do",
+        "https://ice.yu.ac.kr/ice/index.do"
+      ]
+    },
+    {
+      "id": "yu_0d8d6ed87d3a",
+      "organization": "통계학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://sta.yu.ac.kr/sta/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 437,
+        "regular_first": 10,
+        "pinned": 6
+      },
+      "discovery_urls": [
+        "https://sta.yu.ac.kr/sta/index.do"
+      ]
+    },
+    {
+      "id": "yu_f07c98cf174f",
+      "organization": "트랜스아트과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://transart.yu.ac.kr/transart/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 367,
+        "regular_first": 10,
+        "pinned": 3
+      },
+      "discovery_urls": [
+        "https://transart.yu.ac.kr/transart/index.do"
+      ]
+    },
+    {
+      "id": "yu_a1105265df67",
+      "organization": "특수체육교육과",
+      "name": "게시판 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://spe.yu.ac.kr/spe/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 373,
+        "regular_first": 10,
+        "pinned": 5
+      },
+      "discovery_urls": [
+        "https://spe.yu.ac.kr/spe/index.do"
+      ]
+    },
+    {
+      "id": "yu_56f0dabe6046",
+      "organization": "특수체육교육과",
+      "name": "게시판 > 취업정보",
+      "category": "학과·학부",
+      "url": "https://spe.yu.ac.kr/spe/board/employment-information.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 35,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://spe.yu.ac.kr/spe/index.do"
+      ]
+    },
+    {
+      "id": "yu_b5f0efad4dfa",
+      "organization": "파이버시스템공학과",
+      "name": "취업정보",
+      "category": "학과·학부",
+      "url": "https://textiles.yu.ac.kr/textiles/employment/job-board.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 447,
+        "regular_first": 10,
+        "pinned": 6
+      },
+      "discovery_urls": [
+        "https://textiles.yu.ac.kr/textiles/index.do"
+      ]
+    },
+    {
+      "id": "yu_63bd6e799a8b",
+      "organization": "파이버시스템공학과",
+      "name": "커뮤니티 공지사항",
+      "category": "학과·학부",
+      "url": "https://textiles.yu.ac.kr/textiles/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 1327,
+        "regular_first": 10,
+        "pinned": 21
+      },
+      "discovery_urls": [
+        "https://textiles.yu.ac.kr/textiles/index.do"
+      ]
+    },
+    {
+      "id": "yu_11a48ec92293",
+      "organization": "프랑스어문전공",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://french.yu.ac.kr/french/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 520,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://french.yu.ac.kr/french/index.do"
+      ]
+    },
+    {
+      "id": "yu_626ad02ab712",
+      "organization": "한문교육과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://eduhankyo.yu.ac.kr/eduhankyo/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 281,
+        "regular_first": 10,
+        "pinned": 7
+      },
+      "discovery_urls": [
+        "https://eduhankyo.yu.ac.kr/eduhankyo/index.do"
+      ]
+    },
+    {
+      "id": "yu_43de80b351f5",
+      "organization": "항공운송학과",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://daspo.yu.ac.kr/daspo/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 137,
+        "regular_first": 10,
+        "pinned": 1
+      },
+      "discovery_urls": [
+        "https://daspo.yu.ac.kr/daspo/index.do"
+      ]
+    },
+    {
+      "id": "yu_86f385788a8f",
+      "organization": "행정학과",
+      "name": "공지사항",
+      "category": "학과·학부",
+      "url": "https://pa.yu.ac.kr/pa/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 741,
+        "regular_first": 10,
+        "pinned": 6
+      },
+      "discovery_urls": [
+        "https://pa.yu.ac.kr/pa/index.do"
+      ]
+    },
+    {
+      "id": "yu_10448712d24f",
+      "organization": "화학공학부",
+      "name": "공지사항 > 취업정보",
+      "category": "학과·학부",
+      "url": "https://che.yu.ac.kr/che/notice/employment.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 790,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://che.yu.ac.kr/che/index.do"
+      ]
+    },
+    {
+      "id": "yu_065e94251d0e",
+      "organization": "화학공학부",
+      "name": "공지사항 > 학부게시판",
+      "category": "학과·학부",
+      "url": "https://che.yu.ac.kr/che/notice/bulletin-board.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 608,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://che.yu.ac.kr/che/index.do"
+      ]
+    },
+    {
+      "id": "yu_c78a1382d82e",
+      "organization": "화학공학부",
+      "name": "공지사항 > 학부공지",
+      "category": "학과·학부",
+      "url": "https://che.yu.ac.kr/che/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 2874,
+        "regular_first": 10,
+        "pinned": 8
+      },
+      "discovery_urls": [
+        "https://che.yu.ac.kr/che/index.do"
+      ]
+    },
+    {
+      "id": "yu_1800099a03de",
+      "organization": "화학공학부",
+      "name": "공지사항>대학원공지",
+      "category": "학과·학부",
+      "url": "https://che.yu.ac.kr/che/notice/graduate-school-announcement.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 124,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://che.yu.ac.kr/che/index.do"
+      ]
+    },
+    {
+      "id": "yu_3045f572b26e",
+      "organization": "화학공학부",
+      "name": "공지사항>현장실습공지",
+      "category": "학과·학부",
+      "url": "https://che.yu.ac.kr/che/notice/field-training-announcement.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 62,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://che.yu.ac.kr/che/index.do"
+      ]
+    },
+    {
+      "id": "yu_211caf304c4f",
+      "organization": "화학과",
+      "name": "게시판 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://chem.yu.ac.kr/chem/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 314,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://chem.yu.ac.kr/chem/index.do"
+      ]
+    },
+    {
+      "id": "yu_d79b65de38cb",
+      "organization": "화학과",
+      "name": "대학원 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://chem.yu.ac.kr/chem/grad/grad-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 1,
+        "regular_first": 1,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://chem.yu.ac.kr/chem/index.do"
+      ]
+    },
+    {
+      "id": "yu_3dface2196d1",
+      "organization": "환경공학과",
+      "name": "게시판 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://enveng.yu.ac.kr/enveng/board/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 364,
+        "regular_first": 10,
+        "pinned": 2
+      },
+      "discovery_urls": [
+        "https://enveng.yu.ac.kr/enveng/index.do"
+      ]
+    },
+    {
+      "id": "yu_c585c20ffa45",
+      "organization": "환경공학과",
+      "name": "대학원·연구실 > 대학원 공지사항",
+      "category": "학과·학부",
+      "url": "https://enveng.yu.ac.kr/enveng/grad/grad-notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 9,
+        "regular_first": 9,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://enveng.yu.ac.kr/enveng/index.do"
+      ]
+    },
+    {
+      "id": "yu_0537e46b2ab0",
+      "organization": "회계세무학과",
+      "name": "공지사항 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://acc.yu.ac.kr/acc/notice/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 985,
+        "regular_first": 10,
+        "pinned": 6
+      },
+      "discovery_urls": [
+        "https://acc.yu.ac.kr/acc/index.do"
+      ]
+    },
+    {
+      "id": "yu_6ec88c96a205",
+      "organization": "회계세무학과",
+      "name": "공지사항 > 취업정보란",
+      "category": "학과·학부",
+      "url": "https://acc.yu.ac.kr/acc/notice/employment.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 173,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://acc.yu.ac.kr/acc/index.do"
+      ]
+    },
+    {
+      "id": "yu_a1904dfc42ce",
+      "organization": "회계세무학과",
+      "name": "공지사항 > 현장실습",
+      "category": "학과·학부",
+      "url": "https://acc.yu.ac.kr/acc/notice/training.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 178,
+        "regular_first": 10,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://acc.yu.ac.kr/acc/index.do"
+      ]
+    },
+    {
+      "id": "yu_f57c468942aa",
+      "organization": "회계세무학과",
+      "name": "대학원 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://acc.yu.ac.kr/acc/grad/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 1,
+        "total": 3,
+        "regular_first": 3,
+        "pinned": 0
+      },
+      "discovery_urls": [
+        "https://acc.yu.ac.kr/acc/index.do"
+      ]
+    },
+    {
+      "id": "yu_3595ffeb5f35",
+      "organization": "회화과",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://painting.yu.ac.kr/painting/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 682,
+        "regular_first": 10,
+        "pinned": 4
+      },
+      "discovery_urls": [
+        "https://painting.yu.ac.kr/painting/index.do"
+      ]
+    },
+    {
+      "id": "yu_dd3f1301bb09",
+      "organization": "휴먼서비스학과",
+      "name": "대학원 > 대학원 공지사항",
+      "category": "학과·학부",
+      "url": "https://humanservice.yu.ac.kr/humanservice/grad/grad-notice.do",
+      "aliases": [],
+      "status": "unverified",
+      "reason": "empty-board",
+      "checked_at": "2026-10-11",
+      "verification": {},
+      "discovery_urls": [
+        "https://humanservice.yu.ac.kr/humanservice/index.do"
+      ]
+    },
+    {
+      "id": "yu_40538f1876c8",
+      "organization": "휴먼서비스학과",
+      "name": "커뮤니티 > 공지사항",
+      "category": "학과·학부",
+      "url": "https://humanservice.yu.ac.kr/humanservice/community/notice.do",
+      "aliases": [],
+      "status": "supported",
+      "reason": "common-yu-board-verified",
+      "checked_at": "2026-10-11",
+      "verification": {
+        "pages_checked": 2,
+        "total": 288,
+        "regular_first": 10,
+        "pinned": 5
+      },
+      "discovery_urls": [
+        "https://humanservice.yu.ac.kr/humanservice/index.do"
+      ]
+    }
+  ]
+}
