@@ -45,8 +45,10 @@ class NoticeApp:
         self.closing = False
         self._poll_id = None
         self._startup_id = None
+        self._logo_draw_id = None
         self._outcome = None
         self._last_open = (None, 0.0)
+        self._skip_title_release = False
         self.records = {}
         self.new_keys = set()
         self.source_filter = tk.StringVar(root, value="전체 출처")
@@ -55,9 +57,18 @@ class NoticeApp:
         self.summary = tk.StringVar(root, value="저장된 공지를 표시합니다.")
         self.counts = tk.StringVar(root)
         self.detail_title = tk.StringVar(root, value="공지를 선택해 주세요.")
-        self.detail_meta = tk.StringVar(root, value="제목을 클릭하면 기본 브라우저에서 원문을 엽니다.")
+        self.detail_meta = tk.StringVar(root, value="제목을 더블클릭하면 원문을 열고 읽음으로 표시합니다.")
         self.source_status = {s.id: tk.StringVar(root) for s in SOURCES}
         self._configure_style()
+        self.source_logos = {}
+        for source in SOURCES:
+            try:
+                logo = tk.PhotoImage(master=root, file=str(
+                    Path(__file__).parent / "assets" / "logos" / f"{source.id}-row.png"))
+                self.source_logos[source.id] = logo
+            except tk.TclError:
+                # A missing image must not prevent reading notices.
+                pass
         self._build()
         self.reload()
         self._restore_status()
@@ -164,23 +175,37 @@ class NoticeApp:
         self.tree = ttk.Treeview(table, columns=columns, show="headings", selectmode="browse")
         for name, text, width, anchor, stretch in (
             ("favorite", "별", 44, "center", False), ("read", "읽음 상태", 80, "center", False),
-            ("new", "소식", 58, "center", False), ("title", "제목 · 클릭하여 원문 열기", 500, "w", True),
-            ("source", "출처", 155, "center", False), ("date", "게시일", 105, "center", False),
+            ("new", "소식", 58, "center", False), ("title", "제목 · 더블클릭하여 원문 열기", 500, "w", True),
+            ("source", "출처", 250, "center", False), ("date", "게시일", 105, "center", False),
         ):
             self.tree.heading(name, text=text, anchor=anchor)
             self.tree.column(name, width=width, minwidth=260 if name == "title" else width, anchor=anchor, stretch=stretch)
         self.tree.grid(row=0, column=0, sticky="nsew")
         scroll = ttk.Scrollbar(table, orient="vertical", command=self.tree.yview)
         scroll.grid(row=0, column=1, sticky="ns")
-        self.tree.configure(yscrollcommand=scroll.set)
+        def scrolled(first, last):
+            scroll.set(first, last)
+            self._schedule_source_logos()
+        self.tree.configure(yscrollcommand=scrolled, xscrollcommand=lambda *args: self._schedule_source_logos())
         self.tree.tag_configure("even", background="#FFFFFF")
         self.tree.tag_configure("odd", background="#F6F8FB")
         self.tree.tag_configure("unread", font=self.unread_font)
         self.tree.bind("<<TreeviewSelect>>", lambda event: self._selection_changed())
         self.tree.bind("<ButtonRelease-1>", self._table_click)
+        self.tree.bind("<Double-Button-1>", self._title_double_click)
         self.tree.bind("<Return>", lambda event: self.open_selected())
         self.tree.bind("<space>", self._keyboard_read)
         self.tree.bind("<Motion>", self._table_cursor)
+        # Treeview only supports native images in its first (tree) column.
+        # A clipped canvas paints the source cells at their real bbox, without
+        # changing column order or adding one widget per stored notice.
+        self.source_canvas = tk.Canvas(self.tree, highlightthickness=0, borderwidth=0,
+                                       background="#FFFFFF", takefocus=False)
+        self.source_canvas.bind("<Button-1>", self._source_click)
+        self.source_canvas.bind("<B1-Motion>", self._source_click)
+        self.source_canvas.bind("<MouseWheel>", self._source_wheel)
+        for sequence in ("<Configure>", "<<TreeviewSelect>>", "<B1-Motion>", "<ButtonRelease-1>"):
+            self.tree.bind(sequence, lambda event: self._schedule_source_logos(), add="+")
         self.empty_label = ttk.Label(table, text="", foreground=MUTED, background="#FFFFFF", justify="center")
 
         detail = ttk.Frame(outer)
@@ -199,11 +224,79 @@ class NoticeApp:
         self.read_button.pack(side="left", padx=8)
         self.favorite_button = ttk.Button(actions, text="즐겨찾기 추가", command=self.toggle_favorite)
         self.favorite_button.pack(side="left")
-        ttk.Label(actions, text="원문을 열어도 읽음 상태는 바뀌지 않습니다.", style="Muted.TLabel").pack(side="right")
+        ttk.Label(actions, text="원문을 열면 읽음으로 표시합니다.", style="Muted.TLabel").pack(side="right")
 
     @staticmethod
     def _key(row):
         return f"{row['source_id']}:{row['article_id']}"
+
+    def _schedule_source_logos(self):
+        if not self.closing and self._logo_draw_id is None:
+            self._logo_draw_id = self.root.after_idle(self._draw_source_logos)
+
+    def _draw_source_logos(self):
+        self._logo_draw_id = None
+        canvas = self.source_canvas
+        canvas.delete("all")
+        if self.closing or not self.tree.winfo_ismapped():
+            canvas.place_forget()
+            return
+        # Locate the heading's lower edge rather than assume a font/DPI height.
+        height = self.tree.winfo_height()
+        body_top = None
+        seen_heading = False
+        for y in range(height):
+            region = self.tree.identify_region(2, y)
+            if region == "heading":
+                seen_heading = True
+            elif seen_heading:
+                body_top = y
+                break
+        if body_top is None:
+            canvas.place_forget()
+            return
+        rowheight = int(ttk.Style(self.root).lookup("Treeview", "rowheight"))
+        # Only paint visible rows. The extra probe includes a partly visible row.
+        keys = dict.fromkeys(self.tree.identify_row(y) for y in
+                             range(body_top, height + rowheight, rowheight))
+        boxes = [(key, self.tree.bbox(key, "source")) for key in keys if key]
+        # Tk paints complete rows only; do not show a stray logo in the blank
+        # remainder below the last row at the bottom of a small window.
+        boxes = [(key, box) for key, box in boxes if box and box[1] + box[3] <= height - 2]
+        if not boxes:
+            canvas.place_forget()
+            return
+        x, _, width, _ = boxes[0][1]
+        canvas.place(x=x, y=body_top, width=width, height=max(0, height - body_top - 2))
+        selected = self.tree.selection()
+        for key, (_, y, _, row_height) in boxes:
+            row = self.records[key]
+            tags = self.tree.item(key, "tags")
+            bg = "#DCEBFF" if key in selected else "#F6F8FB" if "odd" in tags else "#FFFFFF"
+            top = y - body_top
+            canvas.create_rectangle(0, top, width, top + row_height, fill=bg, outline="")
+            logo = self.source_logos.get(row["source_id"])
+            if logo:
+                canvas.create_image(width // 2, top + row_height // 2, image=logo, tags=(key, "logo"))
+            else:
+                canvas.create_text(width // 2, top + row_height // 2, text=NAMES[row["source_id"]],
+                                   fill="#153E77" if key in selected else TEXT,
+                                   font=self.unread_font if not row["is_read"] else self.row_font,
+                                   tags=(key, "source-text"))
+
+    def _source_click(self, event):
+        key = self.tree.identify_row(event.y + self.source_canvas.winfo_y())
+        if key and not self.closing:
+            self.tree.selection_set(key)
+            self.tree.focus(key)
+            self.tree.focus_set()
+        return "break"
+
+    def _source_wheel(self, event):
+        self.tree.event_generate("<MouseWheel>", delta=event.delta,
+                                 x=event.x + self.source_canvas.winfo_x(),
+                                 y=event.y + self.source_canvas.winfo_y())
+        return "break"
 
     def reload(self):
         try:
@@ -252,6 +345,7 @@ class NoticeApp:
             self.empty_label.configure(text=text)
             self.empty_label.place(relx=0.5, rely=0.5, anchor="center")
         self._selection_changed()
+        self._schedule_source_logos()
 
     def _selected(self):
         selected = self.tree.selection()
@@ -263,7 +357,7 @@ class NoticeApp:
             button.configure(state="normal" if row and not self.closing else "disabled")
         if row is None:
             self.detail_title.set("공지를 선택해 주세요.")
-            self.detail_meta.set("제목을 클릭하면 기본 브라우저에서 원문을 엽니다.")
+            self.detail_meta.set("제목을 더블클릭하면 원문을 열고 읽음으로 표시합니다.")
             return
         self.detail_title.set(row["title"])
         self.detail_meta.set(f"{NAMES[row['source_id']]}  ·  {row['published'] or '날짜 없음'}" +
@@ -276,6 +370,9 @@ class NoticeApp:
         self.tree.configure(cursor="hand2" if clickable else "")
 
     def _table_click(self, event):
+        if self._skip_title_release:
+            self._skip_title_release = False
+            return "break"
         if self.closing or self.tree.identify_region(event.x, event.y) != "cell":
             return
         key = self.tree.identify_row(event.y)
@@ -288,8 +385,21 @@ class NoticeApp:
             self.toggle_favorite()
         elif column == "#2":
             self.toggle_read()
-        elif column == "#4":
-            self.open_selected()
+
+    def _title_double_click(self, event):
+        if (self.closing or self.tree.identify_region(event.x, event.y) != "cell"
+                or self.tree.identify_column(event.x) != "#4"):
+            return
+        key = self.tree.identify_row(event.y)
+        if not key:
+            return
+        self.tree.selection_set(key)
+        self.tree.focus(key)
+        # Auto-read can remove this row under the unread filter. Do not let
+        # the remaining release/class binding act on the row now underneath.
+        self._skip_title_release = True
+        self.open_selected()
+        return "break"
 
     def _keyboard_read(self, event):
         self.toggle_read()
@@ -310,12 +420,22 @@ class NoticeApp:
         key, now = self._key(row), time.monotonic()
         if self._last_open[0] == key and now - self._last_open[1] < 0.8:
             return
-        self._last_open = (key, now)
         try:
             if not self.opener(row["url"]):
                 self._error("기본 브라우저를 열지 못했습니다. Windows 기본 앱 설정을 확인해 주세요.")
+                return
         except (OSError, webbrowser.Error):
             self._error("기본 브라우저를 열지 못했습니다.")
+            return
+        self._last_open = (key, now)
+        if not row["is_read"]:
+            try:
+                self.store.set_read(row["source_id"], row["article_id"], True)
+            except StorageError as exc:
+                self._error(f"원문은 열었지만 읽음 상태를 저장하지 못했습니다. {exc}")
+                return
+            row["is_read"] = 1
+            self.render()
 
     def toggle_read(self):
         self._toggle("is_read", self.store.set_read)
@@ -448,6 +568,9 @@ class NoticeApp:
         if self.closing:
             return
         self.closing = True
+        if self._logo_draw_id is not None:
+            self.root.after_cancel(self._logo_draw_id)
+            self._logo_draw_id = None
         if self._startup_id is not None:
             self.root.after_cancel(self._startup_id)
             self._startup_id = None

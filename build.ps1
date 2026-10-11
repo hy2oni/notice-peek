@@ -1,12 +1,18 @@
-param([switch]$CreateShortcut)
+param([switch]$CreateShortcut, [switch]$Development)
 
 $ErrorActionPreference = 'Stop'
 $projectDir = $PSScriptRoot
 $pythonPath = Join-Path $projectDir '.venv\Scripts\python.exe'
-$outputDir = Join-Path $projectDir 'dist\notice-peek'
+$distPath = if ($Development) { 'dist\develop' } else { 'dist' }
+$buildPath = if ($Development) { 'build\develop' } else { 'build' }
+$outputDir = Join-Path $projectDir "$distPath\notice-peek"
 $exePath = Join-Path $outputDir 'notice-peek.exe'
 $assetDir = Join-Path $projectDir 'notice_peek\assets'
 $iconPath = Join-Path $assetDir 'notice-peek.ico'
+
+if ($Development -and $CreateShortcut) {
+    throw 'Development builds use a separate output folder. Launch the EXE directly.'
+}
 
 if (Get-Process -Name 'notice-peek' -ErrorAction SilentlyContinue | Where-Object { $_.Path -eq $exePath }) {
     throw 'Close notice-peek before building a new version.'
@@ -22,7 +28,7 @@ try {
     & $pythonPath -m unittest discover -s tests -q
     if ($LASTEXITCODE -ne 0) { throw 'Tests failed. Build stopped.' }
     & $pythonPath -m PyInstaller --noconfirm --onedir --windowed --noupx `
-        --name notice-peek --distpath dist --workpath build\pyinstaller --specpath build `
+        --name notice-peek --distpath $distPath --workpath "$buildPath\pyinstaller" --specpath $buildPath `
         --icon $iconPath `
         --add-data "$assetDir;notice_peek/assets" run_notice_peek.pyw
     if ($LASTEXITCODE -ne 0) { throw 'EXE build failed.' }
